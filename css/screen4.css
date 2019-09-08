@@ -184,6 +184,12 @@ font-weight: bold;
 margin-bottom: 3.6875rem;
 }
 
+h2{
+	color: #707070;
+font-family: Roboto;
+font-size: 0.813rem;
+font-weight: 400;
+}
 
 
 .agendarcita{
