@@ -1,0 +1,229 @@
+
+/* CSS reset */
+html{
+	zoom:80%;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav{
+  margin-left: 10rem;
+}
+
+html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+html{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+
+li{
+	list-style-type: none;
+}
+
+
+.franjanegra{
+	background-color: #262626;
+height: 7.438rem;
+
+}
+
+.logoar{
+	display: inline-block;
+	position:static;
+	width: 20.0625rem;
+	height: auto;
+	margin-right: 29.75rem;
+	margin-left: 10.125rem;
+	margin-top: 0;
+	padding-top: 2rem;
+
+
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+}
+
+
+.nav1 , .nav2 , .nav3 , .nav4 , .nav5 , .nav6 {
+	margin-top: -3rem;
+	padding-top: 0;
+	padding-right: 2.0625rem;
+	color: black;
+	font-family: 'Montserrat';
+	color: white;
+
+
+}
+
+
+
+.nav2{
+	background-color: transparent;
+	margin-top: -3.1rem;
+
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  border: none;
+	padding: 0;
+	color: white;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+	background-color: none;
+	padding: 0;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #transparent;}
+
+
+/* sECTION1 */
+.franjarosa{
+width: 87.inherit;
+height: 34.125rem;
+background-color: #ffd3be;
+margin-top: 18rem;
+margin-bottom: 32.625rem;
+}
+
+
+.section2{
+	padding-top: -10rem;
+}
+
+/* sECTION2 */
+.container1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-bottom: 3rem;
+	margin-left: 9.125rem;
+	margin-right: 8.875rem;
+	padding-bottom: 0;
+
+
+}
+
+.box1 , .box2 , .box3{
+width: 18.25rem;
+height: 18.25rem;
+margin-top: -10rem;
+background-color: tomato;
+margin-bottom: 15.9375rem;
+margin-left: 9.125rem;
+
+}
+
+.textboxcontainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 11.25rem;
+}
+
+.textbox1 , .textbox2 , .textbox3 {
+	width: 15rem;
+	height: 7.875rem;
+	background-color: yellow;
+	margin-bottom: 5.0625rem;
+
+}
+
+.container2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-bottom: 3rem;
+	margin-left: 9.125rem;
+	margin-right: 8.875rem;
+	padding-bottom: 0;
+
+
+
+}
+
+.box4 , .box5 , .box6{
+width: 18.25rem;
+height: 18.25rem;
+background-color: blue;
+
+}
