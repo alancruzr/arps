@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slippry.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/plugins/slippry.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/screen1.css">
+    <meta http-equiv="refresh" content="3" >
+
+  </head>
+  <body>
+
+    <!--Hero-->
+
+    <div class="m-hero" style="background-image: url(https://i.imgur.com/Yevx828.png;);">
+
+      <nav>
+        <a href="index.html"> <img class="logoar" src="assets/logos/whitelogo.png" alt=""></a>
+
+        <ul class="navigation">
+
+        <a href="index.html"> <li class="nav1">CONÓCEME</li></a>
+        <a href="screen2.html">  <li class="nav2">SERVICIOS PERSONALES</li></a>
+        <a href="screen3.html"> <li class="nav3">SERVICIOS PROFESIONALES</li></a>
+          <li class="nav4">TIPS</li>
+          <li class="nav5">BLOG</li>
+          <li class="nav6">CONTACTO</li>
+        </ul>
+      </nav>
+      <div class="m-hero__inner">
+        <h1>LA ROPA ES TU</h1>
+        <h3>ALIADO</h3>
+        <h4>Veamos el mundo de la moda diferente, con <br> otras perspectiva, la moda es un aliado con el <br> que podemos contar para toda la vida. </h4>
+      </div>
+    </div>
+
+
+    <!--Bio-->
+
+
+<div class="container1">
+  <li class="box1">
+        <h5 class="h5bold">CONÓCEME</h5>
+        <h6 class="h6bold">ADRIANA RUIZ</6>
+          <h6>PERSONAL STYLIST</h6>
+          <p class="biop">Egresada de la Universidad Ibero Americana como Licenciada en Administración de Empresas, Maestra en Administración de proyectos y Especialista en Imagen <br> egresada del IED Madrid. </p>
+
+<p class="biop2">Creo su propia consultoría de imagen al regresar de España en el 2016, <br> con el propósito de empoderar a las mujeres mediante su imagen. <br>  </p>
+
+<p class="biop2"> Es fundadora de los talleres "Highlight Yourself" que tienen como objetivo sacar la mejor versión de cada asistente. </p>
+
+<p class="biop2">Por medio de sus redes sociales, principalmente Instagram, <br> comparte consejos de imagen, de como reinventar su estilo, la importancia de los colores, <br> entre otros. Lo que más le apasiona es trabajar con <br> mujeres y ver que los cambios en su imagen las hace tener resultados positivos en su vida. </p>
+
+<img class="bioR" src="assets/icons/R.png" alt="R">
+
+  </li>
+  <li class="box2"> <img src="assets/images/profile.png" alt="Adriana Ruiz Personal Stylist">  </li>
+
+</div>
+
+
+
+<!--Franja Rosa-->
+
+
+<div class="franjarosa">
+
+  <p class="pfranjarosa"> "NO NECESITAS DEL NEGRO PARA ARMAR UN LOOK INCREÍBLE, <br> DALE UN TWIST A TU LOOK CON EL RETO DE 10 DÍAS SIN NEGRO" <br> <br> <span>-ADRIANA RUIZ</span></p>
+</div>
+
+
+<div class="slidertitle">
+
+  <p class="slidertitulo"> CLIENTES </p>
+</div>
+
+
+    <section class="demo_wrapper">
+      <article class="demo_block">
+      <ul id="demo1">
+        <li><a href="#slide2"><img src="assets/logos/logos-1.jpg"></a></li>
+        <li><a href="#slide3"><img src="assets/logos/logos-2.jpg"></a></li>
+
+      </article>
+    </section>
+
+
+    <!--Dos imagenes con flexbox-->
+<ul class="twoimages">
+
+    <li class="box3"> <img src="assets/images/Taller-1.png" alt="">  </li>
+    <li class="box4"> <img src="assets/images/Conferencia-1.png" alt="">  </li>
+
+
+
+</ul>
+
+
+<!--Slider de medios-->
+<div class="slidertitle">
+
+  <p class="slidertitulo"> MEDIOS</p>
+  <p class="slidertitulo2"> ADRIANA HA SIDO MENSIONADA Y PUBLICADA EN: </p>
+
+</div>
+
+
+    <section class="demo_wrapper">
+      <article class="demo_block">
+      <ul id="demo2">
+        <li><a href="#slide2"><img src="assets/logos/elle.jpg"></a></li>
+        <li><a href="#slide3"><img src="assets/logos/elle.jpg"></a></li>
+
+      </article>
+    </section>
+
+    <!--Mailchimp FORM-->
+    <div class="mailchimpdiv">
+
+    </div>
+
+<!--End mc_embed_signup-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Scripts-->
+    <!--Script for Main Slider of Our Story-->
+
+    <script>
+      $(function() {
+        var demo1 = $("#demo1").slippry({
+          // transition: 'fade',
+          // useCSS: true,
+          // speed: 1000,
+          // pause: 3000,
+          // auto: true,
+          // preload: 'visible',
+          // autoHover: false
+        });
+
+        $('.stop').click(function () {
+          demo1.stopAuto();
+        });
+
+        $('.start').click(function () {
+          demo1.startAuto();
+        });
+
+        $('.prev').click(function () {
+          demo1.goToPrevSlide();
+          return false;
+        });
+        $('.next').click(function () {
+          demo1.goToNextSlide();
+          return false;
+        });
+        $('.reset').click(function () {
+          demo1.destroySlider();
+          return false;
+        });
+        $('.reload').click(function () {
+          demo1.reloadSlider();
+          return false;
+        });
+        $('.init').click(function () {
+          demo1 = $("#demo1").slippry();
+          return false;
+        });
+      });
+    </script>
+
+    <script>
+      $(function() {
+        var demo1 = $("#demo2").slippry({
+          // transition: 'fade',
+          // useCSS: true,
+          // speed: 1000,
+          // pause: 3000,
+          // auto: true,
+          // preload: 'visible',
+          // autoHover: false
+        });
+
+        $('.stop').click(function () {
+          demo1.stopAuto();
+        });
+
+        $('.start').click(function () {
+          demo1.startAuto();
+        });
+
+        $('.prev').click(function () {
+          demo1.goToPrevSlide();
+          return false;
+        });
+        $('.next').click(function () {
+          demo1.goToNextSlide();
+          return false;
+        });
+        $('.reset').click(function () {
+          demo1.destroySlider();
+          return false;
+        });
+        $('.reload').click(function () {
+          demo1.reloadSlider();
+          return false;
+        });
+        $('.init').click(function () {
+          demo1 = $("#demo2").slippry();
+          return false;
+        });
+      });
+    </script>
+    <!--End of Scripts-->
+
+
+
+  </body>
+</html>
