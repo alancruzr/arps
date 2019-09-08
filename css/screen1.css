@@ -348,6 +348,7 @@ margin-bottom: 7.6875rem;
 }
 
 
+
 .twoimages{
 display: flex;
 flex-direction: row;
@@ -360,5 +361,6 @@ margin-top: 5.375rem;
 	width: inherit;
 	height: 32.5rem;
 	background-color: #262626;
+	margin-top: 4.875rem;
 
 }
