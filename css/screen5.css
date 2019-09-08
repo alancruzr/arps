@@ -173,10 +173,9 @@ margin-bottom: 32.625rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: flex-start;
-	margin-bottom: 3rem;
-	margin-left: 9.125rem;
 	margin-right: 8.875rem;
+	margin-bottom: 3rem;
+	margin-left: auto;
 	padding-bottom: 0;
 
 
@@ -187,8 +186,8 @@ width: 18.25rem;
 height: 18.25rem;
 margin-top: -10rem;
 background-color: tomato;
-margin-bottom: 15.9375rem;
-margin-left: 9.125rem;
+margin-bottom: auto;
+margin-left: auto;
 
 }
 
@@ -196,34 +195,36 @@ margin-left: 9.125rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-left: 11.25rem;
-}
-
-.textbox1 , .textbox2 , .textbox3 {
-	width: 15rem;
-	height: 7.875rem;
-	background-color: yellow;
-	margin-bottom: 5.0625rem;
-
-}
-
-.container2{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-start;
-	margin-bottom: 3rem;
-	margin-left: 9.125rem;
 	margin-right: 8.875rem;
+	margin-bottom: 3rem;
+	margin-left: auto;
 	padding-bottom: 0;
 
 
+}
+
+.textbox1 , .textbox2 , .textbox3 {
+
+	width: 18.25rem;
+	height: 7.875rem;
+	margin-top: 0;
+	background-color: yellow;
+	margin-bottom: auto;
+	margin-left: auto;
 
 }
 
+
+#cont2{
+	margin-top: 15rem;
+}
+
 .box4 , .box5 , .box6{
-width: 18.25rem;
-height: 18.25rem;
-background-color: blue;
+	width: 18.25rem;
+	height: 18.25rem;
+	margin-top: -10rem;
+	background-color: tomato;
+	margin-bottom: auto;
+	margin-left: auto;
 
 }
