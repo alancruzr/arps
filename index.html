@@ -9,21 +9,17 @@
     <link rel="stylesheet" href="css/plugins/slippry.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/screen1.css">
-
   </head>
   <body>
-
+    <div id="navbar">
+  <a class="active" href="javascript:void(0)">#LA ROPA ES TU ALIADO –––––––––––</a>
+</div>
     <!--Hero-->
-
     <div class="m-hero" style="background-image: url(https://i.imgur.com/Yevx828.png;);">
-
       <nav>
         <a href="index.html"> <img class="logoar" src="assets/logos/whitelogo.png" alt=""></a>
-
         <ul class="navigation">
-
         <a href="index.html"> <li class="nav1">CONÓCEME</li></a>
-
         <li class="nav2">
         <div class="dropdown">
           <button class="dropbtn">SERVICIOS</button>
@@ -45,11 +41,7 @@
         <h4>Veamos el mundo de la moda diferente, con <br> otras perspectiva, la moda es un aliado con el <br> que podemos contar para toda la vida. </h4>
       </div>
     </div>
-
-
     <!--Bio-->
-
-
 <div class="container1">
   <li class="box1">
         <h5 class="h5bold">CONÓCEME</h5>
@@ -58,71 +50,41 @@
           <p class="biop">Egresada de la Universidad Ibero Americana como Licenciada en Administración de Empresas, Maestra en Administración de proyectos y Especialista en Imagen <br> egresada del IED Madrid. </p>
 
 <p class="biop2">Creo su propia consultoría de imagen al regresar de España en el 2016, <br> con el propósito de empoderar a las mujeres mediante su imagen. <br>  </p>
-
 <p class="biop2"> Es fundadora de los talleres "Highlight Yourself" que tienen como objetivo sacar la mejor versión de cada asistente. </p>
-
 <p class="biop2">Por medio de sus redes sociales, principalmente Instagram, <br> comparte consejos de imagen, de como reinventar su estilo, la importancia de los colores, <br> entre otros. Lo que más le apasiona es trabajar con <br> mujeres y ver que los cambios en su imagen las hace tener resultados positivos en su vida. </p>
-
 <img class="bioR" src="assets/icons/R.png" alt="R">
-
   </li>
-  <li class="box2"> <img src="assets/images/profile.png" alt="Adriana Ruiz Personal Stylist">  </li>
-
+  <li class="box2"> <img src="assets/images/profile.png" alt="Adriana Ruiz Personal Stylist"> </li>
 </div>
-
-
-
 <!--Franja Rosa-->
-
-
 <div class="franjarosa">
-
   <p class="pfranjarosa"> "NO NECESITAS DEL NEGRO PARA ARMAR UN LOOK INCREÍBLE, <br> DALE UN TWIST A TU LOOK CON EL RETO DE 10 DÍAS SIN NEGRO" <br> <br> <span>-ADRIANA RUIZ</span></p>
 </div>
-
-
 <div class="slidertitle">
-
   <p class="slidertitulo"> CLIENTES </p>
 </div>
-
-
     <section class="demo_wrapper">
       <article class="demo_block">
       <ul id="demo1">
         <li><a href="#slide2"><img src="assets/logos/logos-1.jpg"></a></li>
         <li><a href="#slide3"><img src="assets/logos/logos-2.jpg"></a></li>
-
       </article>
     </section>
-
-
     <!--Dos imagenes con flexbox-->
 <ul class="twoimages">
-
     <li class="box3"> <img src="assets/images/Taller-1.png" alt="">  </li>
-    <li class="box4"> <img src="assets/images/Conferencia-1.png" alt="">  </li>
-
-
-
+    <li class="box4"> <img src="assets/images/Conferencia-1.png" alt=""> </li>
 </ul>
-
-
 <!--Slider de medios-->
 <div class="slidertitle">
-
   <p class="slidertitulo"> MEDIOS</p>
   <p class="slidertitulo2"> ADRIANA HA SIDO MENSIONADA Y PUBLICADA EN: </p>
-
 </div>
-
-
     <section class="demo_wrapper">
       <article class="demo_block">
       <ul id="demo2">
         <li><a href="#slide2"><img src="assets/logos/elle.jpg"></a></li>
         <li><a href="#slide3"><img src="assets/logos/elle.jpg"></a></li>
-
       </article>
     </section>
 
@@ -234,7 +196,20 @@
       });
     </script>
     <!--End of Scripts-->
+    <script>
+    window.onscroll = function() {myFunction()};
 
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 
 
   </body>

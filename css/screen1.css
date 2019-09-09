@@ -103,6 +103,65 @@ li{
 }
 
 
+/* 90 degree hashtag and social icons side to side*/
+
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+	margin-top: 15rem;
+  text-decoration: none;
+  font-size: 17px;
+
+  transform: rotate(-90deg);
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #transparent;
+  color: black;
+	font-family: "Montserrat";
+	font-size: 0.75rem;
+	font-weight: 400;
+
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 .logoar{
 	display: inline-block;
 	position:static;
@@ -112,32 +171,23 @@ li{
 	margin-left: -20rem;
 	margin-top: 0;
 	padding-top: 2rem;
-
-
 }
-
 .navigation{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 }
-
 .nav1 , .nav2 , .nav3 , .nav4 , .nav5 , .nav6 {
 	margin-top: -3rem;
 	padding-top: 0;
 	padding-right: 2.0625rem;
 	color: white;
 	font-family: 'Montserrat';
-
 }
-
-
 .nav2{
 	background-color: transparent;
 	margin-top: -3.1rem;
-
 }
-
 .dropbtn {
   background-color: transparent;
   color: white;
@@ -145,7 +195,6 @@ li{
   border: none;
 	padding: 0;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
