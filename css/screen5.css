@@ -185,11 +185,26 @@ margin-bottom: 32.625rem;
 width: 18.25rem;
 height: 18.25rem;
 margin-top: -10rem;
-background-color: tomato;
 margin-bottom: auto;
 margin-left: auto;
 
 }
+
+
+.box1{
+	background: url("https://i.imgur.com/TSzLZfN.png")
+}
+
+.box2{
+	background: url("https://i.imgur.com/VO5ZfqR.png")
+}
+
+.box3{
+	background: url("https://i.imgur.com/ftMR3ym.png")
+}
+
+
+
 
 .textboxcontainer{
 	display: flex;
@@ -208,12 +223,22 @@ margin-left: auto;
 	width: 18.25rem;
 	height: 7.875rem;
 	margin-top: 0;
-	background-color: yellow;
 	margin-bottom: auto;
 	margin-left: auto;
+color: #000000;
+font-family: "Montserrat";
+font-size: 0.938rem;
+font-weight: bold;
+text-align: center;
 
 }
 
+.complementotexto{
+	color: #707070;
+font-family: "Roboto Light";
+font-size: 0.563rem;
+font-weight: 300;
+}
 
 #cont2{
 	margin-top: 15rem;
@@ -223,8 +248,43 @@ margin-left: auto;
 	width: 18.25rem;
 	height: 18.25rem;
 	margin-top: -10rem;
-	background-color: tomato;
 	margin-bottom: auto;
 	margin-left: auto;
 
+}
+
+.box4{
+	background: url("https://i.imgur.com/dPdiM83.png")
+}
+
+.box5{
+	background: url("https://i.imgur.com/4TC2ZQP.png")
+}
+
+.box6{
+	background: url("https://i.imgur.com/87Cp55C.png")
+}
+
+
+
+
+
+
+.agendarcita{
+	position:sticky;
+width: 7.875rem;
+height: 2.063rem;
+background-color: #262626;
+color: white;
+margin-top: 2.9375rem;
+margin-bottom: 5.875rem;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+
+.backbutton{
+	text-align: center;
+	margin-left: 7rem;
 }
