@@ -67,6 +67,9 @@ li{
 	list-style-type: none;
 }
 
+.fadein {
+    opacity:0;
+}
 
 .hero {
     background-image: url(https://i.imgur.com/Yevx828.png);

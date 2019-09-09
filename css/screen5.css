@@ -67,6 +67,10 @@ li{
 	list-style-type: none;
 }
 
+.fadein {
+    opacity:0;
+}
+
 
 .franjanegra{
 	background-color: #262626;

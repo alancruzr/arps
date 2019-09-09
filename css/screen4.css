@@ -67,6 +67,9 @@ li{
 	list-style-type: none;
 }
 
+.fadein {
+    opacity:0;
+}
 
 
 /* 90 degree hashtag and social icons side to side*/

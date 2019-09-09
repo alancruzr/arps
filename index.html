@@ -44,26 +44,26 @@
     <!--Bio-->
 <div class="container1">
   <li class="box1">
-        <h5 class="h5bold">CONÓCEME</h5>
-        <h6 class="h6bold">ADRIANA RUIZ</6>
-          <h6>PERSONAL STYLIST</h6>
-          <p class="biop">Egresada de la Universidad Ibero Americana como Licenciada en Administración de Empresas, Maestra en Administración de proyectos y Especialista en Imagen <br> egresada del IED Madrid. </p>
+        <h5 class="h5bold fadein">CONÓCEME</h5>
+        <h6 class="h6bold fadein">ADRIANA RUIZ</6>
+          <h6 class="fadein">PERSONAL STYLIST</h6>
+          <p class="biop fadein">Egresada de la Universidad Ibero Americana como Licenciada en Administración de Empresas, Maestra en Administración de proyectos y Especialista en Imagen <br> egresada del IED Madrid. </p>
 
-<p class="biop2">Creo su propia consultoría de imagen al regresar de España en el 2016, <br> con el propósito de empoderar a las mujeres mediante su imagen. <br>  </p>
-<p class="biop2"> Es fundadora de los talleres "Highlight Yourself" que tienen como objetivo sacar la mejor versión de cada asistente. </p>
-<p class="biop2">Por medio de sus redes sociales, principalmente Instagram, <br> comparte consejos de imagen, de como reinventar su estilo, la importancia de los colores, <br> entre otros. Lo que más le apasiona es trabajar con <br> mujeres y ver que los cambios en su imagen las hace tener resultados positivos en su vida. </p>
-<img class="bioR" src="assets/icons/R.png" alt="R">
+<p class="biop2 fadein">Creo su propia consultoría de imagen al regresar de España en el 2016, <br> con el propósito de empoderar a las mujeres mediante su imagen. <br>  </p>
+<p class="biop2 fadein"> Es fundadora de los talleres "Highlight Yourself" que tienen como objetivo sacar la mejor versión de cada asistente. </p>
+<p class="biop2 fadein">Por medio de sus redes sociales, principalmente Instagram, <br> comparte consejos de imagen, de como reinventar su estilo, la importancia de los colores, <br> entre otros. Lo que más le apasiona es trabajar con <br> mujeres y ver que los cambios en su imagen las hace tener resultados positivos en su vida. </p>
+<img class="bioR fadein" src="assets/icons/R.png" alt="R">
   </li>
   <li class="box2"> <img src="assets/images/profile.png" alt="Adriana Ruiz Personal Stylist"> </li>
 </div>
 <!--Franja Rosa-->
 <div class="franjarosa">
-  <p class="pfranjarosa"> "NO NECESITAS DEL NEGRO PARA ARMAR UN LOOK INCREÍBLE, <br> DALE UN TWIST A TU LOOK CON EL RETO DE 10 DÍAS SIN NEGRO" <br> <br> <span>-ADRIANA RUIZ</span></p>
+  <p class="pfranjarosa fadein"> "NO NECESITAS DEL NEGRO PARA ARMAR UN LOOK INCREÍBLE, <br> DALE UN TWIST A TU LOOK CON EL RETO DE 10 DÍAS SIN NEGRO" <br> <br> <span>-ADRIANA RUIZ</span></p>
 </div>
 <div class="slidertitle">
-  <p class="slidertitulo"> CLIENTES </p>
+  <p class="slidertitulo fadein"> CLIENTES </p>
 </div>
-    <section class="demo_wrapper">
+    <section class="demo_wrapper fadein">
       <article class="demo_block">
       <ul id="demo1">
         <li><a href="#slide2"><img src="assets/logos/logos-1.jpg"></a></li>
@@ -77,10 +77,10 @@
 </ul>
 <!--Slider de medios-->
 <div class="slidertitle">
-  <p class="slidertitulo"> MEDIOS</p>
-  <p class="slidertitulo2"> ADRIANA HA SIDO MENSIONADA Y PUBLICADA EN: </p>
+  <p class="slidertitulo fadein"> MEDIOS</p>
+  <p class="slidertitulo2 fadein"> ADRIANA HA SIDO MENSIONADA Y PUBLICADA EN: </p>
 </div>
-    <section class="demo_wrapper">
+    <section class="demo_wrapper fadein">
       <article class="demo_block">
       <ul id="demo2">
         <li><a href="#slide2"><img src="assets/logos/elle.jpg"></a></li>
@@ -195,7 +195,7 @@
         });
       });
     </script>
-    <!--End of Scripts-->
+    <!--vertical hashtag-->
     <script>
     window.onscroll = function() {myFunction()};
 
@@ -210,6 +210,31 @@
       }
     }
     </script>
+    <!--vertical social icons-->
+
+
+
+    <!--fade in effect-->
+    <script type="text/javascript">
+
+
+    $(document).ready(function() {
+    $(window).scroll( function(){
+        $('.fadein').each( function(i){
+
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            if( bottom_of_window > bottom_of_element ){
+                $(this).animate({'opacity':'1'},1000);
+            }
+
+        });
+    });
+});
+    </script>
+
+
 
 
   </body>

@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/plugins/slippry.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/screen5.css">
-    <meta http-equiv="refresh" content="3" >
   </head>
   <body>
     <!--nav-->
@@ -52,9 +51,9 @@
     <!--3 x 3 textos-->
 
     <ul class="textboxcontainer">
-      <li class="textbox1">3 TIPS BÁSICOS PRA HACER TU MALETA <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li>
-      <li class="textbox2">ETIQUETA Y PROTOCOLO SOCIAL <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li>
-      <li class="textbox3">JUEGA CON EL NEGRO A TU FAVOR <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li> </li>
+      <li class="textbox1 fadein">3 TIPS BÁSICOS PRA HACER TU MALETA <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li>
+      <li class="textbox2 fadein">ETIQUETA Y PROTOCOLO SOCIAL <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li>
+      <li class="textbox3 fadein">JUEGA CON EL NEGRO A TU FAVOR <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li> </li>
     </ul>
 
 
@@ -68,9 +67,9 @@
     <!--3 x 3 textos-->
 
     <ul class="textboxcontainer">
-      <li class="textbox1">3 TIPS BÁSICOS PRA HACER TU MALETA <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li></li>
-      <li class="textbox2">ETIQUETA Y PROTOCOLO SOCIAL <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li></li>
-      <li class="textbox3">JUEGA CON EL NEGRO A TU FAVOR <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li></li>
+      <li class="textbox1 fadein">3 TIPS BÁSICOS PRA HACER TU MALETA <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li></li>
+      <li class="textbox2 fadein">ETIQUETA Y PROTOCOLO SOCIAL <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li></li>
+      <li class="textbox3 fadein">JUEGA CON EL NEGRO A TU FAVOR <br> <br> <span class="complementotexto">10 consejos super prácticos de protocolo y etiqueta social! <br> porque como ya lo hemos platicado tu imagen no solo es <br> como te vistes, también influye como te desenvuelves en diferentes ambientes ! Espero todos sus comentarios </span> </li></li>
 
     </ul>
     <div class="backbutton">
@@ -118,6 +117,25 @@ function myFunction() {
 </script>
 
 
+<!--fade in effect-->
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+$(window).scroll( function(){
+    $('.fadein').each( function(i){
+
+        var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if( bottom_of_window > bottom_of_element ){
+            $(this).animate({'opacity':'1'},1000);
+        }
+
+    });
+});
+});
+</script>
 
 
 

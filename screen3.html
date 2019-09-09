@@ -53,14 +53,14 @@
 
 
 
-<h5 class="h5bold">SERVICIOS EMPRESARIALES</h5>
-        <p class="subtitulo"> CAPACITACIONES, PLÁTICAS Y CONFERENCIAS </p>
-        <p class="subtitulo2"> EN EMPRESAS Y UNIVERSIDADES </p>
+<h5 class="h5bold fadein">SERVICIOS EMPRESARIALES</h5>
+        <p class="subtitulo fadein"> CAPACITACIONES, PLÁTICAS Y CONFERENCIAS </p>
+        <p class="subtitulo2 fadein"> EN EMPRESAS Y UNIVERSIDADES </p>
 
 
 <section>
 
-  <p class="empresarialp">
+  <p class="empresarialp fadein">
 
      Estan enfocadas para fuerza de ventas, concientizar sobre la imagen personal, protocolo de negocios, etc.
      <br><br>
@@ -77,7 +77,7 @@
      <br>
      <br>
      <strong>Todas las capacitaciones se personalizan según lo que busque cada empresa.</strong> <br>
-     <button class="agendarcita" type="button" name="button">CONTACTAR</button>
+     <button class="agendarcita fadein" type="button" name="button">CONTACTAR</button>
 
 
   </p>
@@ -104,11 +104,11 @@
 
 <div class="slidertitle">
 
-  <p class="slidertitulo"> CLIENTES </p>
+  <p class="slidertitulo fadein"> CLIENTES </p>
 </div>
 
 
-    <section class="demo_wrapper">
+    <section class="demo_wrapper fadein">
       <article class="demo_block">
       <ul id="demo1">
         <li><a href="#slide2"><img src="assets/logos/logos-1.jpg"></a></li>
@@ -240,7 +240,25 @@
 
 
 
+    <!--fade in effect-->
+    <script type="text/javascript">
 
+
+    $(document).ready(function() {
+    $(window).scroll( function(){
+        $('.fadein').each( function(i){
+
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            if( bottom_of_window > bottom_of_element ){
+                $(this).animate({'opacity':'1'},1000);
+            }
+
+        });
+    });
+  });
+    </script>
 
 
 
