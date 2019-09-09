@@ -162,6 +162,7 @@ li{
 .sticky + .content {
   padding-top: 60px;
 }
+
 .logoar{
 	display: inline-block;
 	position:static;
