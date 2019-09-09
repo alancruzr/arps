@@ -14,7 +14,9 @@
   <body>
     <!--nav-->
     <div class="franjanegra">
-
+      <div id="navbar">
+    <a class="active" href="javascript:void(0)">#LA ROPA ES TU ALIADO –––––––––––</a>
+    </div>
     <nav>
       <a href="index.html"> <img class="logoar" src="assets/logos/whitelogo.png" alt=""></a>
       <ul class="navigation">
@@ -100,6 +102,20 @@
 </section>
 
 
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 
 
 
