@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -165,6 +166,48 @@ li{
 .sticky + .content {
   padding-top: 60px;
 }
+
+
+/* 90 degree social icons*/
+
+.socialcolor{
+	color: white;
+}
+
+
+#active2{
+	position: absolute;
+margin-left: 130rem;
+	color: white;
+	font-size: 2rem;
+	min-width: 8.8125rem;
+
+}
+
+
+
+.rayablanca{position: absolute;
+
+	margin-left: -6rem;
+	margin-top: .4rem;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logoar{
 	display: inline-block;
