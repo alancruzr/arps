@@ -132,6 +132,35 @@ li{
 }
 
 
+
+.socialcolor{
+	color: black;
+}
+
+
+#active2{
+	position: absolute;
+margin-left: 104rem;
+	color: black;
+	font-size: 2rem;
+	min-width: 8.8125rem;
+
+}
+
+
+
+.rayablanca{position: absolute;
+
+	margin-left: -6rem;
+	margin-top: .4rem;
+	color: black;
+}
+
+
+
+
+
+
 .logoar{
 	display: inline-block;
 	position:static;
