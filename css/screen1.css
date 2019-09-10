@@ -176,19 +176,21 @@ li{
 
 
 #active2{
-	position: absolute;
-margin-left: 130rem;
+
+	position: sticky;
+margin-top: 40rem;
+margin-left: 103rem;
+padding-right: 0;
 	color: white;
 	font-size: 2rem;
 	min-width: 8.8125rem;
-
 }
 
 
 
-.rayablanca{position: absolute;
-
-	margin-left: -6rem;
+.rayablanca{
+	position: absolute;
+	margin-left: -5rem;
 	margin-top: .4rem;
 	color: white;
 }
@@ -209,13 +211,12 @@ margin-left: 130rem;
 
 
 
-.logoar{
-	display: inline-block;
-	position:static;
+.logoar , .logoa{
+	display: block;
+	position:absolute;
 	width: 20.0625rem;
 	height: auto;
-	margin-right: 70rem;
-	margin-left: -20rem;
+	margin-right: 50rem;
 	margin-top: 0;
 	padding-top: 2rem;
 }
