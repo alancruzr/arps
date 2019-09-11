@@ -175,7 +175,7 @@ li{
 }
 
 
-#active2{
+#active2 {
 	position: absolute;
 margin-left: 104rem;
 	color: white;
@@ -186,8 +186,19 @@ margin-left: 104rem;
 
 
 
-.rayablanca{position: absolute;
+.click{
+	position: relative;
+margin-left: 104rem;
+	color: white;
+	font-size: 2rem;
+	min-width: 8.8125rem;
 
+}
+
+
+
+.rayablanca{
+	position: absolute;
 	margin-left: -6rem;
 	margin-top: .4rem;
 	color: white;
@@ -387,6 +398,12 @@ font-weight: 300;
 	padding-top: 5.9375rem;
 	padding-left: 10rem;
 	margin-right: 1.25rem;
+}
+
+.box2{
+   position: absolute;
+	 padding-left: 40rem;
+	 margin-top: -33.4rem;
 }
 
 
