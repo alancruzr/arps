@@ -76,8 +76,17 @@ li{
     background-image: url(https://i.imgur.com/Yevx828.png);
 }
 
+div.grabber{
+
+	position: -webkit-sticky;
+position: sticky;
+top: 0;
+float:
+}
+
 .m-hero {
     height: 100vh;
+
 }
 .m-hero {
     -moz-background-size: cover;
@@ -434,7 +443,7 @@ color: #262626;
 font-family: "Montserrat";
 font-size: 0.75rem;
 font-weight: 400;
-/* Text style for "ADRIANA RU" */
+/* Text style for "ADRm-heroIANA RU" */
 color: #262626;
 font-family: "Montserrat";
 font-size: 0.75rem;
@@ -469,7 +478,7 @@ justify-content: center;
 margin-top: 5.375rem;
 }
 
-
+/* Mailchimp style */
 .mailchimpdiv{
 	width: inherit;
 	height: 32.5rem;
@@ -477,3 +486,42 @@ margin-top: 5.375rem;
 	margin-top: 4.875rem;
 
 }
+
+.contactotitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.313rem;
+font-weight: 400;
+letter-spacing: 0.063rem;
+padding-top: 3.375rem;
+margin-bottom: 1.75rem;
+}
+
+.contactosubtitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+}
+
+label {
+	color: white;
+	font-family: 'Montserrat';
+}
+
+
+.mc-field-group{
+	text-align: center;
+
+}
+
+
+
+
+#mce-EMAIL{
+}
+
+
+/* Media queries */
