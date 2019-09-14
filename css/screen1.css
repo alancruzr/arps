@@ -399,20 +399,18 @@ font-weight: 300;
 	flex-wrap: nowrap;
 	width: inherit;
 	height: 55.938rem;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .box1{
 	width: 43.8125rem;
 	padding-top: 5.9375rem;
-	padding-left: 10rem;
-	margin-right: 1.25rem;
+
+
 }
 
 .box2{
-   position: absolute;
-	 padding-left: 40rem;
-	 margin-top: -33.4rem;
+
 }
 
 
@@ -525,3 +523,28 @@ label {
 
 
 /* Media queries */
+@media only screen and (max-width: 798px){
+	html, body{
+		max-width: 798px;
+	}
+
+.logoar{
+}
+
+.m-hero{
+	width: auto;
+}
+
+.container1{
+display: flex;
+flex-wrap: wrap;
+}
+
+.box1{
+
+
+
+}
+
+
+}
