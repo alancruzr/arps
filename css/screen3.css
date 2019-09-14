@@ -361,7 +361,7 @@ flex-direction: row;
 justify-content: center;
 margin-top: 5.375rem;
 padding-top: 4.25rem;
-padding-bottom: 8.625rem;
+padding-bottom: 0;
 background-color: #ffd3be;
 }
 
@@ -567,7 +567,7 @@ font-weight: 400;
 	color: white;
 }
 
-.box5 {
+.boxy {
 	color: white;
 	margin-top: 3.5rem;
 color: #808080;
@@ -577,7 +577,7 @@ font-weight: 400;
 
 }
 
-.box6{
+.boxz{
 	color: white;
 	margin-top: 3.5rem;
 
@@ -588,7 +588,7 @@ font-weight: 400;
 
 }
 
-.box7{
+.boxw{
 	color: white;
 	margin-top: 3.5rem;
 
@@ -597,8 +597,46 @@ font-weight: 400;
 
 
 
+.twotexts{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 8.625rem;
+	background-color: #ffd3be;
+	padding-top: 0;
+
+}
 
 
+
+.text1{
+	position: absolute;
+  width: 9.125rem;
+	align-self:auto;
+	margin-left: -23.3rem;
+	padding-top: 1rem;
+}
+
+.text2{
+	padding-top: 1rem;
+	position: absolute;
+	width: 9.125rem;
+	margin-left: 5.9rem;
+}
+
+.textseparator{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.twotextstitle{
+color: #707070;
+font-family: 'Roboto';
+font-size: 0.875rem;
+font-weight: bold;
+}
 
 
 /* Media queries */
