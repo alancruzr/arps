@@ -564,10 +564,32 @@ font-family: "Montserrat";
 font-size: 0.625rem;
 font-weight: bold;
 border-radius: .2rem;
+}
 
+.whatsappbutton{
+  position: absolute;
+	margin-left: 12.3rem;
+	color: white;
+font-size: 2rem;
+font-weight: 400;
 
 }
 
+.tel{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.2rem;
+font-weight: 400;
+}
+
+
+.customborder{
+  width: 70.5rem;
+	 border-bottom: 0.038333333333rem solid white;
+	 margin-left: 16%;
+	 margin-right: auto;
+	 margin-top: 2.5625rem;
+}
 
 
 /* Media queries */
