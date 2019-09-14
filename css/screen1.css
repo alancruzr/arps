@@ -456,14 +456,14 @@ font-family: "Montserrat";
 font-size: 3rem;
 font-weight: bold;
 margin-top: 6.6875rem;
-margin-bottom: 5.5625rem;
+margin-bottom: 2.9625rem;
 }
 .slidertitulo2{
 text-align: center;
 color: #262626;
 font-family: "Montserrat";
-font-size: 2rem;
-margin-top: 6.6875rem;
+font-size: 1.5rem;
+margin-top: 1.6875rem;
 margin-bottom: 7.6875rem;
 }
 
@@ -474,6 +474,17 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 margin-top: 5.375rem;
+width: 100%;
+height: auto;
+
+}
+
+
+.box3 , .box4{
+	height: auto;
+	 width: auto;
+	 max-width: 200%;
+	 max-height: 200%;
 }
 
 /* Mailchimp style */
@@ -629,8 +640,6 @@ font-weight: 400;
 .box7{
 	color: white;
 	margin-top: 3.5rem;
-
-
 }
 
 

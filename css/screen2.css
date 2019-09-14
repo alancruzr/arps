@@ -441,16 +441,18 @@ flex-direction: row;
 justify-content: center;
 margin-top: 5.375rem;
 padding-top: 4.25rem;
-padding-bottom: 8.625rem;
+padding-bottom: 0;
 background-color: #ffd3be;
 }
 
 .box3{
 	padding-right: 2.90625rem;
+	margin-bottom: 0;
 }
 
 .box4{
 	padding-left: 2.90625rem;
+	margin-bottom: 0;
 }
 
 .mailchimpdiv{
@@ -519,6 +521,40 @@ margin-bottom: 5.875rem;
 
 
 }
+
+
+.twotexts{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 8.625rem;
+	background-color: #ffd3be;
+	padding-top: 1.5rem;
+
+}
+
+.text1{
+	padding-right: 63rem;
+
+}
+
+.text2{
+}
+
+
+.twotextstitle{
+color: #707070;
+font-family: 'Roboto';
+font-size: 0.875rem;
+font-weight: bold;
+}
+
+
+
+
+
 
 
 /* Mailchimp style */
