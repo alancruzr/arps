@@ -528,24 +528,41 @@ label {
 
 label{
 	margin-right: 1.6875rem;
+
 }
 
+
 #mce-FNAME{
-	background-color: blue;
+	background-color:  #262626;
   width: 20.625rem;
 	height: 1.5rem;
+	border: 0.063rem solid #ffffff;
 }
 
 #mce-EMAIL{
 
 
-		background-color: blue;
+		background-color: #262626;
 	  width: 20.625rem;
 		height: 1.5rem;
 		margin-right: 4.875rem;
+		border: 0.063rem solid #ffffff;
 
 
 }
+
+#mce-MMERGE2{
+
+
+		background-color: #262626;
+		margin-right: 0rem;
+		width: 53.25rem;
+    height: 3.5rem;
+		border: 0.063rem solid #ffffff;
+
+
+}
+
 
 
 /* Media queries */
