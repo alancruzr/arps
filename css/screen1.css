@@ -592,6 +592,49 @@ font-weight: 400;
 }
 
 
+.containerfooter{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+.sociallinks{
+	text-decoration: none;
+	color: white;
+}
+
+.box5 {
+	color: white;
+	margin-top: 3.5rem;
+color: #808080;
+font-family: "Montserrat";
+font-size: 0.563rem;
+font-weight: 400;
+
+}
+
+.box6{
+	color: white;
+	margin-top: 3.5rem;
+
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+
+
+}
+
+.box7{
+	color: white;
+	margin-top: 3.5rem;
+
+
+}
+
+
+
 /* Media queries */
 @media only screen and (max-width: 798px){
 	html, body{
