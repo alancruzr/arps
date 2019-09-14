@@ -411,7 +411,18 @@ font-weight: 700;
 }
 
 
+.agendarcita{
+	position:sticky;
+width: 7.875rem;
+height: 2.063rem;
+background-color: #262626;
+color: white;
+margin-top: 2.9375rem;
+margin-bottom: 5.875rem;
+border-radius: .5rem;
 
+
+}
 
 .contenido{
 }
@@ -477,12 +488,24 @@ margin-bottom: 1.75rem;
 .h4franja{
 
 color: #707070;
-font-family: "Roboto Light";
+font-family: "Roboto";
 font-size: 0.813rem;
 font-weight: 300;
 text-align: center;
-padding-left: 14.3125rem;
-padding-right: 14.3125rem;
+padding-left: 20.3125rem;
+padding-right: 20.3125rem;
+}
+
+.h4franja2{
+	color: #707070;
+	font-family: "Roboto";
+	font-size: 0.813rem;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 20.3125rem;
+	padding-right: 20.3125rem;
+
+
 }
 
 .agendarcita{
