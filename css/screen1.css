@@ -502,6 +502,7 @@ color: #ffffff;
 font-family: "Montserrat";
 font-size: 0.875rem;
 font-weight: 400;
+margin-bottom: 3.1875rem;
 }
 
 label {
@@ -515,10 +516,35 @@ label {
 
 }
 
+.inlinemail{
+	display: inline-block;
+}
+
+.mailcenter{
+	text-align: center;
+  margin-bottom:3rem ;
+}
 
 
+label{
+	margin-right: 1.6875rem;
+}
+
+#mce-FNAME{
+	background-color: blue;
+  width: 20.625rem;
+	height: 1.5rem;
+}
 
 #mce-EMAIL{
+
+
+		background-color: blue;
+	  width: 20.625rem;
+		height: 1.5rem;
+		margin-right: 4.875rem;
+
+
 }
 
 
