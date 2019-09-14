@@ -531,6 +531,12 @@ label {
 .logoar{
 }
 
+a.active{
+	margin-left: -5.5rem;
+}
+a#active2{
+	margin-left: 33rem;
+}
 .m-hero{
 	width: auto;
 }
@@ -541,8 +547,25 @@ flex-wrap: wrap;
 }
 
 .box1{
+padding-top: 1rem;
+padding-bottom: 1rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
+margin-right:5rem;
+}
 
 
+.franjarosa{
+	margin-top: 40rem;
+}
+
+.slidertitle{
+	margin-top: 4rem;
+
+}
+
+.slidertitulo{
+	margin-top: 3rem;
 
 }
 
