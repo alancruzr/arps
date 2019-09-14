@@ -526,7 +526,7 @@ margin-bottom: 5.875rem;
 .twotexts{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	margin-top: 0;
 	padding-top: 0;
 	padding-bottom: 8.625rem;
@@ -536,13 +536,22 @@ margin-bottom: 5.875rem;
 }
 
 .text1{
-	padding-right: 63rem;
-
+	position: absolute;
+  width: 9.125rem;
+	align-self:auto;
+	margin-left: -24.8rem;
 }
 
 .text2{
+	position: absolute;
+	width: 9.125rem;
+	margin-left: 7.5rem;
 }
 
+.textseparator{
+	margin-left: 0;
+	padding-left: 0;
+}
 
 .twotextstitle{
 color: #707070;
