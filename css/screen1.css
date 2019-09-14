@@ -525,7 +525,7 @@ label {
 /* Media queries */
 @media only screen and (max-width: 798px){
 	html, body{
-		max-width: 798px;
+	margin: 0;
 	}
 
 .logoar{
@@ -569,5 +569,32 @@ margin-right:5rem;
 
 }
 
+.twoimages{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.box3{
+	display: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width: 900px;
+
+}
+.box4{
+	display: none;
+	margin-top: 0;
+	padding-top: 0;
+	width: 900px;
+
+}
+
+.mailchimpdiv{
+	width: 100%;
+	margin-right: 0;
+	padding-right: 0;
+}
 
 }
