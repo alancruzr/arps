@@ -1,0 +1,811 @@
+
+/* CSS reset */
+html{
+	zoom:80%;
+}
+*{
+	color: black;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav{
+  margin-left: 10rem;
+}
+
+html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+html{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+
+li{
+	list-style-type: none;
+}
+
+.fadein {
+    opacity:0;
+}
+
+
+.franjanegra{
+	background-color: #262626;
+height: 7.438rem;
+
+}
+
+
+/* 90 degree hashtag and social icons side to side*/
+
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+	margin-top: 15rem;
+  text-decoration: none;
+  font-size: 17px;
+
+  transform: rotate(-90deg);
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #transparent;
+  color: black;
+	font-family: "Montserrat";
+	font-size: 0.75rem;
+	font-weight: 400;
+
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.socialcolor{
+	color: black;
+}
+
+
+#active2{
+	position: absolute;
+margin-left: 104rem;
+	color: black;
+	font-size: 2rem;
+	min-width: 8.8125rem;
+
+}
+
+
+
+.rayablanca{position: absolute;
+
+	margin-left: -6rem;
+	margin-top: .4rem;
+	color: black;
+}
+
+
+
+
+
+
+
+
+.logoar{
+	display: inline-block;
+	position:static;
+	width: 20.0625rem;
+	height: auto;
+	margin-right: 29.75rem;
+	margin-left: 10.125rem;
+	margin-top: 0;
+	padding-top: 2rem;
+
+
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+
+.nav1 , .nav2 , .nav3 , .nav4 , .nav5 , .nav6 {
+	margin-top: -3rem;
+	padding-top: 0;
+	padding-right: 2.0625rem;
+	color: black;
+	font-family: 'Montserrat';
+
+}
+
+
+
+.nav2{
+	background-color: transparent;
+	margin-top: -3.1rem;
+
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  border: none;
+	padding: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+	background-color: none;
+	padding: 0;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #transparent;}
+
+
+
+
+/* sECTION1 */
+.franjarosa{
+width: 87.inherit;
+height: 34.125rem;
+background-color: #ffd3be;
+margin-top: 18rem;
+margin-bottom: 32.625rem;
+}
+
+
+.section2{
+	padding-top: -10rem;
+}
+
+/* sECTION2 */
+.container1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 8.875rem;
+	margin-bottom: 3rem;
+	margin-left: auto;
+	padding-bottom: 0;
+
+
+}
+
+.box1 , .box2 , .box3{
+width: 18.25rem;
+height: 18.25rem;
+margin-top: -10rem;
+margin-bottom: auto;
+margin-left: auto;
+
+}
+
+
+.box1{
+	background: url("https://i.imgur.com/TSzLZfN.png")
+}
+
+.box2{
+	background: url("https://i.imgur.com/VO5ZfqR.png")
+}
+
+.box3{
+	background: url("https://i.imgur.com/ftMR3ym.png")
+}
+
+
+
+
+.textboxcontainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 8.875rem;
+	margin-bottom: 3rem;
+	margin-left: auto;
+	padding-bottom: 0;
+
+
+}
+
+.textbox1 , .textbox2 , .textbox3 {
+
+	width: 18.25rem;
+	height: 7.875rem;
+	margin-top: 0;
+	margin-bottom: auto;
+	margin-left: auto;
+color: #000000;
+font-family: "Montserrat";
+font-size: 0.938rem;
+font-weight: bold;
+text-align: center;
+
+}
+
+.complementotexto{
+	color: #707070;
+font-family: "Roboto Light";
+font-size: 0.563rem;
+font-weight: 300;
+}
+
+#cont2{
+	margin-top: 15rem;
+}
+
+.box4 , .box5 , .box6{
+	width: 18.25rem;
+	height: 18.25rem;
+	margin-top: -10rem;
+	margin-bottom: auto;
+	margin-left: auto;
+
+}
+
+.box4{
+	background: url("https://i.imgur.com/dPdiM83.png")
+}
+
+.box5{
+	background: url("https://i.imgur.com/4TC2ZQP.png")
+}
+
+.box6{
+	background: url("https://i.imgur.com/87Cp55C.png")
+}
+
+
+
+
+
+
+.agendarcita{
+	position:sticky;
+width: 7.875rem;
+height: 2.063rem;
+background-color: #262626;
+color: white;
+margin-top: 2.9375rem;
+margin-bottom: 5.875rem;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+
+.backbutton{
+	text-align: center;
+	margin-left: 7rem;
+}
+
+/* Mailchimp style */
+.mailchimpdiv{
+	width: inherit;
+	height: 32.5rem;
+	background-color: #tr;
+	margin-top: 4.875rem;
+	color: black;
+
+
+}
+
+.contactotitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.313rem;
+font-weight: 400;
+letter-spacing: 0.063rem;
+padding-top: 3.375rem;
+margin-bottom: 1.75rem;
+}
+
+.contactosubtitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+margin-bottom: 3.1875rem;
+}
+
+label {
+	color: white;
+	font-family: 'Montserrat';
+}
+
+
+.mc-field-group{
+	text-align: center;
+
+}
+
+.inlinemail{
+	display: inline-block;
+}
+
+.mailcenter{
+	text-align: center;
+  margin-bottom:3rem ;
+}
+
+
+label{
+	margin-right: 1.6875rem;
+
+}
+
+
+#mce-FNAME{
+	background-color:  none;
+  width: 20.625rem;
+	height: 1.5rem;
+	border: 0.063rem solid black;
+}
+#mce-EMAIL{
+		background-color: none;
+	  width: 20.625rem;
+		height: 1.5rem;
+		margin-right: 4.875rem;
+		border: 0.063rem solid black;
+}
+#mce-MMERGE2{
+		background-color: none;
+		margin-right: 0rem;
+		width: 53.25rem;
+    height: 3.5rem;
+		border: 0.063rem solid black;
+		margin-bottom: 2.625rem;
+}
+
+.buttonmail {
+	margin-left: 50%;
+width: 5rem;
+height: 1.688rem;
+background-color: #ffffff;
+color: #262626;
+font-family: "Montserrat";
+font-size: 0.625rem;
+font-weight: bold;
+border-radius: .2rem;
+}
+
+.whatsappbutton{
+  position: absolute;
+	margin-left: 12.3rem;
+	color: white;
+font-size: 2rem;
+font-weight: 400;
+
+}
+
+.tel{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.2rem;
+font-weight: 400;
+}
+
+
+.customborder{
+  width: 70.5rem;
+	 border-bottom: 0.038333333333rem solid white;
+	 margin-left: 16%;
+	 margin-right: auto;
+	 margin-top: 2.5625rem;
+}
+
+
+.containerfooter{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+.sociallinks{
+	text-decoration: none;
+	color: white;
+}
+
+.boxy {
+	color: white;
+	margin-top: 3.5rem;
+color: #808080;
+font-family: "Montserrat";
+font-size: 0.563rem;
+font-weight: 400;
+
+}
+
+.boxz{
+	color: white;
+	margin-top: 3.5rem;
+
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+
+
+}
+
+.boxw{
+	color: white;
+	margin-top: 3.5rem;
+
+
+}
+
+
+*{
+	color: black;
+}
+
+div{
+	color: black;
+}
+
+h1, h2, h3, h4, h5 , h6{
+	color: black;
+}
+
+.contactotitle , .contactosubtitle{
+	color: black;
+}
+
+label{
+	color: black;
+}
+
+.boxy, .boxz , .bozw{
+	color: black;
+}
+
+.tel{
+	color: black;
+}
+
+
+
+.socialcolor{
+	color: black;
+}
+
+
+
+/* Media queries */
+
+@media only screen and (max-width: 798px){
+	html, body{
+	margin: 0;
+	}
+
+#navbar{
+	display: none;
+}
+
+.mailchimpdiv{
+	width: 100%;
+	margin-right: 0;
+	padding-right: 0;
+	color: black;
+
+}
+
+
+
+
+/* Mailchimp mobile style */
+.mailchimpdiv{
+	width: inherit;
+	height: 35.5rem;
+	background-color: none;
+	margin-top: 4.875rem;
+	color: black;
+
+}
+
+.contactotitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.313rem;
+font-weight: 400;
+letter-spacing: 0.063rem;
+padding-top: 3.375rem;
+margin-bottom: 1.75rem;
+}
+
+.contactosubtitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+margin-bottom: 3.1875rem;
+}
+
+label {
+	color: white;
+	font-family: 'Montserrat';
+}
+
+
+.mc-field-group{
+	text-align: center;
+
+}
+
+.inlinemail{
+	display: inline-block;
+}
+
+.mailcenter{
+	text-align: center;
+  margin-bottom:3rem ;
+}
+
+
+label{
+	margin-right: 0;
+	padding-right: 0;
+
+}
+
+#mce-FNAME{
+	background-color:  none;
+  width: 20.625rem;
+	height: 1.5rem;
+	border: 0.063rem solid black;
+	margin-left: 4.7rem;
+}
+#mce-EMAIL{
+		background-color: none;
+	  width: 20.625rem;
+		height: 1.5rem;
+		margin-right: 0;
+		margin-left: 4.5rem;
+		margin-bottom: 2rem;
+}
+#mce-MMERGE2{
+	background-color: none;
+	width: 20.625rem;
+	height: 1.5rem;
+	margin-right: 0;
+	margin-left: 4.5rem;
+	margin-bottom: 2rem;
+}
+
+.buttonmail {
+	margin-left: 50%;
+width: 5rem;
+height: 1.688rem;
+background-color: #ffffff;
+color: #262626;
+font-family: "Montserrat";
+font-size: 0.625rem;
+font-weight: bold;
+border-radius: .2rem;
+}
+
+.whatsappbutton{
+	display: none;
+  position: absolute;
+	margin-left: 12.3rem;
+	color: white;
+font-size: 2rem;
+font-weight: 400;
+
+}
+
+.tel{
+	display: none;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.2rem;
+font-weight: 400;
+}
+
+
+.customborder{
+	display: none;
+  width: 70.5rem;
+	 border-bottom: 0.038333333333rem solid white;
+	 margin-left: 16%;
+	 margin-right: auto;
+	 margin-top: 2.5625rem;
+}
+
+
+.containerfooter{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+.sociallinks{
+	text-decoration: none;
+	color: white;
+}
+
+.boxw {
+	color: white;
+	margin-top: 3.5rem;
+color: #808080;
+font-family: "Montserrat";
+font-size: 0.563rem;
+font-weight: 400;
+
+}
+
+.boxz{
+	color: white;
+	margin-top: 3.5rem;
+
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+
+
+}
+
+.boxw{
+	color: white;
+	margin-top: 3.5rem;
+
+
+}
+
+
+
+*{
+	color: black;
+}
+
+div{
+	color: black;
+}
+
+h1, h2, h3, h4, h5 , h6{
+	color: black;
+}
+
+.contactotitle , .contactosubtitle{
+	color: black;
+}
+
+label{
+	color: black;
+}
+
+.boxy, .boxz , .bozw{
+	color: black;
+}
+
+.tel{
+	color: black;
+}
+
+
+
+.socialcolor{
+	color: black;
+}
+
+
+
+
+}
