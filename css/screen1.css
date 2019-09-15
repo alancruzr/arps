@@ -72,9 +72,6 @@ li{
     opacity:0;
 }
 
-.hero {
-    background-image: url(https://i.imgur.com/Yevx828.png);
-}
 
 div.grabber{
 
@@ -84,36 +81,119 @@ top: 0;
 float:
 }
 
-.m-hero {
-    height: 100vh;
+/* Nav */
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+
+  background-color: #333;
+  overflow: hidden;
 
 }
-.m-hero {
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
-    z-index: 999;
-    text-align: center;
-    height: 100%;
-    -webkit-transform: translate3d(0, 0, 0);
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 
 
-.m-hero .m-hero__inner {
-    position: relative;
-    top: 20%;
-    padding: 0 15px;
-    max-width: 900px;
-    margin: 0 auto;
-		color: white;
-		font-size: 40px;
-		padding-left: 40.25rem;
+
+.herocontrol{
+	background: url("https://i.imgur.com/kHP8nd5.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+
+
+
 }
+
+.stickyoutsidenavigation{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+
+
+
+
+
 
 
 /* 90 degree hashtag and social icons side to side*/
@@ -128,6 +208,7 @@ float:
 	margin-top: 15rem;
   text-decoration: none;
   font-size: 17px;
+	z-index: 1;
 
   transform: rotate(-90deg);
 
@@ -156,9 +237,9 @@ float:
   color: black;
 }
 
-#navbar a.active {
+#navbar a.active2 {
   background-color: #transparent;
-  color: black;
+  color: white;
 	font-family: "Montserrat";
 	font-size: 0.75rem;
 	font-weight: 400;
@@ -172,8 +253,10 @@ float:
   width: 100%;
 }
 
-.sticky + .content {
-  padding-top: 60px;
+.sticky2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 
@@ -186,7 +269,7 @@ float:
 
 #active2 {
 	position: absolute;
-margin-left: 104rem;
+margin-left: 100rem;
 	color: white;
 	font-size: 2rem;
 	min-width: 8.8125rem;
@@ -255,41 +338,6 @@ margin-left: 104rem;
 	background-color: transparent;
 	margin-top: -3.1rem;
 }
-.dropbtn {
-  background-color: transparent;
-  color: white;
-  font-size: 16px;
-  border: none;
-	padding: 0;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-	background-color: none;
-	padding: 0;
-
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #transparent;}
 
 
 
@@ -476,6 +524,7 @@ justify-content: center;
 margin-top: 5.375rem;
 width: 100%;
 height: auto;
+overflow-x: hidden;
 
 }
 
@@ -644,10 +693,37 @@ font-weight: 400;
 
 
 
+
 /* Media queries */
 @media only screen and (max-width: 798px){
 	html, body{
 	margin: 0;
+	}
+
+	.topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
 	}
 
 .logoar{
@@ -658,9 +734,6 @@ a.active{
 }
 a#active2{
 	margin-left: 33rem;
-}
-.m-hero{
-	width: auto;
 }
 
 .container1{
@@ -692,10 +765,12 @@ margin-right:5rem;
 }
 
 .twoimages{
+	display: none;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	max-width: 500px;
 }
 
 .box3{

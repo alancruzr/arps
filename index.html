@@ -12,59 +12,51 @@
     <link rel="stylesheet" href="css/screen1.css">
   </head>
   <body>
+    <!--Nav-->
+    <div class="stickyoutsidenavigation" id="stickinessofnav">
 
-
-    <div id="navbar">
-      <a class="active" href="javascript:void(0)">#LA ROPA ES TU ALIADO &nbsp; &nbsp; –––––––––––––</a>
-
-    <div class="socialspace">
-
-     <a class="active" id="active2" > <span class="rayablanca">–––––––––––––</span>
-
-       <span class="socialcolor">
-
-<i class='fa fa-youtube-play' style="font-size:25px; transform: rotate(90deg); margin-right: 0.75rem;"></i>
-      <i class='fa fa-instagram' style="font-size:25px; transform: rotate(90deg); margin-right:1rem;"></i>
-
-      <i class='fa fa-facebook' style="font-size:25px; transform: rotate(90deg); margin-right: 0;"></i>
-</div>
-        </a>
-        </span>
-  </div>
-  </div>
-    <!--Hero-->
-
-    <div class="m-hero" style="background-image: url(https://i.imgur.com/Yevx828.png;);">
-
-
-      <div class="grabber">
-      <nav>
-        <a href="index.html"> <img class="logoar" src="assets/logos/whitelogo.png" alt=""></a>
-        <ul class="navigation">
-        <a href="index.html"> <li class="nav1">CONÓCEME</li></a>
-        <li class="nav2">
-        <div class="dropdown">
-          <button class="dropbtn">SERVICIOS</button>
-          <div class="dropdown-content">
-            <a href="screen2.html">SERVICIOS PERSONALES</a>
-            <a href="screen3.html">SERVICIOS EMPRESARIALES</a>
-            <a href="screen4.html">PONENCIAS</a>
-          </div>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
         </div>
-</li>
-        <a href="screen5.html"> <li class="nav3">TIPS</li></a>
-          <li class="nav4">BLOG</li>
-          <a href="screen6.html"><li class="nav5">CONTACTO</li></a>
-        </ul>
-      </nav>
-    </div>
-
-      <div class="m-hero__inner">
-        <h1>LA ROPA ES TU</h1>
-        <h3>ALIADO</h3>
-        <h4>Veamos el mundo de la moda diferente, con <br> otras perspectiva, la moda es un aliado con el <br> que podemos contar para toda la vida. </h4>
       </div>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="responsivenav()">&#9776;</a>
     </div>
+    <!--Hero-->
+    <!--Rotating hashtag and social icons-->
+
+    <div class="realhero">
+
+        <div id="navbar">
+          <a class="active2" href="javascript:void(0)">#LA ROPA ES TU ALIADO &nbsp; &nbsp; –––––––––––––</a>
+          <div class="socialspace">
+          <a class="active2" id="active2" > <span class="rayablanca">–––––––––––––</span>
+          <span class="socialcolor">
+          <i class='fa fa-youtube-play' style="font-size:25px; transform: rotate(90deg); margin-right: 0.75rem;"></i>
+          <i class='fa fa-instagram' style="font-size:25px; transform: rotate(90deg); margin-right:1rem;"></i>
+          <i class='fa fa-facebook' style="font-size:25px; transform: rotate(90deg); margin-right: 0;"></i>
+        </div></a>
+      </span>
+    </div>
+  </div>
+</div>
+<!--Hero-->
+
+<div class="herocontrol">
+  hi
+
+</div>
+
 
     <!--Bio-->
 <div class="container1">
@@ -167,6 +159,19 @@
 
 
     <!--Scripts-->
+    <script type="text/javascript">
+
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function responsivenav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
     <!--Script for Main Slider of Our Story-->
 
     <script>
@@ -256,12 +261,12 @@
     </script>
     <!--vertical hashtag-->
     <script>
-    window.onscroll = function() {myFunction()};
+    window.onscroll = function() {stickyhashtag()};
 
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
 
-    function myFunction() {
+    function stickyhashtag() {
       if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")
       } else {
@@ -269,7 +274,32 @@
       }
     }
     </script>
-    <!--vertical social icons-->
+
+
+
+    <!--stickynav-->
+    <script type="text/javascript">
+
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myStickyNav()};
+
+    // Get the navbar
+    var stickinessofnav = document.getElementById("stickinessofnav");
+
+    // Get the offset position of the navbar
+    var sticky2 = stickinessofnav.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myStickyNav() {
+      if (window.pageYOffset >= sticky2) {
+        stickinessofnav.classList.add("sticky2")
+      } else {
+        stickinessofnav.classList.remove("sticky2");
+      }
+    }
+
+    </script>
+
 
 
 
