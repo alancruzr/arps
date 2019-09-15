@@ -120,6 +120,7 @@ font-family: 'Montserrat';
 .dropdown {
   float: right;
   overflow: hidden;
+	margin-top: .65rem;
 }
 
 /* Style the dropdown button to fit inside the topnav */
@@ -128,7 +129,6 @@ font-family: 'Montserrat';
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
