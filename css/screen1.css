@@ -83,7 +83,10 @@ float:
 
 /* Nav */
 
-
+.homebutton{
+	width: 13.0625rem;
+	margin-left: 10rem;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
