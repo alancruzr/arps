@@ -91,7 +91,9 @@ float:
   overflow: hidden;
 	background-color: #262626;
 	padding-left: 70rem;
-	padding-top: 5rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
 
 }
 
@@ -109,7 +111,7 @@ float:
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #4CAF50;
+  background-color: transparent;
   color: white;
 }
 
