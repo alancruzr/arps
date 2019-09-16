@@ -94,6 +94,9 @@ float:
 font-family: 'Montserrat';
   background-color: #333;
   overflow: hidden;
+	padding-top: 3.71875rem;
+	padding-bottom: 3.71875rem;
+	padding-right: 10rem;
 
 }
 
@@ -705,11 +708,18 @@ font-weight: 400;
 	margin: 0;
 	}
 
+.homebutton{
+	display: block;
+	width: 25rem;
+	  margin-left: 7rem;
+	  margin-right: auto;
+}
+
+
 	.topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
-    float: right;
     display: block;
   }
 	.topnav.responsive {position: relative;}
@@ -731,9 +741,13 @@ font-weight: 400;
 		text-align: left;
 	}
 
-.logoar{
-}
+a.icon{
+	position: absolute;
+	font-size: 3rem;
+	margin-left: 34rem;
+	padding-top: 4rem;
 
+}
 
 
 .container1{
