@@ -319,35 +319,6 @@ font-family: 'Montserrat';
 
 
 
-.logoar{
-	display: inline-block;
-	position:static;
-	width: 20.0625rem;
-	height: auto;
-	margin-right: 70rem;
-	margin-left: -20rem;
-	margin-top: 0;
-	padding-top: 2rem;
-}
-.navigation{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-}
-.nav1 , .nav2 , .nav3 , .nav4 , .nav5 , .nav6 {
-	margin-top: -3rem;
-	padding-top: 0;
-	padding-right: 2.0625rem;
-	color: white;
-	font-family: 'Montserrat';
-}
-.nav2{
-	background-color: transparent;
-	margin-top: -3.1rem;
-}
-
-
-
 
 
 h1{
@@ -460,7 +431,6 @@ font-weight: 300;
 .box1{
 	width: 43.8125rem;
 	padding-top: 5.9375rem;
-
 
 }
 
