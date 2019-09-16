@@ -735,6 +735,7 @@ a.active2{
   }
   .topnav a.icon {
     display: block;
+		background-color: transparent;
   }
 	.topnav.responsive {position: relative;}
 	.topnav.responsive a.icon {
