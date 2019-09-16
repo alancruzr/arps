@@ -85,6 +85,8 @@ float:
 .homebutton{
 	width: 13.0625rem;
 	margin-left: 10rem;
+	margin-top: .5rem;
+
 }
 
 
@@ -281,6 +283,8 @@ margin-left: 100rem;
 	color: white;
 	font-size: 2rem;
 	min-width: 8.8125rem;
+	margin-left: 115rem;
+	padding-bottom: 35rem;
 
 }
 
@@ -288,7 +292,6 @@ margin-left: 100rem;
 
 .click{
 	position: relative;
-margin-left: 104rem;
 	color: white;
 	font-size: 2rem;
 	min-width: 8.8125rem;
