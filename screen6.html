@@ -13,42 +13,51 @@
     <link rel="stylesheet" href="css/screen6.css">
   </head>
   <body>
-    <!--nav-->
 
-        <div id="navbar">
-          <a class="active" href="javascript:void(0)">#LA ROPA ES TU ALIADO &nbsp; &nbsp; –––––––––––––</a>
-        <div class="socialspace">
+            <!--Nav-->
+            <div class="stickyoutsidenavigation" id="stickinessofnav">
+            <div class="topnav" id="myTopnav">
+              <img class="homebutton" src="assets/logos/logoblack.jpg" alt="">
 
-         <a class="active" id="active2" href="javascript:void(0)"> <div class="rayablanca">–––––––––––––</div> <span class="socialcolor"> <i class='fa fa-youtube-play' style="font-size:25px; transform: rotate(90deg); margin-right: 0.75rem;"></i>
-            <i class='fa fa-instagram' style="font-size:25px; transform: rotate(90deg); margin-right:1rem;"></i>  <i class='fa fa-facebook' style="font-size:25px; transform: rotate(90deg); margin-right: 0;"></i></span>
+              <a href="screen6.html">CONTACTO</a>
+              <a href="">BLOG</a>
+              <a href="screen5.html">TIPS</a>
+              <div class="dropdown">
 
-      </div>
-      </div>
-
-
-
-      <nav>
-            <a href="index.html"> <img class="logoar" src="assets/logos/logoblack.jpg" alt=""></a>
-
-            <ul class="navigation">
-
-            <a href="index.html"> <li class="nav1">CONÓCEME</li></a>
-
-            <li class="nav2">
-            <div class="dropdown">
-              <button class="dropbtn">SERVICIOS</button>
-              <div class="dropdown-content">
-                <a href="screen2.html">SERVICIOS PERSONALES</a>
-                <a href="screen3.html">SERVICIOS EMPRESARIALES</a>
-                <a href="screen4.html">PONENCIAS</a>
-              </div></div></li>
-              <a href="screen5.html"> <li class="nav3">TIPS</li></a>
-              <li class="nav4">BLOG</li>
-              <a href="screen6.html" > <li class="nav5">CONTACTO</li></a>
-              </ul>
-          </nav>
+                <button class="dropbtn">SERVICIOS
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="screen2.html">SERVICIOS PERSONALES</a>
+                  <a href="screen3.html">SERVICIOS EMPRESARIALES</a>
+                  <a href="screen4.html">PONENCIAS</a>
+                </div>
+              </div>
+              <a href="index.html">CONÓCEME</a>
 
 
+              <a href="javascript:void(0);" class="icon" onclick="responsivenav()">&#9776;</a>
+
+            </div>
+            <!--Hero-->
+            <!--Rotating hashtag and social icons-->
+
+            <div class="realhero">
+
+                <div id="navbar">
+                  <a class="active2" href="javascript:void(0)">#LA ROPA ES TU ALIADO &nbsp; &nbsp; –––––––––––––</a>
+                  <div class="socialspace">
+                  <a class="active2" id="active2" > <span class="rayablanca">–––––––––––––</span>
+                  <span class="socialcolor">
+                  <i class='fa fa-youtube-play' style="font-size:25px; transform: rotate(90deg); margin-right: 0.75rem;"></i>
+                  <i class='fa fa-instagram' style="font-size:25px; transform: rotate(90deg); margin-right:1rem;"></i>
+                  <i class='fa fa-facebook' style="font-size:25px; transform: rotate(90deg); margin-right: 0;"></i>
+                </div></a>
+              </span>
+            </div>
+          </div>
+
+        </div>
 
 <!--Mailchimp FORM-->
 <div class="mailchimpdiv">
@@ -102,14 +111,115 @@
  </footer>
 </div>
 
+<!--Scripts-->
+<script type="text/javascript">
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function responsivenav() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+x.className += " responsive";
+} else {
+x.className = "topnav";
+}
+}
+</script>
+
+<!--Script for Main Slider of Our Story-->
 
 <script>
-window.onscroll = function() {myFunction()};
+  $(function() {
+    var demo1 = $("#demo1").slippry({
+      // transition: 'fade',
+      // useCSS: true,
+      // speed: 1000,
+      // pause: 3000,
+      // auto: true,
+      // preload: 'visible',
+      // autoHover: false
+    });
+
+    $('.stop').click(function () {
+      demo1.stopAuto();
+    });
+
+    $('.start').click(function () {
+      demo1.startAuto();
+    });
+
+    $('.prev').click(function () {
+      demo1.goToPrevSlide();
+      return false;
+    });
+    $('.next').click(function () {
+      demo1.goToNextSlide();
+      return false;
+    });
+    $('.reset').click(function () {
+      demo1.destroySlider();
+      return false;
+    });
+    $('.reload').click(function () {
+      demo1.reloadSlider();
+      return false;
+    });
+    $('.init').click(function () {
+      demo1 = $("#demo1").slippry();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(function() {
+    var demo1 = $("#demo2").slippry({
+      // transition: 'fade',
+      // useCSS: true,
+      // speed: 1000,
+      // pause: 3000,
+      // auto: true,
+      // preload: 'visible',
+      // autoHover: false
+    });
+
+    $('.stop').click(function () {
+      demo1.stopAuto();
+    });
+
+    $('.start').click(function () {
+      demo1.startAuto();
+    });
+
+    $('.prev').click(function () {
+      demo1.goToPrevSlide();
+      return false;
+    });
+    $('.next').click(function () {
+      demo1.goToNextSlide();
+      return false;
+    });
+    $('.reset').click(function () {
+      demo1.destroySlider();
+      return false;
+    });
+    $('.reload').click(function () {
+      demo1.reloadSlider();
+      return false;
+    });
+    $('.init').click(function () {
+      demo1 = $("#demo2").slippry();
+      return false;
+    });
+  });
+</script>
+<!--vertical hashtag-->
+<script>
+window.onscroll = function() {stickyhashtag()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function stickyhashtag() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
@@ -117,6 +227,34 @@ function myFunction() {
   }
 }
 </script>
+
+
+
+<!--stickynav-->
+<script type="text/javascript">
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myStickyNav()};
+
+// Get the navbar
+var stickinessofnav = document.getElementById("stickinessofnav");
+
+// Get the offset position of the navbar
+var sticky2 = stickinessofnav.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myStickyNav() {
+  if (window.pageYOffset >= sticky2) {
+    stickinessofnav.classList.add("sticky2")
+  } else {
+    stickinessofnav.classList.remove("sticky2");
+  }
+}
+
+</script>
+
+
+
 
 
 <!--fade in effect-->
