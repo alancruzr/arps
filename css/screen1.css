@@ -672,11 +672,8 @@ font-weight: 400;
 
 
 /* Media queries */
-@media only screen and (min-width: 798px){
-	html, body{
-	margin: 0;
-	padding: 0
-	}
+@media only screen and (max-width: 798px){
+
 
 
 .herocontrol{
