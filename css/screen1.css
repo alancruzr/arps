@@ -672,15 +672,9 @@ font-weight: 400;
 
 
 /* Media queries */
-
-@media only screen and (min-width: 798px) and (max-width: 798px) {
-
-<meta name="viewport" content=" width=device-width, initial-scale=1">
+@media only screen and (min-width: 480px) and (max-width: 798px) {
 
 
-html, body{
-	zoom: none;
-}
 
 .herocontrol{
 	margin-right: 0;
