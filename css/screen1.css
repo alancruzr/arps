@@ -943,21 +943,19 @@ font-weight: 400;
 html, body{
 	zoom: none;
 }
-
 		.herocontrol{
 			margin-right: 0;
 			padding-right: 0;
-			width: 100vw;
-			height: 100vh;
+
 		}
 		a.active2{
 			margin-left: -5rem;
 			margin-right: 1rem;
 		}
 		.homebutton{
-			display: block;
+			display: relative;
 			width: 25rem;
-			  margin-left: 7rem;
+			  margin-left: 4.6rem;
 			  margin-right: auto;
 		}
 			.topnav a:not(:first-child), .dropdown .dropbtn {
@@ -988,7 +986,7 @@ html, body{
 		a.icon{
 			position: absolute;
 			font-size: 3rem;
-			margin-left: 4rem;
+			margin-left: 1rem;
 			padding-top: 4rem;
 		}
 		.container1{
@@ -1160,11 +1158,19 @@ html, body{
 		font-family: "Montserrat";
 		font-size: 0.875rem;
 		font-weight: 400;
+		margin-left: 14rem;
 		}
 		.box7{
 			color: white;
 			margin-top: 3.5rem;
 		}
+
+#mc-embedded-subscribe{
+	position: absolute;
+	margin-left: 15rem;
+}
+
+
 		*{
 			max-width: 100%;
 			margin-right:0;
