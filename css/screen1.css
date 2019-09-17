@@ -671,8 +671,13 @@ font-weight: 400;
 
 
 
-/* Media queries */
-@media only screen and (min-width: 480px) and (max-width: 798px) {
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+
 
 
 
