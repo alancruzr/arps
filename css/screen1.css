@@ -259,7 +259,7 @@ font-family: 'Montserrat';
 
 
 /* 90 degree hashtag and social icons side to side*/
-#navbar2 a {
+#navbar2 ul {
   float: right;
   display: block;
   color: #f2f2f2;
@@ -289,12 +289,10 @@ font-family: 'Montserrat';
 #active4{
 	margin-left: -40rem;
 }
-#navbar2 a.active3 {
+#navbar2 a.active4 {
 	position: relative;
   background-color: #transparent;
   color: white;
-	font-family: "Montserrat";
-	font-size: 0.75rem;
 	font-weight: 400;
 
 }
@@ -319,8 +317,6 @@ font-family: 'Montserrat';
 	display: block;
 	color: white;
 	min-width: 8.8125rem;
-
-
 }
 .click{
 	position: relative;
@@ -336,13 +332,18 @@ font-family: 'Montserrat';
 }
 
 
-a#active4.active2{
+ul#active4.active2{
+
 	position: relative;
 	margin-left: 50em;
 	margin-right: -4rem;
 }
 
+a.linkstosocial{
+	text-decoration: none;
+	color: white;
 
+}
 
 
 
@@ -753,7 +754,6 @@ font-weight: 400;
 	color: white;
 	margin-top: 3.5rem;
 }
-
 
 
 
