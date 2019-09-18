@@ -1,6 +1,9 @@
 
 /* CSS reset */
+html{
+	scroll-behavior: smooth;
 
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,63 +58,48 @@ html, body {
             margin: 0;
             padding: 0;
         }
-
 html{
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 }
-
-
 li{
 	list-style-type: none;
 }
-
 .fadein {
     opacity:0;
 }
-
-
 div.grabber{
-
 	position: -webkit-sticky;
 position: sticky;
 top: 0;
 float:
 }
-
 /* Nav */
 .homebutton{
 	width: 18.0625rem;
 	margin-left: 10rem;
 	margin-top: .5rem;
-
 }
-
 .link1 {
 	margin-right: 2.0625em;
 }
-
 .link3{
 	margin-left: 2.0625em;
 	margin-right: 2.0625em;
 }
-
 .link4{
 	margin-right: 2.0625em;
 }
-
 .link5{
 	margin-right: 8.4375em;
 	background-color: none;
 }
-
 /* Add a black background color to the top navigation */
 .topnav {
 font-family: 'Montserrat';
 	padding-top: 3.71875rem;
 	padding-bottom: 3.71875rem;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
 	float: right;
@@ -122,27 +110,21 @@ font-family: 'Montserrat';
   text-decoration: none;
   font-size: 17px;
 }
-
 /* Add an active class to highlight the current page */
 .active {
   background-color: transparent;
   color: white;
-
 }
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
-
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
   float: right;
   overflow: hidden;
 	margin-top: .65rem;
 }
-
-
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
   font-size: 17px;
@@ -153,7 +135,6 @@ font-family: 'Montserrat';
   font-family: inherit;
   margin: 0;
 }
-
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -163,7 +144,6 @@ font-family: 'Montserrat';
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 /* Style the links inside the dropdown */
 .dropdown-content a {
   float: none;
@@ -173,55 +153,32 @@ font-family: 'Montserrat';
   display: block;
   text-align: left;
 }
-
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: none;
   color: white;
 	border-bottom: .3px solid white;
 }
-
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
   color: black;
 }
-
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-
-
-
 .herocontrol{
 	background: url("https://i.imgur.com/kHP8nd5.png");
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 1707px;
-
-
-
 }
-
 .stickyoutsidenavigation{
 	margin-top: 0;
 	padding-top: 0;
 }
-
-
-
-
-
-
-
-
-
 /* 90 degree hashtag and social icons side to side*/
-
-
-
 #navbar a {
   float: left;
   display: block;
@@ -231,39 +188,27 @@ font-family: 'Montserrat';
   text-decoration: none;
   font-size: 17px;
 	z-index: 1;
-
   transform: rotate(-90deg);
-
   /* Legacy vendor prefixes that you probably don't need... */
-
   /* Safari */
   -webkit-transform: rotate(-90deg);
-
   /* Firefox */
   -moz-transform: rotate(-90deg);
-
   /* IE */
   -ms-transform: rotate(-90deg);
-
   /* Opera */
   -o-transform: rotate(-90deg);
-
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
 }
 }
-
 #navbar a:hover {
   background-color: #ddd;
   color: black;
 }
-
 #active1{
 	margin-left: -4rem;
 }
-
-
 #navbar a.active2 {
 	position: relative;
   background-color: #transparent;
@@ -271,29 +216,21 @@ font-family: 'Montserrat';
 	font-family: "Montserrat";
 	font-size: 0.75rem;
 	font-weight: 400;
-
 }
-
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
 .sticky2 {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
-
 /* 90 degree social icons*/
-
 .socialcolor{
 	color: white;
 }
-
 
 #active2 {
 	position: absolute;
@@ -305,54 +242,80 @@ font-family: 'Montserrat';
 	padding-right: 4rem;
 
 }
-
-
-
 .click{
 	position: relative;
 	color: white;
 	font-size: 2rem;
 	min-width: 8.8125rem;
-
 }
-
-
-
 .rayablanca{
 	position: absolute;
 	margin-left: -6rem;
 	margin-top: .4rem;
 	color: white;
 }
+/* HERO */
+span.cleaner{
+  height: 0px;
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1{
-	/* Style for "LA ROPA ES" */
-
-text-transform: uppercase;
-/* Text style for "LA ROPA ES" */
+.laropa{
+	margin-top: 23rem;
+	padding-top: 0;
+	position: absolute;
+margin-left: 60.25rem;
 color: #ffffff;
 font-family: "Montserrat";
 font-size: 3.875rem;
 font-weight: bold;
 letter-spacing: -0.261rem;
+}
+
+.aliado{
+	margin-top: 0;
+	padding-top: 0;
+	position: absolute;
+	color: #ffffff;
+	font-family: "Montserrat";
+	font-size: 88px;
+	font-weight: bold;
+	padding-left: 3.2rem;
+
+}
+
+.laropa2{
+	text-align: center;
+	margin-top: 33rem;
+	padding-top: 0;
+	position: absolute;
+margin-left: 64rem;
+color: #ffffff;
+
+color: #ffffff;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 300;
+}
+
+
+.agendarcita{
+	position:sticky;
+width: 7.875rem;
+height: 2.063rem;
+background-color: #262626;
+color: white;
+margin-top: 2.9375rem;
+margin-bottom: 5.875rem;
+border-radius: .2rem;
+
+
+}
+
+.pathdown{
+	margin-top: 3rem;
+
 }
 
 h3{
