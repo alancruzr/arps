@@ -259,7 +259,13 @@ font-family: 'Montserrat';
   color: black;
 }
 
+#active1{
+	margin-left: -4rem;
+}
+
+
 #navbar a.active2 {
+	position: relative;
   background-color: #transparent;
   color: white;
 	font-family: "Montserrat";
@@ -291,11 +297,12 @@ font-family: 'Montserrat';
 
 #active2 {
 	position: absolute;
+	display: block;
 	color: white;
-	font-size: 2rem;
 	min-width: 8.8125rem;
-	margin-left: 120rem;
-	padding-bottom: 35rem;
+	margin-left: 108.9rem;
+	margin-right: 0;
+	padding-right: 4rem;
 
 }
 
