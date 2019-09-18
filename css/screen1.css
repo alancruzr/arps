@@ -447,17 +447,31 @@ font-weight: 300;
 	flex-wrap: nowrap;
 	width: inherit;
 	height: 55.938rem;
-	justify-content: center;
+	justify-content: space-around;
+	margin-left: 9rem;
+	margin-right: 0;
+
 }
 
 .box1{
 	width: 43.8125rem;
-	padding-top: 5.9375rem;
+	padding-right: 5rem;
+	padding-top: 2rem;
 
 }
 
 .box2{
+	background: url("https://i.imgur.com/8wtgy5Q.png");
+	width: 40%;
+	height: 100%;
 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	margin-right: 0;
+	padding-right: 30rem;
+	margin-left: 13rem;
 }
 
 
