@@ -436,7 +436,7 @@ font-weight: 300;
 div.franjarosa{
 	width: inherit;
 	height: 18.063rem;
-	background-color: #ffd3be;
+	background-color: rgba(255, 211, 190, 0.5);
 }
 
 p.pfranjarosa{
