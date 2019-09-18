@@ -411,14 +411,12 @@ font-weight: 300;
 	width: inherit;
 	height: 55.938rem;
 	justify-content: space-around;
-	margin-left: 9rem;
-	margin-right: 0;
+	margin-left:auto;
+	margin-right: auto;
 
 }
 
 .box1{
-	width: 43.8125rem;
-	padding-right: 5rem;
 	padding-top: 2rem;
 
 }
@@ -434,7 +432,7 @@ font-weight: 300;
 	text-align: center;
 	margin-right: 0;
 	padding-right: 30rem;
-	margin-left: 13rem;
+	margin-left: 8rem;
 }
 
 
