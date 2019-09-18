@@ -1,8 +1,6 @@
 
 /* CSS reset */
-html{
-	zoom:80%;
-}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -89,14 +87,28 @@ float:
 
 }
 
+.link1 {
+	margin-right: 2.0625em;
+}
 
+.link3{
+	margin-left: 2.0625em;
+	margin-right: 2.0625em;
+}
+
+.link4{
+	margin-right: 2.0625em;
+}
+
+.link5{
+	margin-right: 8.4375em;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
 font-family: 'Montserrat';
 	padding-top: 3.71875rem;
 	padding-bottom: 3.71875rem;
-	padding-right: 10rem;
 }
 
 /* Style the links inside the navigation bar */
@@ -128,6 +140,7 @@ font-family: 'Montserrat';
   overflow: hidden;
 	margin-top: .65rem;
 }
+
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
