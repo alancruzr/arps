@@ -102,6 +102,7 @@ float:
 
 .link5{
 	margin-right: 8.4375em;
+	background-color: none;
 }
 
 /* Add a black background color to the top navigation */
@@ -175,8 +176,9 @@ font-family: 'Montserrat';
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: none;
   color: white;
+	border-bottom: .3px solid white;
 }
 
 /* Add a grey background to dropdown links on hover */
