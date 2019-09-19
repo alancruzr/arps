@@ -340,8 +340,8 @@ ul#active4.active2{
 }
 
 a.linkstosocial{
-	text-decoration: none;
 	color: white;
+
 
 }
 
@@ -408,6 +408,13 @@ border-radius: .2rem;
 
 .pathdown{
 	margin-top: 3rem;
+
+}
+
+a.pathdownlink{
+	width: 8rem;
+	height: 2rem;
+
 
 }
 
