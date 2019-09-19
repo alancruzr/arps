@@ -369,7 +369,7 @@ font-family: "Montserrat";
 font-size: 3rem;
 font-weight: bold;
 text-align: center;
-margin-top: 4.25rem;
+margin-top: -6rem;
 }
 
 
@@ -439,27 +439,29 @@ margin-bottom: 2rem;
 	font-weight: 700;
 }
 
-
-
 .container4{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+
 }
 
 .box5 {
 	background-color: #efefef;
 	width: 100%;
-height: 31.25rem;
-padding: 0 0 0 0;
-margin: 0 0 0 0;
+height: 36.25rem;
+
 }
 
 .box6 {
 	width: 100%;
-  height: 31.25rem;
+	height: 36.25rem;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+	background: url("https://i.imgur.com/P2c3GW5.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 
@@ -467,7 +469,7 @@ h1.cambio{
 	text-align: center;
 	margin-right: 7.6875rem;
 	margin-left: 20rem;
-margin-top: 9.375rem;
+margin-top: 8.375rem;
 color: #000000;
 font-family: "Montserrat";
 font-size: 1.438rem;
@@ -944,7 +946,6 @@ flex-wrap: wrap;
 
 .box1{
 padding-top: 1rem;
-padding-bottom: 1rem;
 margin-top: 2rem;
 margin-bottom: 2rem;
 margin-right:5rem;
@@ -1135,6 +1136,7 @@ color: #808080;
 font-family: "Montserrat";
 font-size: 0.563rem;
 font-weight: 400;
+
 
 }
 
