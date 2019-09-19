@@ -543,7 +543,7 @@ justify-content: center;
 margin-top: 5.375rem;
 padding-top: 4.25rem;
 padding-bottom: 0;
-background-color: #ffd3be;
+background-color: rgba(255, 211, 190, 0.5);
 }
 
 .box3{
@@ -554,6 +554,7 @@ background-color: #ffd3be;
 .box4{
 	padding-left: 2.90625rem;
 	margin-bottom: 0;
+
 }
 
 .mailchimpdiv{
@@ -631,7 +632,7 @@ margin-bottom: 5.875rem;
 	margin-top: 0;
 	padding-top: 0;
 	padding-bottom: 8.625rem;
-	background-color: #ffd3be;
+	background-color: rgba(255, 211, 190, 0.5);
 	padding-top: 1.5rem;
 
 }
