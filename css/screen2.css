@@ -71,11 +71,18 @@ li{
 
 /* Nav */
 .homebutton{
-	width: 18.0625rem;
-	margin-left: 10rem;
-	margin-top: 0;
+	width:13.0625rem;
+	margin-left:0;
+	margin-top: -1rem;
+	margin-right: 3rem;
 	margin-bottom: 1.5rem;
 }
+
+#homelink{
+	text-decoration: none;
+	border-bottom: none;
+}
+
 .link1 {
 	margin-right: 2.0625em;
 }
@@ -96,7 +103,7 @@ li{
 .topnav {
 	position: fixed;
 font-family: 'Montserrat';
-	padding-top: 1.71875rem;
+	padding-top: 4.71875rem;
 	background-color: white;
 	width: 100%;
 
@@ -371,9 +378,6 @@ font-weight: bold;
 text-align: center;
 margin-top: -6rem;
 }
-
-
-
 .subtitulo{
 	text-align: center;
 	color: #262626;
