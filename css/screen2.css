@@ -73,7 +73,8 @@ li{
 .homebutton{
 	width: 18.0625rem;
 	margin-left: 10rem;
-	margin-top: .5rem;
+	margin-top: 0;
+	margin-bottom: 1.5rem;
 }
 .link1 {
 	margin-right: 2.0625em;
@@ -340,11 +341,6 @@ a.linkstosocial{
 
 
 }
-
-
-
-
-
 
 
 /* Section1 */
