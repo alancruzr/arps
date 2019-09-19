@@ -420,10 +420,10 @@ margin-top: -6rem;
 	text-align: center;
 	color: #262626;
 	font-family: "Montserrat";
-	font-size: 1.2rem;
+	font-size: 1rem;
   margin-top: .5rem;
 	padding-top: 0;
-margin-bottom:5.9375rem;
+margin-bottom:4.0625rem;
 }
 
 .empresarialp{
@@ -494,7 +494,8 @@ justify-content: center;
 margin-top: 5.375rem;
 padding-top: 4.25rem;
 padding-bottom: 0;
-background-color: #ffd3be;
+background-color: rgba(255, 211, 190, 0.5);
+
 }
 
 .box3{
@@ -555,7 +556,7 @@ height: 2.063rem;
 background-color: #262626;
 color: white;
 margin-top: 2.9375rem;
-margin-bottom: 5.875rem;
+margin-bottom: 5.8125rem;
 
 
 }
@@ -736,7 +737,7 @@ font-weight: 400;
 	margin-top: 0;
 	padding-top: 0;
 	padding-bottom: 8.625rem;
-	background-color: #ffd3be;
+	background-color: rgba(255, 211, 190, 0.5);
 	padding-top: 0;
 
 }
