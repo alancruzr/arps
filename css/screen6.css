@@ -1,8 +1,6 @@
 
 /* CSS reset */
-html{
-	zoom:80%;
-}
+
 *{
 	color: black;
 }
@@ -77,77 +75,85 @@ li{
 }
 
 
-.franjanegra{
-	background-color: #262626;
-height: 7.438rem;
 
+#stickinessofnav{
+	height: 1rem;
 }
-
-
 /* Nav */
 .homebutton{
-	width: 18.0625rem;
-	margin-left: 10rem;
-	margin-top: .5rem;
-
+	width:13.0625rem;
+	margin-left:0;
+	margin-top: -1rem;
+	margin-right: 3rem;
+	margin-bottom: 1.5rem;
 }
 
-div#myTopnav.topnav{
+#homelink{
+	text-decoration: none;
+	border-bottom: none;
 }
+
+.link1 {
+	margin-right: 2.0625em;
+}
+.link3{
+	margin-left: 2.0625em;
+	margin-right: 2.0625em;
+}
+.link4{
+	margin-right: 2.0625em;
+}
+.link5{
+	margin-right: 8.4375em;
+	background-color: none;
+}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
-	display:block;
+	position: fixed;
 font-family: 'Montserrat';
-	padding-right: 10rem;
-	background-color: white;
-	padding-top: 4rem;
+	padding-top: 4.71875rem;
+background-color: #262626;
+	width: 100%;
+
 
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
-	color: black;
-
 	float: right;
   display: block;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
-
 /* Add an active class to highlight the current page */
 .active {
   background-color: transparent;
   color: white;
-
 }
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
-
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
-	color: black;
   float: right;
   overflow: hidden;
 	margin-top: .65rem;
 }
-
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
   font-size: 17px;
   border: none;
   outline: none;
-  color: black;
+  color: white;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
-
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -157,7 +163,6 @@ font-family: 'Montserrat';
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 /* Style the links inside the dropdown */
 .dropdown-content a {
   float: none;
@@ -167,133 +172,94 @@ font-family: 'Montserrat';
   display: block;
   text-align: left;
 }
-
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: none;
   color: white;
+	border-bottom: .3px solid white;
 }
-
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
   color: black;
 }
-
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-
-
-
 .stickyoutsidenavigation{
 	margin-top: 0;
 	padding-top: 0;
 }
-
-
-
-
-
-
-
-
-
 /* 90 degree hashtag and social icons side to side*/
-
-
-
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
-	margin-top: 15rem;
+	margin-top: 19rem;
   text-decoration: none;
   font-size: 17px;
 	z-index: 1;
-
   transform: rotate(-90deg);
-
   /* Legacy vendor prefixes that you probably don't need... */
-
   /* Safari */
   -webkit-transform: rotate(-90deg);
-
   /* Firefox */
   -moz-transform: rotate(-90deg);
-
   /* IE */
   -ms-transform: rotate(-90deg);
-
   /* Opera */
   -o-transform: rotate(-90deg);
-
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
 }
 }
-
 #navbar a:hover {
   background-color: #ddd;
   color: black;
 }
-
+#active1{
+	margin-left: -4rem;
+}
 #navbar a.active2 {
+	position: relative;
   background-color: #transparent;
-  color: white;
+  color: black;
 	font-family: "Montserrat";
 	font-size: 0.75rem;
 	font-weight: 400;
-
 }
-
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
 .sticky2 {
-  position: fixed;
+  position: absolute;
   top: 0;
-  width: 100%;
+
 }
-
-
 /* 90 degree social icons*/
-
 .socialcolor{
 	color: white;
 }
 
-
 #active2 {
-	position: absolute;
+	float: right;
+	position: relative;
+	display: block;
 	color: white;
-	font-size: 2rem;
 	min-width: 8.8125rem;
-	margin-left: 120rem;
-	padding-bottom: 35rem;
 
 }
-
-
-
 .click{
 	position: relative;
 	color: white;
 	font-size: 2rem;
 	min-width: 8.8125rem;
-
 }
-
-
-
 .rayablanca{
 	position: absolute;
 	margin-left: -6rem;
@@ -306,11 +272,91 @@ font-family: 'Montserrat';
 
 
 
+/* 90 degree hashtag and social icons side to side*/
+#navbar2 ul {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+	margin-top: 37rem;
+  text-decoration: none;
+  font-size: 17px;
+	z-index: 1;
+  transform: rotate(-90deg);
+  /* Legacy vendor prefixes that you probably don't need... */
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+}
+#navbar2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#active4{
+	margin-left: -40rem;
+}
+#navbar2 a.active4 {
+	position: relative;
+  background-color: #transparent;
+  color: black;
+	font-weight: 400;
 
-.navigation{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* 90 degree social icons*/
+.socialcolor{
+	color: black;
+}
+
+#active4 {
+	float: right;
+	position: relative;
+	display: block;
+	color: black;
+	min-width: 8.8125rem;
+}
+.click{
+	position: relative;
+	color: black;
+	font-size: 2rem;
+	min-width: 8.8125rem;
+}
+.rayablanca{
+	position: absolute;
+	margin-left: -6rem;
+	margin-top: .4rem;
+	color: black;
+}
+
+
+ul#active4.active2{
+
+	position: relative;
+	margin-left: 50em;
+	margin-right: -4rem;
+}
+
+a.linkstosocial{
+	color: black;
+
+
 }
 
 
@@ -325,21 +371,12 @@ font-family: 'Montserrat';
 }
 
 
-/* sECTION1 */
-.franjarosa{
-width: 87.inherit;
-height: 34.125rem;
-background-color: #ffd3be;
-margin-top: 18rem;
-margin-bottom: 32.625rem;
-}
 
 
 .section2{
 	padding-top: -10rem;
 }
 
-/* sECTION2 */
 .container1{
 	display: flex;
 	flex-direction: row;
@@ -352,89 +389,8 @@ margin-bottom: 32.625rem;
 
 }
 
-.box1 , .box2 , .box3{
-width: 18.25rem;
-height: 18.25rem;
-margin-top: -10rem;
-margin-bottom: auto;
-margin-left: auto;
-
-}
 
 
-.box1{
-	background: url("https://i.imgur.com/TSzLZfN.png")
-}
-
-.box2{
-	background: url("https://i.imgur.com/VO5ZfqR.png")
-}
-
-.box3{
-	background: url("https://i.imgur.com/ftMR3ym.png")
-}
-
-
-
-
-.textboxcontainer{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	margin-right: 8.875rem;
-	margin-bottom: 3rem;
-	margin-left: auto;
-	padding-bottom: 0;
-
-
-}
-
-.textbox1 , .textbox2 , .textbox3 {
-
-	width: 18.25rem;
-	height: 7.875rem;
-	margin-top: 0;
-	margin-bottom: auto;
-	margin-left: auto;
-color: #000000;
-font-family: "Montserrat";
-font-size: 0.938rem;
-font-weight: bold;
-text-align: center;
-
-}
-
-.complementotexto{
-	color: #707070;
-font-family: "Roboto Light";
-font-size: 0.563rem;
-font-weight: 300;
-}
-
-#cont2{
-	margin-top: 15rem;
-}
-
-.box4 , .box5 , .box6{
-	width: 18.25rem;
-	height: 18.25rem;
-	margin-top: -10rem;
-	margin-bottom: auto;
-	margin-left: auto;
-
-}
-
-.box4{
-	background: url("https://i.imgur.com/dPdiM83.png")
-}
-
-.box5{
-	background: url("https://i.imgur.com/4TC2ZQP.png")
-}
-
-.box6{
-	background: url("https://i.imgur.com/87Cp55C.png")
-}
 
 
 
@@ -462,12 +418,15 @@ text-align: center;
 
 /* Mailchimp style */
 .mailchimpdiv{
+	z-index: -1;
+	position: fixed;
 	width: inherit;
 	height: 32.5rem;
 	background-color: #tr;
-	margin-top: 4.875rem;
+	margin-top: -20rem;
 	color: black;
-
+margin-left: 8rem;
+margin-right: auto;
 
 }
 
@@ -475,10 +434,10 @@ text-align: center;
 text-align: center;
 color: #ffffff;
 font-family: "Montserrat";
-font-size: 1.313rem;
+font-size: 3rem;
 font-weight: 400;
 letter-spacing: 0.063rem;
-padding-top: 3.375rem;
+margin-top: 37.375rem;
 margin-bottom: 1.75rem;
 }
 
