@@ -196,7 +196,7 @@ font-family: 'Montserrat';
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
 	margin-top: 15rem;
   text-decoration: none;
@@ -232,7 +232,7 @@ font-family: 'Montserrat';
 
 #navbar a.active2 {
   background-color: #transparent;
-  color: white;
+  color: black;
 	font-family: "Montserrat";
 	font-size: 0.75rem;
 	font-weight: 400;
@@ -256,13 +256,13 @@ font-family: 'Montserrat';
 /* 90 degree social icons*/
 
 .socialcolor{
-	color: white;
+	color: black;
 }
 
 
 #active2 {
 	position: absolute;
-	color: white;
+	color: black;
 	font-size: 2rem;
 	min-width: 8.8125rem;
 	margin-left: 120rem;
@@ -274,7 +274,7 @@ font-family: 'Montserrat';
 
 .click{
 	position: relative;
-	color: white;
+	color: black;
 	font-size: 2rem;
 	min-width: 8.8125rem;
 
@@ -286,21 +286,14 @@ font-family: 'Montserrat';
 	position: absolute;
 	margin-left: -6rem;
 	margin-top: .4rem;
-	color: white;
+	color: black;
 }
 .franjanegra{
-	background-color: #262626;
+	background-color: black;
 height: 7.438rem;
 
 }
 
-
-
-.navigation{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-}
 
 
 
@@ -311,7 +304,7 @@ height: 7.438rem;
 .franjarosa{
 width: 87.inherit;
 height: 34.125rem;
-background-color: #ffd3be;
+background-color: rgba(255, 211, 190, 0.5);
 margin-top: 18rem;
 margin-bottom: 32.625rem;
 }
@@ -328,7 +321,6 @@ margin-bottom: 32.625rem;
 	justify-content: space-around;
 	margin-right: 8.875rem;
 	margin-bottom: 3rem;
-	margin-left: auto;
 	padding-bottom: 0;
 
 
