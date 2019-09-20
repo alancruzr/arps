@@ -68,6 +68,7 @@ li{
 
 
 .separator{
+	z-index: -1;
 	width: 100%;
 	position: absolute;
 	margin-top: 37.5rem;
@@ -113,7 +114,7 @@ li{
 	position: fixed;
 font-family: 'Montserrat';
 	padding-top: 4.71875rem;
-	background-color: white;
+background-color: #262626;
 	width: 100%;
 
 
@@ -122,7 +123,7 @@ font-family: 'Montserrat';
 .topnav a {
 	float: right;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -131,7 +132,7 @@ font-family: 'Montserrat';
 /* Add an active class to highlight the current page */
 .active {
   background-color: transparent;
-  color: black;
+  color: white;
 }
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -148,7 +149,7 @@ font-family: 'Montserrat';
   font-size: 17px;
   border: none;
   outline: none;
-  color: black;
+  color: white;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -174,8 +175,8 @@ font-family: 'Montserrat';
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: none;
-  color: black;
-	border-bottom: .3px solid black;
+  color: white;
+	border-bottom: .3px solid white;
 }
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
@@ -489,7 +490,7 @@ background-color: #262626;
 color: white;
 margin-top: 2.9375rem;
 margin-bottom: 5.875rem;
-margin-left: auto;
+margin-left: -6rem;
 margin-right: auto;
 text-align: center;
 
