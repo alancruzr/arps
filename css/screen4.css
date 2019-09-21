@@ -420,14 +420,17 @@ margin-top: -6rem;
 
 .huggermugger{
 	padding-top: 10rem;
+
 }
 
 
 .franjarosa{
-width: inherit;
+	position: absolute;
+	display: grid;
+width: 100%;
 height: 20.063rem;;
 background-color: rgba(255, 211, 190, 0.5);
-
+z-index: 1;
 }
 .container1{
 
@@ -439,6 +442,7 @@ background-color: rgba(255, 211, 190, 0.5);
 
 
 .box1{
+
 
 	background: url("https://i.imgur.com/lWiGSFQ.png");
 	width:32.438rem;;
@@ -497,7 +501,7 @@ background-color: white;
 
 
 .franjagris{
-  margin-top: 23.8rem;
+  margin-top: 43.8rem;
 	height: 35.5rem;
 	background-color: #eeeeee;
 	margin-bottom: 0;
