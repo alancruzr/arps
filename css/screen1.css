@@ -767,12 +767,19 @@ font-weight: 400;
 /* Media queries for general responsive on laptop  */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 
+	body{
+		overflow-x: hidden;
+	}
+
 div.herocontrol{
-	margin-right: 0;
-	padding-right: 0;
-	width: 100%;
-	height: 100%;
-}
+		background: url("https://i.imgur.com/kHP8nd5.png");
+		background-repeat: no-repeat;
+		background-position:top;
+		width: 100%;
+		height: 100%;
+		padding-right: 99rem;
+	}
+
 a.active2{
 	margin-left: -5rem;
 	margin-right: 1rem;
@@ -780,7 +787,7 @@ a.active2{
 .homebutton{
 	display: block;
 	width: 25rem;
-	  margin-left: 7rem;
+	  margin-left: 3rem;
 	  margin-right: auto;
 }
 	.topnav a:not(:first-child), .dropdown .dropbtn {
@@ -814,6 +821,39 @@ a.icon{
 	margin-left: 4rem;
 	padding-top: 4rem;
 }
+
+.laropa{
+	position: absolute;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 2rem;
+font-weight: bold;
+letter-spacing: -0.261rem;
+margin-left: 10rem;
+margin-top: 28rem;
+}
+
+.aliado{
+	color: #ffffff;
+	font-family: "Montserrat";
+	font-size: 2rem;
+	font-weight: bold;
+
+}
+
+.laropa2{
+	padding-top: 0;
+	position: absolute;
+color: #ffffff;
+margin-left: 6rem;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 300;
+}
+
+
+
+
 .container1{
 display: flex;
 flex-wrap: wrap;
@@ -823,19 +863,32 @@ padding-top: 1rem;
 padding-bottom: 1rem;
 margin-top: 2rem;
 margin-bottom: 2rem;
-margin-right:5rem;
+margin-right: 10rem;
 }
 
 
+
+p.biop2{
+padding: .1em .1rem .1rem .1rem;
+}
 .franjarosa{
-	margin-top: 40rem;
+	margin-top: 50rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 2rem;
 }
 .slidertitle{
-	margin-top: 4rem;
+	margin-top: 12rem;
+	padding-bottom: 0;
 }
 .slidertitulo{
-	margin-top: 3rem;
+	margin-top: -8rem;
 }
+
+
+
+
+
 .twoimages{
 	display: none;
 	display: flex;
