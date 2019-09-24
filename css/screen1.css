@@ -1108,7 +1108,8 @@ button.dropbtn{padding-left: 1rem;}
 		background-repeat: no-repeat;
 		background-position: top ;
 		height: 100%;
-		width: 100vw;
+		width: 100%;
+		zoom:80%;
 		margin: 0;
 		padding: 0;
 
