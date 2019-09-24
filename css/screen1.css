@@ -1098,11 +1098,14 @@ html, body{
 
 
 		div.herocontrol{
+			background: url('https://i.imgur.com/8tg7dAl.png');
 		background-repeat: no-repeat;
+		background-position: top ;
 		height: 100%;
-		width: 100%;
+		width: 100vw;
 		margin: 0;
 		padding: 0;
+
 		}
 
 
