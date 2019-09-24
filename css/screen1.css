@@ -1157,10 +1157,23 @@ h5.h5bold{
 	background-position: center;
 	text-align: center;
 	margin-right: 0;
-
+	padding-right: 32rem;
+}
+div.franjarosa{
+	width: 85vw;
+	height: 18.063rem;
+	background-color: rgba(255, 211, 190, 0.5);
 
 }
 
+p.pfranjarosa{
+	margin-top: -2rem;
+}
+
+p#slidertitulomedios{
+	padding-top: 0;
+	margin-top: -15rem;
+}
 
 }
 
