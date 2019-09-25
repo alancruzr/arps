@@ -827,31 +827,30 @@ font-weight: 400;
 font-family: "Montserrat";
 font-size: 0.875rem;
 font-weight: 400;
-
-
 }
-
 .boxw{
 	color: white;
 	margin-top: 3.5rem;
-
-
 }
 
 
-
-
-
-
-
 /* Media queries */
-@media only screen and (max-width: 798px){
+@media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
 	margin: 0;
 	}
-	div#myTopnav.topnav{
+
+	.homebuttonresponsive{
+		position: fixed;
+		margin-top: 1rem;
+		margin-left:5.5rem;
+		width: 20rem;
+		z-index: 1;
 	}
 
+a.link5{
+display: none;
+}
 
 .container3{
 	display: flex;
@@ -902,18 +901,6 @@ a.active2{
 margin-left: -5rem;
 margin-right: 1rem;
 }
-
-
-.homebutton{
-	position: static;
-	background-color: white;
-display: block;
-width: 25rem;
-	margin-left: 7rem;
-	margin-right: auto;
-
-}
-
 
 
 .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -1003,10 +990,6 @@ padding-top: 0;
 width: 900px;
 
 }
-
-
-
-
 
 /* Mailchimp mobile style */
 .mailchimpdiv{
