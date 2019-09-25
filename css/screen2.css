@@ -70,6 +70,15 @@ li{
 }
 
 /* Nav */
+image.homebuttonresponsive{
+	display: none;
+}
+
+a.hbp{
+	display: none;
+
+}
+
 .homebutton{
 	width:13.0625rem;
 	margin-left:0;
@@ -838,6 +847,11 @@ font-weight: 400;
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
 	margin: 0;
+	}
+
+	a.hbp{
+		display: block;
+
 	}
 
 	.homebuttonresponsive{
