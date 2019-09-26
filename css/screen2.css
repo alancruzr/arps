@@ -872,7 +872,78 @@ display: none;
 	display: flex;
 	flex-direction: column;
 }
-.box5 {
+
+.container4{
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+
+}
+
+.box5{
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+
+h1.cambio{
+	margin: 0;
+	margin-top: 5rem;
+	padding: -1rem;
+}
+
+h2.cambio{
+	margin: 0;
+	padding: 0;
+}
+
+h2.cambio2{
+	margin: 0;
+	padding: 0;
+}
+.wrapper1{
+	margin: 0;
+	padding: 0;
+}
+
+
+h2.h2franja{
+
+text-transform: uppercase;
+/* Text style for "CAMBIO DE" */
+color: #000000;
+font-family: "Montserrat";
+font-size: 1.438rem;
+font-weight: bold;
+text-align: center;
+margin-top: 8.1875rem;
+
+}
+
+
+
+h4.h4franja.fadein{
+display: none;
+color: #707070;
+font-family: "Roboto";
+font-size: 0.813rem;
+font-weight: 300;
+text-align: center;
+}
+
+h4.h4franja2.fadein{
+	display: none;
+	color: #707070;
+	font-family: "Roboto";
+	font-size: 0.813rem;
+	font-weight: 700;
+	text-align: center;
+
+
+}
+
+.boxy {
 	color: white;
 	margin-top: 3.5rem;
 color: #808080;
@@ -880,14 +951,14 @@ font-family: "Montserrat";
 font-size: 0.563rem;
 font-weight: 400;
 }
-.box6{
+.boxz{
 	color: white;
 	margin-top: 3.5rem;
 font-family: "Montserrat";
 font-size: 0.875rem;
 font-weight: 400;
 }
-.box7{
+.boxw{
 	color: white;
 	margin-top: 3.5rem;
 }
@@ -995,132 +1066,14 @@ width: 900px;
 }
 /* Mailchimp mobile style */
 .mailchimpdiv{
+	display: none;
 width: inherit;
 height: 35.5rem;
 background-color: #262626;
 margin-top: 4.875rem;
 }
-.contactotitle{
-text-align: center;
-color: #ffffff;
-font-family: "Montserrat";
-font-size: 1.313rem;
-font-weight: 400;
-letter-spacing: 0.063rem;
-padding-top: 3.375rem;
-margin-bottom: 1.75rem;
-}
-.contactosubtitle{
-text-align: center;
-color: #ffffff;
-font-family: "Montserrat";
-font-size: 0.875rem;
-font-weight: 400;
-margin-bottom: 3.1875rem;
-}
-label {
-color: white;
-font-family: 'Montserrat';
-}
-.mc-field-group{
-text-align: center;
-}
-.inlinemail{
-display: inline-block;
-}
-.mailcenter{
-text-align: center;
-margin-bottom:3rem ;
-}
-label{
-margin-right: 0;
-padding-right: 0;
-}
-#mce-FNAME{
-background-color:  #262626;
-width: 20.625rem;
-height: 1.5rem;
-border: 0.063rem solid #ffffff;
-margin-left: 4.7rem;
-}
-#mce-EMAIL{
-	background-color: #262626;
-	width: 20.625rem;
-	height: 1.5rem;
-	margin-right: 0;
-	margin-left: 4.5rem;
-	margin-bottom: 2rem;
-}
-#mce-MMERGE2{
-background-color: #262626;
-width: 20.625rem;
-height: 1.5rem;
-margin-right: 0;
-margin-left: 4.5rem;
-margin-bottom: 2rem;
-}
-.buttonmail {
-margin-left: 50%;
-width: 5rem;
-height: 1.688rem;
-background-color: #ffffff;
-color: #262626;
-font-family: "Montserrat";
-font-size: 0.625rem;
-font-weight: bold;
-border-radius: .2rem;
-}
-.whatsappbutton{
-display: none;
-position: absolute;
-margin-left: 12.3rem;
-color: white;
-font-size: 2rem;
-font-weight: 400;
-}
-.tel{
-display: none;
-color: #ffffff;
-font-family: "Montserrat";
-font-size: 1.2rem;
-font-weight: 400;
-}
-.customborder{
-display: none;
-width: 70.5rem;
- border-bottom: 0.038333333333rem solid white;
- margin-left: 16%;
- margin-right: auto;
- margin-top: 2.5625rem;
-}
-.containerfooter{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-}
-.sociallinks{
-text-decoration: none;
-color: black;
-}
 
-.boxy {
-color: white;
-margin-top: 3.5rem;
-color: #808080;
-font-family: "Montserrat";
-font-size: 0.563rem;
-font-weight: 400;
-}
-.boxz{
-color: white;
-margin-top: 3.5rem;
-font-family: "Montserrat";
-font-size: 0.875rem;
-font-weight: 400;
-}
-.boxw{
-color: white;
-margin-top: 3.5rem;
+.twotexts{
 }
 
 *{
