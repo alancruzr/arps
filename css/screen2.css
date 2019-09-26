@@ -420,6 +420,7 @@ margin-top: -6rem;
 	font-family: "Montserrat";
 	margin-bottom: 5.5625rem;
 
+
 }
 
 
@@ -848,6 +849,8 @@ font-weight: 400;
 	html, body{
 	margin: 0;
 	overflow-x: hidden;
+	padding: 0;
+	height: auto;
 	}
 
 
@@ -907,38 +910,55 @@ h2.cambio2{
 	padding: 0;
 }
 
+.filler{
+	padding: 2rem 2rem 2rem 2rem;
+}
+
+.filler2{
+	padding: 1px 2rem 2rem 2rem;
+}
+
+.franjablanca{
+	margin:0;
+	padding: 2rem 2rem 2rem 2rem;
+	margin-top: 4rem;
+}
 
 h2.h2franja{
-
+margin: 0;
+padding: 0;
 text-transform: uppercase;
 /* Text style for "CAMBIO DE" */
 color: #000000;
 font-family: "Montserrat";
 font-size: 1.438rem;
 font-weight: bold;
-text-align: center;
-margin-top: 8.1875rem;
+
+}
+
+h3.h3franja{
+	margin: 0;
+	padding: 0;
 
 }
 
 
-
 h4.h4franja.fadein{
-display: none;
+	margin: 0;
+	padding: 0;
 color: #707070;
 font-family: "Roboto";
 font-size: 0.813rem;
 font-weight: 300;
-text-align: center;
 }
 
 h4.h4franja2.fadein{
-	display: none;
+	margin: 0;
+	padding: 0;
 	color: #707070;
 	font-family: "Roboto";
 	font-size: 0.813rem;
 	font-weight: 700;
-	text-align: center;
 
 
 }
@@ -1018,6 +1038,8 @@ p.highlighti{
 	margin: 0;
  padding-right: 2rem;
  padding-left: 2rem;
+ border-right: none;
+
 
 }
 
@@ -1044,36 +1066,55 @@ section.tallerescontainer{
 }
 
 
-.twoimages{
-display: none;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-max-width: 500px;
-}
-.box3{
-display: none;
-margin-bottom: 0;
-padding-bottom: 0;
-width: 900px;
-}
-.box4{
-display: none;
-margin-top: 0;
-padding-top: 0;
-width: 900px;
-}
+
 /* Mailchimp mobile style */
 .mailchimpdiv{
-	display: none;
 width: inherit;
 height: 35.5rem;
 background-color: #262626;
 margin-top: 4.875rem;
 }
 
+
+.twoimages{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 0;
+}
+.box3{
+	margin: 0;
+	padding: 0;
+
+}
+
+.box4{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 4rem;
+	margin-bottom: 0;
+
+}
+
+
+
 .twotexts{
+	display: none;
+	margin: 0;
+padding:0;
+}
+
+.text1{
+	margin: 0;
+padding:0;
+
+}
+
+.text2{
+	margin: 0;
+padding:0;
+
 }
 
 *{
