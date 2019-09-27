@@ -342,13 +342,12 @@ font-family: 'Montserrat';
 	color:  black;
 }
 
-
-ul#active4.active2{
-
-	position: relative;
-	margin-left: 50em;
-	margin-right: -4rem;
+a#active1.active2{
+	position: fixed;
+	margin-top: 33rem;
+	margin-left: -6rem;
 }
+
 
 a.linkstosocial{
 	color: black;
@@ -801,11 +800,14 @@ font-weight: bold;
 }
 
 /* Media queries */
-@media only screen and (max-width: 798px){
+@media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
 	margin: 0;
 	}
 
+.active2{
+	display: none;
+}
 
 	a.hbp{
 		display: block;
@@ -881,20 +883,42 @@ font-weight: bold;
 	}
 
 	a.icon{
-
-	position: absolute;
-	font-size: 3rem;
-	margin-left: 4rem;
-	padding-top: 4rem;
-
+		position: absolute;
+		font-size: 3rem;
+		margin-left: -.5rem;
+		padding-top: 4rem;
 	}
-
 
 p.empresarialp{
 	display: none;
 }
 
+.twoimages{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 5.375rem;
+padding-top: 4.25rem;
+padding-bottom: 0;
+background-color: rgba(255, 211, 190, 0.5);
 
+}
+
+.box3{
+padding: 0;
+margin: 0;
+padding-bottom: 2rem;
+}
+
+.box4{
+padding: 0;
+margin: 0;
+
+}
+
+.twotexts{
+	display: none;
+}
 
 
 
@@ -1081,6 +1105,13 @@ font-weight: 400;
 
 }
 
+.navbar2{
+	display: none;
+}
+
+ul.active2#active4{
+	display: none;
+}
 
 
 *{
@@ -1088,7 +1119,17 @@ max-width: 100%;
 }
 
 
-
-
-
 }
+
+/* Iphone 6 7 8 Plus Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+img.homebuttonresponsive{
+	margin-left: 2rem;
+	margin-right: auto;
+}
+
+	}
