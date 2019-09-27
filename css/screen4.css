@@ -736,82 +736,132 @@ font-weight: 400;
 
 }
 
-
-
-
-
-
-
 /* Media queries */
-@media only screen and (max-width: 798px){
+@media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
 	margin: 0;
 	}
 
-		.herocontrol{
-		margin-right: 0;
-		padding-right: 0;
-		width: 100%;
-		height: 100%;
+.active2{
+	display: none;
+}
 
-		}
-
-
-
-		a.active2{
-		margin-left: -5rem;
-		margin-right: 1rem;
-		}
-
-
-		.homebutton{
-			position: static;
-			background-color: white;
+	a.hbp{
 		display: block;
-		width: 25rem;
-			margin-left: 7rem;
-			margin-right: auto;
-			padding-bottom: 4rem;
 
-		}
+	}
+
+	a.link5{
+	display: none;
+	}
+
+	.homebuttonresponsive{
+		position: fixed;
+		margin-top: 1rem;
+		margin-left:5.5rem;
+		width: 20rem;
+		z-index: 1;
+	}
+
+	.herocontrol{
+	margin-right: 0;
+	padding-right: 0;
+	width: 100%;
+	height: 100%;
+
+	}
 
 
 
-		.topnav a:not(:first-child), .dropdown .dropbtn {
-			display: none;
-		}
-		.topnav a.icon {
-			display: block;
-			color: black;
-			background-color: transparent;
-		}
-		.topnav.responsive {position: relative;}
-		.topnav.responsive a.icon {
-			position: absolute;
-			right: 0;
-			top: 0;
-		}
-		.topnav.responsive a {
-			float: none;
-			display: block;
-			text-align: left;
-		}
-		.topnav.responsive .dropdown {float: none;}
-		.topnav.responsive .dropdown-content {position: relative;}
-		.topnav.responsive .dropdown .dropbtn {
-			display: block;
-			width: 100%;
-			text-align: left;
-		}
+	a.active2{
+	margin-left: -5rem;
+	margin-right: 1rem;
+	}
 
-		a.icon{
 
+	.homebutton{
+		position: static;
+		background-color: white;
+	display: block;
+	width: 25rem;
+		margin-left: 7rem;
+		margin-right: auto;
+		padding-bottom: 4rem;
+
+	}
+
+
+
+	.topnav a:not(:first-child), .dropdown .dropbtn {
+		display: none;
+	}
+	.topnav a.icon {
+		display: block;
+		color: black;
+		background-color: transparent;
+	}
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+
+	a.icon{
 		position: absolute;
 		font-size: 3rem;
-		margin-left: 4rem;
+		margin-left: -.5rem;
 		padding-top: 4rem;
+	}
 
-		}
+p.empresarialp{
+	display: none;
+}
+
+.twoimages{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 5.375rem;
+padding-top: 4.25rem;
+padding-bottom: 0;
+background-color: rgba(255, 211, 190, 0.5);
+
+}
+
+.box3{
+padding: 0;
+margin: 0;
+padding-bottom: 2rem;
+}
+
+.box4{
+padding: 0;
+margin: 0;
+
+}
+
+.twotexts{
+	display: none;
+}
+
+
+
+
+
+
 
 
 
@@ -824,12 +874,17 @@ font-weight: 400;
 
 
 
+
+
+
+
+
 /* Mailchimp mobile style */
 .mailchimpdiv{
 	width: inherit;
 	height: 35.5rem;
 	background-color: #262626;
-	margin-top: 0;
+	margin-top: 4.875rem;
 
 }
 
@@ -959,7 +1014,7 @@ font-weight: 400;
 	color: white;
 }
 
-.box5 {
+.boxy {
 	color: white;
 	margin-top: 3.5rem;
 color: #808080;
@@ -969,7 +1024,7 @@ font-weight: 400;
 
 }
 
-.box6{
+.boxz{
 	color: white;
 	margin-top: 3.5rem;
 
@@ -980,13 +1035,20 @@ font-weight: 400;
 
 }
 
-.box7{
+.boxw{
 	color: white;
 	margin-top: 3.5rem;
 
 
 }
 
+.navbar2{
+	display: none;
+}
+
+ul.active2#active4{
+	display: none;
+}
 
 
 *{
@@ -994,6 +1056,17 @@ max-width: 100%;
 }
 
 
-
-
 }
+
+/* Iphone 6 7 8 Plus Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+img.homebuttonresponsive{
+	margin-left: 2rem;
+	margin-right: auto;
+}
+
+	}
