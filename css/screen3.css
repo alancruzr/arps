@@ -70,6 +70,13 @@ li{
 }
 
 /* Nav */
+
+a.hbp{
+	display: none;
+
+}
+
+
 .homebutton{
 	width:13.0625rem;
 	margin-left:0;
@@ -792,6 +799,24 @@ font-weight: bold;
 @media only screen and (max-width: 798px){
 	html, body{
 	margin: 0;
+	}
+
+
+	a.hbp{
+		display: block;
+
+	}
+
+	a.link5{
+	display: none;
+	}
+
+	.homebuttonresponsive{
+		position: fixed;
+		margin-top: 1rem;
+		margin-left:5.5rem;
+		width: 20rem;
+		z-index: 1;
 	}
 
 	.herocontrol{

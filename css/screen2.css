@@ -1286,3 +1286,18 @@ max-width: 100%;
 
 
 }
+
+
+
+/* Iphone 6 7 8 Plus Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+img.homebuttonresponsive{
+	margin-left: 2rem;
+	margin-right: auto;
+}
+
+	}
