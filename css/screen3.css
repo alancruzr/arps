@@ -463,9 +463,11 @@ margin-bottom:4.0625rem;
 }
 
 
-.highlighti {
-	border-right: .063rem solid #262626;
-	padding: 2rem 7.875rem 6.9375rem 17.0625rem;
+p.highlighti {
+	text-align: center;
+	display: block;
+  padding: 2rem 2rem 2rem 2rem;
+	border-right:none;
 	font-family: "Montserrat";
 	margin-bottom: 5.5625rem;
 
@@ -794,6 +796,9 @@ font-size: 0.875rem;
 font-weight: bold;
 }
 
+.highlighti{
+	display: none;
+}
 
 /* Media queries */
 @media only screen and (max-width: 798px){
@@ -885,11 +890,30 @@ font-weight: bold;
 	}
 
 
+p.empresarialp{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 .mailchimpdiv{
 	width: 100%;
 	margin-right: 0;
 	padding-right: 0;
 }
+
+
+
+
+
 
 
 
