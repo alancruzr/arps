@@ -755,7 +755,9 @@ font-weight: 400;
 
 }
 
-
+.ponenciasmobilecontent3{
+	display: none;
+}
 /* Media queries */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
