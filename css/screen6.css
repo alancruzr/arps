@@ -1,10 +1,6 @@
 
 /* CSS reset */
 
-*{
-	color: black;
-}
-
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -613,15 +609,18 @@ label{
 	color: black;
 }
 
+a.hbp{
+	display: none;
+
+}
 
 
 /* Media queries */
 
-@media only screen and (max-width: 798px){
+@media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
 	margin: 0;
 	}
-
 
 		.herocontrol{
 		margin-right: 0;
@@ -636,18 +635,6 @@ label{
 		a.active2{
 		margin-left: -5rem;
 		margin-right: 1rem;
-		}
-
-
-		.homebutton{
-			position: static;
-			background-color: white;
-		display: block;
-		width: 25rem;
-			margin-left: 7rem;
-			margin-right: auto;
-			padding-bottom: 4rem;
-
 		}
 
 
@@ -683,30 +670,22 @@ label{
 
 		position: absolute;
 		font-size: 3rem;
-		margin-left: 4rem;
+		margin-left: -.5rem;
 		padding-top: 4rem;
 
 		}
+		a.link5{
+	     display: ;
+		}
 
-
-.mailchimpdiv{
-	width: 100%;
-	margin-right: 0;
-	padding-right: 0;
-	color: black;
-
+.homebutton{
+	display: none;
 }
-
-
-
 
 /* Mailchimp mobile style */
 .mailchimpdiv{
-	width: inherit;
-	height: 35.5rem;
-	background-color: none;
-	margin-top: 4.875rem;
-	color: black;
+margin-left: -.3rem;
+margin-top: -40rem;
 
 }
 
@@ -879,7 +858,12 @@ h1, h2, h3, h4, h5 , h6{
 }
 
 .contactotitle , .contactosubtitle{
+	padding-top: 10rem;
 	color: black;
+}
+
+.contactosubtitle{
+	margin-top: -9rem;
 }
 
 label{
@@ -905,5 +889,22 @@ label{
 max-width: 100%;
 }
 
+#active1{
+	margin-left: -6.5rem;
+}
+
+a.hbp{
+	position: absolute;
+	display: block;
+	background-color: #262626;
+	margin-top: -5rem;
+	width: 19rem;
+	padding-left: 3rem;
+	padding-top: 2rem;
+}
+
+.topnav#myTopnav{
+	height: 2rem;
+}
 
 }
