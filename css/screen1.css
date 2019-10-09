@@ -1257,7 +1257,7 @@ footer{background-color: #262626;}
 
 }
 
-@media only screen and (min-width: 360px) and (orientation: portrait) { 
+@media only screen and (min-width: 360px) and (orientation: portrait) {
 	body{
 		overflow-x: hidden;
 	}
@@ -1271,13 +1271,17 @@ div.herocontrol{
 		padding-right: 99rem;
 	}
 
+a.active2#active1{
+	margin-left: -6rem;
+	margin-top: 15rem;
+}
 a.active2{
 	margin-left: -5rem;
 	margin-right: 1rem;
 }
 .homebutton{
 	display: block;
-	width: 25rem;
+	width: 16.5rem;
 	  margin-left: 3rem;
 	  margin-right: auto;
 }
@@ -1309,8 +1313,9 @@ a.active2{
 a.icon{
 	position: absolute;
 	font-size: 3rem;
-	margin-left: 4rem;
+	margin-left: 1rem;
 	padding-top: 4rem;
 }
+
 
 }
