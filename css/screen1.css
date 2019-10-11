@@ -1315,7 +1315,23 @@ a.icon{
 	font-size: 3rem;
 	margin-left: 1rem;
 	padding-top: 4rem;
-	
+
+}
+.container1{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.box1{
+
+margin-left: -11rem;
+
+
+}
+.biop2wrapper{
+	margin-top: -3rem;
+	padding: 2rem 10rem 2rem 2rem;
 }
 
 
