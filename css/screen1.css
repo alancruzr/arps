@@ -833,6 +833,7 @@ font-weight: bold;
 letter-spacing: -0.261rem;
 margin-left: 10rem;
 margin-top: 28rem;
+text-align: center;
 }
 
 .aliado{
@@ -1051,6 +1052,7 @@ font-weight: 400;
 }
 
 
+
 /* Media queries for general responsive on laptop  */
 @media only screen and (min-width: 768px) and (max-width: 1920px) {
 
@@ -1087,7 +1089,9 @@ font-weight: 400;
 
 
 
+@media (min-width: 768px) and (max-width: 1024px) {
 
+*{display: none;}
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
@@ -1247,6 +1251,7 @@ footer{background-color: #262626;}
 
 
 }
+
 
 /* Portrait */
 @media only screen
