@@ -1061,7 +1061,6 @@ font-weight: 400;
 	display: block;
 	position: absolute;
 	text-align: center;
-
 }
 
 
@@ -1091,7 +1090,9 @@ font-weight: 400;
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-*{display: none;}
+.twoimages{
+	display: none;
+}
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
