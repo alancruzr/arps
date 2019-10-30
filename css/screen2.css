@@ -415,8 +415,9 @@ margin-top: -6rem;
 
 .highlighti {
 	text-align: center;
-	border-right: .063rem solid #262626;
-	padding: 2rem 7.875rem 6.9375rem 17.0625rem;
+  margin-left: 23rem;
+	margin-right: 23rem;
+
 	font-family: "Montserrat";
 	margin-bottom: 5.5625rem;
 
@@ -842,3 +843,459 @@ font-weight: 400;
 	color: white;
 	margin-top: 3.5rem;
 }
+
+
+/* Media queries */
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+	html, body{
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+	height: auto;
+	}
+
+
+	a.hbp{
+		display: block;
+
+	}
+
+	.homebuttonresponsive{
+		position: fixed;
+		margin-top: 1rem;
+		margin-left:5.5rem;
+		width: 20rem;
+		z-index: 1;
+	}
+
+a.link5{
+display: none;
+}
+
+.container3{
+	display: flex;
+	flex-direction: column;
+}
+
+.container4{
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+
+}
+
+.box5{
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+
+h1.cambio{
+	margin: 0;
+	margin-top: 5rem;
+	padding: -1rem;
+}
+
+h2.cambio{
+	margin: 0;
+	padding: 0;
+}
+
+h2.cambio2{
+	margin: 0;
+	padding: 0;
+}
+.wrapper1{
+	margin: 0;
+	padding: 0;
+}
+
+.filler{
+	padding: 2rem 2rem 2rem 2rem;
+}
+
+.filler2{
+	padding: 1px 2rem 2rem 2rem;
+}
+
+.franjablanca{
+	margin:0;
+	padding: 2rem 2rem 2rem 2rem;
+	margin-top: 4rem;
+}
+
+h2.h2franja{
+margin: 0;
+padding: 0;
+text-transform: uppercase;
+/* Text style for "CAMBIO DE" */
+color: #000000;
+font-family: "Montserrat";
+font-size: 1.438rem;
+font-weight: bold;
+
+}
+
+h3.h3franja{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+h4.h4franja.fadein{
+	margin: 0;
+	padding: 0;
+color: #707070;
+font-family: "Roboto";
+font-size: 0.813rem;
+font-weight: 300;
+}
+
+h4.h4franja2.fadein{
+	margin: 0;
+	padding: 0;
+	color: #707070;
+	font-family: "Roboto";
+	font-size: 0.813rem;
+	font-weight: 700;
+
+
+}
+
+.boxy {
+	color: white;
+	margin-top: 3.5rem;
+color: #808080;
+font-family: "Montserrat";
+font-size: 0.563rem;
+font-weight: 400;
+}
+.boxz{
+	color: white;
+	margin-top: 3.5rem;
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+}
+.boxw{
+	color: white;
+	margin-top: 3.5rem;
+}
+
+a#active1.active2{
+	position: fixed;
+	margin-top: 33rem;
+	margin-left: -6rem;
+}
+
+div#navbar2{
+	display: none;
+}
+
+
+
+a.active2{
+	display: none;
+	margin-left: -5rem;
+	margin-right: 1rem;
+}
+
+	.topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    display: block;
+		background-color: transparent;
+  }
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+a.icon{
+	position: absolute;
+	font-size: 3rem;
+	margin-left: -.5rem;
+	padding-top: 4rem;
+}
+
+
+p.highlighti{
+	margin: 0;
+ padding-right: 2rem;
+ padding-left: 2rem;
+ border-right: none;
+
+
+}
+
+p.highlightp{
+	margin: 0;
+ padding-right: 2rem;
+ padding-left: 2rem;
+
+}
+
+.h5bold{
+
+	}
+
+.subtitulo{
+}
+div.imagendetalleres{
+	margin-bottom: 0;
+
+}
+
+section.tallerescontainer{
+	margin-bottom: 8.33rem;
+}
+
+
+
+.twoimages{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 0;
+}
+.box3{
+	margin: 0;
+	padding: 0;
+
+}
+
+.box4{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 4rem;
+	margin-bottom: 0;
+
+}
+
+
+
+.twotexts{
+	display: none;
+	margin: 0;
+padding:0;
+}
+
+.text1{
+	margin: 0;
+padding:0;
+
+}
+
+.text2{
+	margin: 0;
+padding:0;
+
+}
+
+
+
+/* Mailchimp mobile style */
+.mailchimpdiv{
+	width: inherit;
+	height: 35.5rem;
+	background-color: #262626;
+	margin-top: 4.875rem;
+
+}
+
+.contactotitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.313rem;
+font-weight: 400;
+letter-spacing: 0.063rem;
+padding-top: 3.375rem;
+margin-bottom: 1.75rem;
+}
+
+.contactosubtitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+margin-bottom: 3.1875rem;
+}
+
+label {
+	color: white;
+	font-family: 'Montserrat';
+}
+
+
+.mc-field-group{
+	text-align: center;
+
+}
+
+.inlinemail{
+	display: inline-block;
+}
+
+.mailcenter{
+	text-align: center;
+  margin-bottom:3rem ;
+}
+
+
+label{
+	margin-right: 0;
+	padding-right: 0;
+
+}
+
+#mce-FNAME{
+	background-color:  #262626;
+  width: 20.625rem;
+	height: 1.5rem;
+	border: 0.063rem solid #ffffff;
+	margin-left: 4.7rem;
+}
+#mce-EMAIL{
+		background-color: #262626;
+	  width: 20.625rem;
+		height: 1.5rem;
+		margin-right: 0;
+		margin-left: 4.5rem;
+		margin-bottom: 2rem;
+}
+#mce-MMERGE2{
+	background-color: #262626;
+	width: 20.625rem;
+	height: 1.5rem;
+	margin-right: 0;
+	margin-left: 4.5rem;
+	margin-bottom: 2rem;
+}
+
+.buttonmail {
+	margin-left: 50%;
+width: 5rem;
+height: 1.688rem;
+background-color: #ffffff;
+color: #262626;
+font-family: "Montserrat";
+font-size: 0.625rem;
+font-weight: bold;
+border-radius: .2rem;
+}
+
+.whatsappbutton{
+	display: none;
+  position: absolute;
+	margin-left: 12.3rem;
+	color: white;
+font-size: 2rem;
+font-weight: 400;
+
+}
+
+.tel{
+	display: none;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.2rem;
+font-weight: 400;
+}
+
+
+.customborder{
+	display: none;
+  width: 70.5rem;
+	 border-bottom: 0.038333333333rem solid white;
+	 margin-left: 16%;
+	 margin-right: auto;
+	 margin-top: 2.5625rem;
+}
+
+
+.containerfooter{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+.sociallinks{
+	text-decoration: none;
+	color: white;
+}
+
+.boxy {
+	color: white;
+	margin-top: 3.5rem;
+color: #808080;
+font-family: "Montserrat";
+font-size: 0.563rem;
+font-weight: 400;
+
+}
+
+.boxz{
+	color: white;
+	margin-top: 3.5rem;
+
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+
+
+}
+
+.boxw{
+	color: white;
+	margin-top: 3.5rem;
+
+
+}
+
+
+
+*{
+max-width: 100%;
+}
+
+
+
+
+}
+
+
+
+/* Iphone 6 7 8 Plus Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+img.homebuttonresponsive{
+	margin-left: 2rem;
+	margin-right: auto;
+}
+
+	}
