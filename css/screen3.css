@@ -361,14 +361,14 @@ a.linkstosocial{
 
 section.tallerescontainer{
 	background-color: rgba(117, 117, 117, 0.08);
-	height: 520px;
+	height: 473px;
 	margin-bottom: 15rem;
 
 }
 
 
 .imagendetalleres{
-	background: url("https://i.imgur.com/2YDr7Bt.jpg");
+	background: url("https://i.imgur.com/FPmxCZq.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -376,7 +376,7 @@ section.tallerescontainer{
 	height: 321px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 18rem;
+	padding-top: 19rem;
 	margin-bottom: 3rem;
 }
 
