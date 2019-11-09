@@ -618,6 +618,23 @@ a.hbp{
 	margin: 0;
 	}
 
+		a.hbp{
+			display: block;
+
+		}
+
+
+			.homebuttonresponsive{
+				position: fixed;
+				margin-top: 5rem;
+				margin-left:2rem;
+				width: 20rem;
+				z-index: 3;
+			}
+
+a.link5{
+	display: none;
+}
 		.herocontrol{
 		margin-right: 0;
 		padding-right: 0;
