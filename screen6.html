@@ -5,7 +5,6 @@
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/fe1e9c14d7.js"></script>
-
     <script src="js/slippry.js"></script>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/plugins/slippry.css">
@@ -15,17 +14,15 @@
   </head>
   <body>
     <!--Nav-->
-
+    <!--Nav-->
     <div class="stickyoutsidenavigation" id="stickinessofnav">
     <div class="topnav" id="myTopnav">
-      <a class="hbp" href="index.html">  <img class="homebuttonresponsive" src="assets/logos/whitelogo.png" alt=""></a>
-
       <a class="link5" href="screen6.html">CONTACTO</a>
       <a class="link4" href="">BLOG</a>
       <a class="link3" href="screen5.html">TIPS</a>
       <div class="dropdown">
         <button class="dropbtn">SERVICIOS
-          <i class="fa fa-caret-down" style="color:white;"></i>
+          <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
           <a href="screen2.html">SERVICIOS PERSONALES</a>
@@ -106,170 +103,12 @@
  </footer>
 </div>
 <!--Scripts-->
-<script type="text/javascript">
-
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function responsivenav() {
-var x = document.getElementById("myTopnav");
-if (x.className === "topnav") {
-x.className += " responsive";
-} else {
-x.className = "topnav";
-}
-}
-</script>
-
-<!--Script for Main Slider of Our Story-->
-
-<script>
-  $(function() {
-    var demo1 = $("#demo1").slippry({
-      // transition: 'fade',
-      // useCSS: true,
-      // speed: 1000,
-      // pause: 3000,
-      // auto: true,
-      // preload: 'visible',
-      // autoHover: false
-    });
-
-    $('.stop').click(function () {
-      demo1.stopAuto();
-    });
-
-    $('.start').click(function () {
-      demo1.startAuto();
-    });
-
-    $('.prev').click(function () {
-      demo1.goToPrevSlide();
-      return false;
-    });
-    $('.next').click(function () {
-      demo1.goToNextSlide();
-      return false;
-    });
-    $('.reset').click(function () {
-      demo1.destroySlider();
-      return false;
-    });
-    $('.reload').click(function () {
-      demo1.reloadSlider();
-      return false;
-    });
-    $('.init').click(function () {
-      demo1 = $("#demo1").slippry();
-      return false;
-    });
-  });
-</script>
-
-<script>
-  $(function() {
-    var demo1 = $("#demo2").slippry({
-      // transition: 'fade',
-      // useCSS: true,
-      // speed: 1000,
-      // pause: 3000,
-      // auto: true,
-      // preload: 'visible',
-      // autoHover: false
-    });
-
-    $('.stop').click(function () {
-      demo1.stopAuto();
-    });
-
-    $('.start').click(function () {
-      demo1.startAuto();
-    });
-
-    $('.prev').click(function () {
-      demo1.goToPrevSlide();
-      return false;
-    });
-    $('.next').click(function () {
-      demo1.goToNextSlide();
-      return false;
-    });
-    $('.reset').click(function () {
-      demo1.destroySlider();
-      return false;
-    });
-    $('.reload').click(function () {
-      demo1.reloadSlider();
-      return false;
-    });
-    $('.init').click(function () {
-      demo1 = $("#demo2").slippry();
-      return false;
-    });
-  });
-</script>
-<!--vertical hashtag-->
-<script>
-window.onscroll = function() {stickyhashtag()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function stickyhashtag() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
-
-
-
-<!--stickynav-->
-<script type="text/javascript">
-
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myStickyNav()};
-
-// Get the navbar
-var stickinessofnav = document.getElementById("stickinessofnav");
-
-// Get the offset position of the navbar
-var sticky2 = stickinessofnav.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myStickyNav() {
-  if (window.pageYOffset >= sticky2) {
-    stickinessofnav.classList.add("sticky2")
-  } else {
-    stickinessofnav.classList.remove("sticky2");
-  }
-}
-
-</script>
 
 
 
 
 
-<!--fade in effect-->
-<script type="text/javascript">
 
-
-$(document).ready(function() {
-$(window).scroll( function(){
-    $('.fadein').each( function(i){
-
-        var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-        if( bottom_of_window > bottom_of_element ){
-            $(this).animate({'opacity':'1'},1000);
-        }
-
-    });
-});
-});
-</script>
 
 
 
