@@ -108,6 +108,7 @@ li{
 /* Add a black background color to the top navigation */
 .topnav {
 	position: fixed;
+	z-index: 2;
 font-family: 'Montserrat';
 	padding-top: 4.71875rem;
 background-color: #262626;
@@ -388,11 +389,6 @@ a.linkstosocial{
 
 
 
-
-
-
-
-
 .agendarcita{
 	position:sticky;
 width: 7.875rem;
@@ -414,7 +410,7 @@ text-align: center;
 
 /* Mailchimp style */
 .mailchimpdiv{
-	z-index: -1;
+	z-index: 1;
 	position: fixed;
 	width: inherit;
 	height: 32.5rem;
@@ -904,6 +900,7 @@ a.hbp{
 }
 
 .topnav#myTopnav{
+
 	height: 2rem;
 }
 
