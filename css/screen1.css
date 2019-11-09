@@ -648,7 +648,6 @@ label {
 
 .mc-field-group{
 	text-align: center;
-
 }
 
 .inlinemail{
@@ -669,12 +668,14 @@ label{
 
 #mce-FNAME{
 	background-color:  #262626;
+	color: white;
   width: 20.625rem;
 	height: 1.5rem;
 	border: 0.063rem solid #ffffff;
 }
 #mce-EMAIL{
 		background-color: #262626;
+		color: white;
 	  width: 20.625rem;
 		height: 1.5rem;
 		margin-right: 4.875rem;
@@ -682,6 +683,7 @@ label{
 }
 #mce-MMERGE2{
 		background-color: #262626;
+		color: white;
 		margin-right: 0rem;
 		width: 53.25rem;
     height: 3.5rem;
