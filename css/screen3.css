@@ -806,8 +806,10 @@ font-weight: bold;
 
 /* Media queries */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
+
 	html, body{
 	margin: 0;
+	overflow-x: none;
 	}
 
 .active2{
@@ -894,9 +896,7 @@ font-weight: bold;
 		padding-top: 4rem;
 	}
 
-p.empresarialp{
-	display: none;
-}
+
 
 .twoimages{
 display: flex;
@@ -1123,7 +1123,6 @@ ul.active2#active4{
 max-width: 100%;
 }
 
-
 }
 
 /* Media queries for general responsive on laptop  */
@@ -1154,8 +1153,9 @@ display: block;
 }
 
 html, body{
-	overflow-x: hidden;
+	overflow-x: none;
 }
+
 
 
 }
