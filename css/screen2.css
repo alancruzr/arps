@@ -1306,9 +1306,9 @@ max-width: 100%;
 @media only screen and (min-width: 736px) and (max-width: 1270px) {
 
 #mediumhomebutton{
-	position:absolute;
+	position:fixed;
 	margin-top: -4.2rem;
-	margin-left: 20rem;
+	margin-left: 18rem;
 }
 
 }
