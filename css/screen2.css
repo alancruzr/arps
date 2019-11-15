@@ -1311,6 +1311,24 @@ max-width: 100%;
 	margin-left: 18rem;
 }
 
+h1.cambio {
+	margin-top: 4.5rem;
+	margin-right: 10rem;
+	margin-left: 11rem;
+}
+
+h2.cambio2{
+	margin-right: 10rem;
+	margin-left: 11rem;
+
+}
+
+div.wrapper1{
+display: block;
+	padding: 0;
+	margin: 2rem 10rem 5rem 10rem;
+}
+
 }
 
 
