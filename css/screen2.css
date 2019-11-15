@@ -1299,7 +1299,6 @@ max-width: 100%;
 }
 
 
-
 }
 
 /* Media queries for general responsive on laptop  */
@@ -1329,8 +1328,13 @@ display: block;
 	margin: 2rem 10rem 5rem 10rem;
 }
 
+p.highlighti{
+	display: block;
+
+}
+
 html, body{
-	overflow-x: hidden;
+	overflow-x: none;
 }
 
 }
