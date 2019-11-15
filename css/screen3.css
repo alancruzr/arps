@@ -1153,6 +1153,11 @@ display: block;
 	margin: 2rem 10rem 5rem 10rem;
 }
 
+html, body{
+	overflow-x: hidden;
+}
+
+
 }
 
 
