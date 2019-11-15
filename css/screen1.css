@@ -769,7 +769,6 @@ font-weight: 400;
 }
 
 
-
 /* Media queries for general responsive on laptop  */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 
@@ -1061,41 +1060,27 @@ font-weight: 400;
 @media only screen and (min-width: 768px) and (max-width: 1920px) {
 
 
-.laropa{
-	display: block;
-	position: absolute;
-	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
-
-
-
-.laropa2{
-	margin-top: 35rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-
+}
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 

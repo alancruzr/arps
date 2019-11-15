@@ -1300,9 +1300,16 @@ max-width: 100%;
 
 
 
-
 }
 
+/* Media queries for general responsive on laptop  */
+@media only screen and (min-width: 736px) and (max-width: 796px) {
+
+#mediumhomebutton{
+	display: none;
+}
+
+}
 
 
 /* Iphone 6 7 8 Plus Portrait and Landscape */
