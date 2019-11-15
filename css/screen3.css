@@ -1126,6 +1126,36 @@ max-width: 100%;
 
 }
 
+/* Media queries for general responsive on laptop  */
+@media only screen and (min-width: 736px) and (max-width: 1270px) {
+
+#mediumhomebutton{
+	position:fixed;
+	margin-top: -4.2rem;
+	margin-left: 18rem;
+}
+
+h1.cambio {
+	margin-top: 4.5rem;
+	margin-right: 10rem;
+	margin-left: 11rem;
+}
+
+h2.cambio2{
+	margin-right: 10rem;
+	margin-left: 11rem;
+
+}
+
+div.wrapper1{
+display: block;
+	padding: 0;
+	margin: 2rem 10rem 5rem 10rem;
+}
+
+}
+
+
 /* Iphone 6 7 8 Plus Portrait and Landscape */
 @media only screen
   and (min-device-width: 414px)
