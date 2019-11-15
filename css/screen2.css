@@ -1303,10 +1303,12 @@ max-width: 100%;
 }
 
 /* Media queries for general responsive on laptop  */
-@media only screen and (min-width: 736px) and (max-width: 796px) {
+@media only screen and (min-width: 736px) and (max-width: 1270px) {
 
 #mediumhomebutton{
-	display: none;
+	position:absolute;
+	margin-top: -4.2rem;
+	margin-left: 20rem;
 }
 
 }
