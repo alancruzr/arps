@@ -366,6 +366,7 @@ font-family: "Montserrat";
 font-size: 3.875rem;
 font-weight: bold;
 letter-spacing: -0.261rem;
+text-shadow: .5px .5px #262626;
 }
 
 .aliado{
@@ -387,11 +388,11 @@ letter-spacing: -0.261rem;
 	position: absolute;
 margin-left: 54rem;
 color: #ffffff;
-
-color: #ffffff;
 font-family: "Roboto";
 font-size: 16px;
 font-weight: 300;
+text-shadow: .5px .5px #262626;
+
 }
 
 
@@ -789,7 +790,6 @@ a.active2{
 	margin-right: 1rem;
 }
 .homebutton{
-	display: block;
 	width: 25rem;
 	  margin-left: 3rem;
 	  margin-right: auto;
@@ -1058,13 +1058,22 @@ font-weight: 400;
 /* Media queries for general responsive on laptop  */
 @media only screen and (min-width: 736px) and (max-width: 1270px) {
 
+
+
+.container1{
+	margin-right: 0;
+	padding-right: 0;
+}
+
 .laropa{
+	position: absolute;
 margin: 0;
 margin-left:41rem;
 margin-top: 23rem;
 }
 
 .laropa2{
+	position: absolute;
 	margin: 0;
 	margin-left:44rem;
 	margin-top: 33rem;
@@ -1074,6 +1083,7 @@ margin-top: 23rem;
 @media only screen and (min-width: 736px) and (max-width: 1095px) {
 
 	.laropa{
+
 	margin: 0;
 	margin-left:41rem;
 	margin-top: 23rem;
@@ -1338,9 +1348,9 @@ a.active2{
 	margin-right: 1rem;
 }
 .homebutton{
-	display: block;
 	width: 16.5rem;
-	  margin-left: 3rem;
+	  margin-left: 7rem;
+		margin-top: -2.5rem;
 	  margin-right: auto;
 }
 	.topnav a:not(:first-child), .dropdown .dropbtn {
