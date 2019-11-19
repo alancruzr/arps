@@ -1409,7 +1409,9 @@ text-align: center;
 }
 
 .box2{
-	display: none;
+	position: absolute;
+	margin-top: 60rem;
+	padding-top: 7rem;
 }
 .biop2wrapper{
 	margin-top: -3rem;
