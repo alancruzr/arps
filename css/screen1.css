@@ -382,11 +382,14 @@ text-shadow: .5px .5px #262626;
 }
 
 .laropa2{
-	text-align: center;
+	text-align: justify;
 	margin-top: 33rem;
 	padding-top: 0;
+	padding: -4rem 8rem 2rem 4rem;
+	margin-right: 6rem;
+
 	position: absolute;
-margin-left: 54rem;
+margin-left: 50rem;
 color: #ffffff;
 font-family: "Roboto";
 font-size: 16px;
@@ -854,6 +857,8 @@ margin-left: 6rem;
 font-family: "Roboto";
 font-size: 16px;
 font-weight: 300;
+padding: -4rem 8rem 2rem 4rem;
+margin-right: 4rem;
 }
 
 
@@ -1077,6 +1082,8 @@ margin-top: 23rem;
 	margin: 0;
 	margin-left:44rem;
 	margin-top: 33rem;
+	padding: -4rem 8rem 2rem 4rem;
+	margin-right: 6rem;
 
 }
 

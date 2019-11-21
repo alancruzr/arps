@@ -458,15 +458,16 @@ color: #000000;
 font-family: "Montserrat";
 font-size: 0.938rem;
 font-weight: bold;
-text-align: center;
+text-align: justify;
 
 }
 
-.complementotexto{
+span.complementotexto{
 	color: #707070;
 font-family: "Roboto Light";
 font-size: 0.563rem;
 font-weight: 300;
+text-align: justify;
 }
 
 #cont2{
@@ -479,6 +480,7 @@ font-weight: 300;
 	margin-top: -10rem;
 	margin-bottom: auto;
 	margin-left: auto;
+	text-align: justify;
 
 }
 

@@ -450,10 +450,13 @@ margin-bottom:4.0625rem;
 
 .empresarialp{
 	margin: 4.0625rem 24.8125rem 5.8125rem 25.0625rem;
-	text-align: center;
+	text-align: justify;
 }
 
-
+#empresarialbutton{
+	margin-left: 35%;
+	margin-right: auto;
+}
 
 .container3{
 	display: flex;

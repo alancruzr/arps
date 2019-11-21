@@ -370,7 +370,7 @@ section.tallerescontainer{
 
 .imagendetalleres{
 
-	background: url("https://i.imgur.com/KqBEDhq.png");
+	background: url("https://i.imgur.com/3PAScGc.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -408,6 +408,7 @@ margin-top: -6rem;
 .container3{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 
 }
 
@@ -456,6 +457,11 @@ font-size: 1.563rem;
 font-weight: bold;
 margin-bottom: 2rem;
 
+}
+
+#justifiedtaller{
+text-align: justify;
+margin-top: -4.5rem;
 }
 
 .emphasis{
@@ -526,7 +532,7 @@ font-weight: 400;
 
 p.filler{
 	margin-top: 2rem;
-	text-align: center;
+	text-align: justify;
 color: #707070;
 font-family: "Roboto";
 font-size: 0.813rem;
@@ -637,7 +643,7 @@ padding-right: 20.3125rem;
 	font-family: "Roboto";
 	font-size: 0.813rem;
 	font-weight: 700;
-	text-align: center;
+	text-align: justify;
 	padding-left: 20.3125rem;
 	padding-right: 20.3125rem;
 	padding-bottom:  10rem;
@@ -656,7 +662,13 @@ margin-bottom: 5.875rem;
 
 
 }
+#agendarcitabutton{
 
+   text-align: center;
+	 margin-left: 40%;
+	 margin-right: auto;
+
+}
 
 .twotexts{
 	display: flex;
