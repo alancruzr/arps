@@ -807,6 +807,31 @@ font-weight: bold;
 	display: none;
 }
 
+
+.testimonial{
+	margin-top: 5rem;
+
+}
+
+ul.twoimages{
+margin-top: 0;
+}
+
+img.sliderhere{
+
+margin-left:auto;
+margin-right: auto;
+}
+
+.testimonial{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+z-index: 100;
+
+}
+
+
 /* Media queries */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 
@@ -1126,7 +1151,7 @@ ul.active2#active4{
 max-width: 100%;
 }
 
-}
+
 
 /* Media queries for general responsive on laptop  */
 @media only screen and (min-width: 736px) and (max-width: 1270px) {
