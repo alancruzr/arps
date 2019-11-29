@@ -421,7 +421,7 @@ margin-top: -6rem;
   margin-left: 23rem;
 	margin-right: 23rem;
 
-	font-family: "Roboto";
+	font-family: "Montserrat";
 	margin-bottom: 5.5625rem;
 
 
@@ -560,7 +560,6 @@ color: white;
 margin-top: 2.9375rem;
 margin-bottom: 5.875rem;
 border-radius: .5rem;
-z-index: 100;
 
 
 }
@@ -1091,7 +1090,6 @@ a.icon{
 
 
 p.highlighti{
-	font-family: "Roboto;"
 	margin: 0;
  padding-right: 2rem;
  padding-left: 2rem;

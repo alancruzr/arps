@@ -1,0 +1,810 @@
+/*-----------------------------------------------------------------------------------
+	    ARPSMobile
+        Built with Blocs
+-----------------------------------------------------------------------------------*/
+
+body{
+	margin:0;
+	padding:0;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.page-container{overflow-x:hidden;} /* Prevents unwanted scroll space when scroll FX used. */
+a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+a:hover{text-decoration: none; cursor:pointer;}
+
+
+/* Preloader */
+
+.page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
+
+/* = Blocs
+-------------------------------------------------------------- */
+
+.bloc{
+	width:100%;
+	clear:both;
+	background: 50% 50% no-repeat;
+	padding:0 50px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+	display:flex;
+}
+.bloc .container{
+	padding-left:1.5rem;
+	padding-right:0;
+}
+
+
+/* Sizes */
+
+.bloc-md{
+	padding:50px;
+}
+.bloc-sm{
+	padding:20px 50px;
+}
+
+/* = Full Screen Blocs
+-------------------------------------------------------------- */
+
+.bloc-fill-screen{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bloc-fill-screen > .container{
+	align-self: flex-middle;
+	flex-grow: 1;
+	display: flex;
+}
+.bloc-fill-screen > .container > .row{
+	flex-grow: 1;
+	align-self: center;
+	width:100%;
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	flex-grow: 0;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	align-self: flex-start;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	align-self: flex-end;
+}
+
+/* = Full Width Blocs
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
+
+/* Light theme */
+
+.d-bloc .card,.l-bloc{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover,.l-bloc button:hover{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span,.l-bloc .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn,.l-bloc .a-btn,.l-bloc .navbar a,.l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover{
+	color:rgba(0,0,0,1);
+}
+.l-bloc .navbar-toggle .icon-bar{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+
+/* = NavBar
+-------------------------------------------------------------- */
+
+.hero .hero-nav{
+	padding-left:inherit;
+	padding-right:inherit;
+}
+/* Thin Bars Menu Icon */
+.navbar-light .menu-icon-thin-bars .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-dark .menu-icon-thin-bars .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggle.menu-icon-thin-bars{
+	margin-top:4px!important;
+}
+/* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
+	color: rgb(64, 64, 64);
+}
+.btco-menu li > a {
+	padding: 10px 15px;
+	color: #000;
+}
+.btco-menu .active a:focus,.btco-menu li a:focus ,.navbar > .show > a:focus{
+	background: transparent;
+	outline: 0;
+}
+.dropdown-menu .show > .dropdown-toggle::after{
+	transform: rotate(-90deg);
+}
+
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
+}
+
+/* = Buttons
+-------------------------------------------------------------- */
+
+.btn-d,.btn-d:hover,.btn-d:focus{
+	color:#FFF;
+	background:rgba(0,0,0,.3);
+}
+
+/* Prevent ugly blue glow on chrome and safari */
+button{
+	outline: none!important;
+}
+
+
+
+
+
+
+.card-sq, .card-sq .card-header, .card-sq .card-footer{
+	border-radius:0;
+}
+.card-rd{
+	border-radius:30px;
+}
+.card-rd .card-header{
+	border-radius:29px 29px 0 0;
+}
+.card-rd .card-footer{
+	border-radius:0 0 29px 29px;
+}
+
+
+
+
+
+/* ScrollToTop button */
+
+.scrollToTop{
+	width:40px;
+	height:40px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	opacity: 0;
+	z-index: 500;
+	transition: all .3s ease-in-out;
+}
+.scrollToTop span{
+	margin-top: 6px;
+}
+.showScrollTop{
+	font-size: 14px;
+	opacity: 1;
+}
+
+/* = Custom Styling
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+	font-family:"Helvetica";
+}
+.container{
+	max-width:1140px;
+}
+.navbar-brand img{
+	width:500px;
+}
+.h3-halloween-look-style{
+	font-family:Montserrat;
+}
+.h3-bloc-23-style{
+	font-family:Montserrat;
+}
+.h3-17-style{
+	font-family:Montserrat;
+}
+.h3-bloc-22-style{
+	font-family:Montserrat;
+}
+.h3-15-style{
+	font-family:Montserrat;
+}
+.h3-14-style{
+	font-family:Montserrat;
+}
+.p-style{
+	font-family:Roboto;
+}
+.p-bloc-22-style{
+	font-family:Roboto;
+}
+.p-15-style{
+	font-family:Roboto;
+}
+.p-bloc-23-style{
+	font-family:Roboto;
+}
+.p-17-style{
+	font-family:Roboto;
+}
+.p-16-style{
+	font-family:Roboto;
+}
+
+/* = Colour
+-------------------------------------------------------------- */
+
+/* Background colour styles */
+
+.bgc-misty-rose{
+	background-color:#FEE8DE;
+}
+
+/* Text colour styles */
+
+.tc-dim-gray{
+	color:#656666!important;
+}
+.tc-black{
+	color:#000000!important;
+}
+.tc-white{
+	color:#FFFFFF!important;
+}
+
+/* Button colour styles */
+
+.btn-dim-gray{
+	background:#656666;
+	color:#FFFFFF!important;
+}
+.btn-dim-gray:hover{
+	background:#515252!important;
+	color:#FFFFFF!important;
+}
+.btn-misty-rose{
+	background:#FEE8DE;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-misty-rose:hover{
+	background:#cbbab2!important;
+	color:rgba(0,0,0,.5)!important;
+}
+
+/* Bloc image backgrounds */
+
+.bg-Original-Portada{
+	background-image:url("img/Original-Portada.jpg");
+}
+
+/* Mailchimp mobile style */
+.mailchimpdiv{
+	width: inherit;
+	height: 35.5rem;
+	background-color: #262626;
+	margin-top: 0rem;
+}
+.contactotitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.313rem;
+font-weight: 400;
+letter-spacing: 0.063rem;
+padding-top: 3.375rem;
+margin-bottom: 4.75rem;
+}
+.contactosubtitle{
+text-align: center;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+margin-bottom: 3.1875rem;
+}
+label {
+	color: white;
+	font-family: 'Montserrat';
+}
+.mc-field-group{
+	text-align: center;
+}
+
+
+
+.inlinemail{
+	display: inline-block;
+
+}
+.mailcenter{
+	text-align: center;
+  margin-bottom:3rem ;
+}
+label{
+	margin-right: 0;
+	padding-right: 0;
+}
+#mce-FNAME{
+	background-color:  #262626;
+  color: white;
+  width: 10.625rem;
+	height: 1.5rem;
+	border: 0.063rem solid #ffffff;
+	margin-left: 4.8rem;
+
+}
+#mce-EMAIL{
+		background-color: #262626;
+    color: white;
+	  width: 10.625rem;
+		height: 1.5rem;
+		margin-right: 0;
+		margin-left: 4.5rem;
+		margin-bottom: 2rem;
+}
+#mce-MMERGE2{
+	background-color: #262626;
+  color: white;
+	width: 10.625rem;
+	height: 4rem;
+	margin-right: 0;
+	margin-left: 4.5rem;
+	margin-bottom: 3rem;
+}
+
+#message{
+margin-top: -1.5rem;}
+.buttonmail {
+	margin-left: 68%;
+width: 5rem;
+height: 1.688rem;
+background-color: #ffffff;
+color: #262626;
+font-family: "Montserrat";
+font-size: 0.625rem;
+font-weight: bold;
+border-radius: .2rem;
+}
+.whatsappbutton{
+	display: none;
+  position: absolute;
+	margin-left: 12.3rem;
+	color: white;
+font-size: 2rem;
+font-weight: 400;
+}
+.tel{
+	display: none;
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 1.2rem;
+font-weight: 400;
+}
+.customborder{
+	display: none;
+  width: 70.5rem;
+	 border-bottom: 0.038333333333rem solid white;
+	 margin-left: 16%;
+	 margin-right: auto;
+	 margin-top: 2.5625rem;
+
+}
+.containerfooter{
+
+	display: flex;buttonmail
+	flex-direction: row;
+	justify-content: space-around;
+}
+.sociallinks{
+	text-decoration: none;
+	color: white;
+}
+.box5 {
+	color: white;
+	margin-top: 3.5rem;
+color: #808080;
+font-family: "Montserrat";
+font-size: 0.563rem;
+font-weight: 400;
+}
+.box6{
+	color: white;
+	margin-top: 3.5rem;
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+}
+.box7{
+	color: white;
+	margin-top: 3.5rem;
+}
+*{
+	max-width: 100%;
+}
+
+#laropaestu{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+	margin-top: 1rem;
+	margin-left: 2.3rem;
+	margin-right: -1rem;
+}
+
+}
+div.container.bloc-md{
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+
+
+#customhi{
+	margin-top: 2rem;
+}
+
+#videobutton{
+	margin-bottom: 2rem;
+}
+
+#escotemargin{
+	display: none;
+
+}
+
+div.container{
+}
+.bloc{
+	padding-left: 1rem;
+}
+div.bgc-misty-rose.col-12{
+	margin-left: -1rem;
+}
+
+div.mailchimpdiv{
+	text-align: center;
+}
+
+#contactohero{
+	width: 100%;
+	height: 100%;
+	margin-left: -1rem;
+	margin-right: 0;
+	background-color: #262626;
+}
+
+#mailchimpcontainer{
+	background-color: #262626;
+}
+
+#ponenciascontainer{
+	margin-left: -.75rem;
+}
+
+#maincontact{
+	margin-left: -1rem;
+	background-color: #262626;
+}
+/* = Mobile adjustments
+-------------------------------------------------------------- */
+@media (max-width: 1024px)
+{
+
+
+  div.container.bloc-md{
+    display: none;
+  }
+    .bloc{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 991px)
+{
+    .container{width:100%;}
+    .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
+    .bloc{padding-left: constant(safe-area-inset-left);padding-right: constant(safe-area-inset-right);} /* iPhone X Notch Support*/
+    .bloc-group, .bloc-group .bloc{display:block;width:100%;}
+}
+@media (max-width: 767px)
+{
+    .page-container{
+        overflow-x: hidden;
+        position:relative;
+    }
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+        padding-left:0;padding-right:0;
+    }
+    .a-block{
+        padding:0 10px;
+    }
+    .btn-dwn{
+       display:none;
+    }
+    .voffset{
+        margin-top:5px;
+    }
+    .voffset-md{
+        margin-top:20px;
+    }
+    .voffset-lg{
+        margin-top:30px;
+    }
+    form{
+        padding:5px;
+    }
+    .close-lightbox{
+        display:inline-block;
+    }
+    .blocsapp-device-iphone5{
+	   background-size: 216px 425px;
+	   padding-top:60px;
+	   width:216px;
+	   height:425px;
+    }
+    .blocsapp-device-iphone5 img{
+	   width: 180px;
+	   height: 320px;
+    }
+}
+
+
+@media (max-width: 767px){
+	.h1-style{
+		width:100%;
+	}
+
+}
+
+@media (max-width: 575px){
+	.navbar-brand img{
+		width:230px;
+	}
+	.headerpro{
+		width:62.14%;
+		padding-top:0px;
+		font-family:Montserrat;
+		margin:0px 0px 0px 0px;
+	}
+	.buttonfont{
+		font-family:"Montserrat";
+	}
+	.customtitle{
+		color:#000000!important;
+	}
+	.p-bloc-3-style{
+		font-size:20px;
+		font-family:Montserrat;
+	}
+	.p-4-style{
+		font-size:12px;
+		font-family:Montserrat;
+	}
+	.customimage{
+		margin:100px 20% 20% 20%;
+	}
+	.h3-style{
+		font-size:18px;
+		font-family:Montserrat;
+		line-height:22px;
+		text-align:center;
+		width:100%;
+	}
+	.p-bloc-4-style{
+		font-family:Montserrat;
+	}
+	.h2-style{
+		font-family:Montserrat;
+	}
+	.p-bloc-6-style{
+		font-family:Montserrat;
+	}
+	.img-style{
+		width:500px;
+	}
+	.h2-1-style{
+		font-family:Montserrat;
+		font-size:30px;
+	}
+	.p-1-style{
+		font-family:Roboto;
+		font-size:14px;
+	}
+	.p-6-style{
+		font-family:Roboto;
+	}
+	.h2-conóceme-style{
+		font-family:Montserrat;
+	}
+	.cu{
+	}
+	.cus{
+	}
+	.h2-3-style{
+		width:100%;
+		font-family:Montserrat;
+		font-size:30px;
+	}
+	.img-5-style{
+		width:270px;
+	}
+	.h3-1-style{
+		font-size:20px;
+		font-family:Montserrat;
+	}
+	.h3-2-style{
+		font-size:20px;
+		font-family:Montserrat;
+	}
+	.p-bloc-5-style{
+		font-family:Roboto;
+	}
+	.h2-bloc-6-style{
+		font-family:Montserrat;
+		font-size:30px;
+	}
+	.p-4-bloc-6-style{
+		font-family:Roboto;
+	}
+	.p-5-style{
+		font-family:Roboto;
+	}
+	.p-34423-style{
+		font-family:Roboto;
+	}
+	.p-7-style{
+		font-family:Roboto;
+	}
+	.p-10-style{
+		font-family:Roboto;
+		width:100%;
+	}
+	.h2-ponencias-style{
+		font-family:Montserrat;
+	}
+	.h3-ponencia-style{
+		font-size:25px;
+	}
+	.h3-8-style{
+		font-size:25px;
+	}
+	.h2-clientes-style{
+		font-family:Montserrat;
+	}
+	.h4-style{
+      font-size:18px;
+      font-family:Montserrat;
+      padding-left: 4rem;
+      padding-right: 0rem;
+    }
+	}
+	.h1-style{
+		font-family:Montserrat;
+		font-size:30px;
+	}
+	.img-bloc-9-style{
+		width:150px;
+	}
+	.img-9-style{
+		width:150px;
+		height:150px;
+	}
+	.img-placeholder-us-style{
+		width:150px;
+		height:150px;
+	}
+	.img-11-style{
+		width:150px;
+		height:150px;
+	}
+	.img-12-style{
+		width:150px;
+		height:150px;
+	}
+	.customtestimonial{
+		font-size:16px;
+	}
+	.label-style{
+		line-height:px;
+		letter-spacing:px;
+		text-indent:px;
+		font-family:Roboto;
+		font-size:16px;
+	}
+	.h1-testimonios-style{
+		font-family:Montserrat;
+		font-size:30px;
+	}
+	.h3-10-style{
+		font-family:Montserrat;
+	}
+	.h3-12-style{
+		font-family:Montserrat;
+	}
+	.h3-clarins-style{
+		font-family:Montserrat;
+	}
+	.img-external-conte-style{
+		width:155px;
+	}
+	.img-victori-style{
+		width:155px;
+	}
+	.img-amaz-style{
+		width:155px;
+	}
+
+	/* Mobile Text Margin Offsets */
+	.mg-md-xs{
+		margin-top:10px;
+		margin-bottom:20px;
+	}
+		.mg-clear-xs{
+		margin:0;
+	}
+
+}
