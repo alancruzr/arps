@@ -445,13 +445,12 @@ z-index: 1;
 
 
 .box1{
-
-
 	background: url("https://i.imgur.com/lWiGSFQ.png");
 	width:32.438rem;;
 	height: 43.875rem;
 	margin-left: 8.8125rem;
 	margin-right: 7.125rem;
+	
 }
 .box2{
 	width: 24.6875rem;
@@ -761,6 +760,7 @@ font-weight: 400;
 .ponenciasmobilecontent3{
 	display: none;
 }
+
 /* Media queries */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
@@ -913,6 +913,8 @@ p.empresarialp{
 }
 
 .box1{
+
+
 	margin: 0;
 	padding: 0;
 }
@@ -1170,9 +1172,6 @@ display: block;
 	margin: 2rem 10rem 5rem 10rem;
 }
 
-html, body{
-	overflow-x: hidden;
-}
 
 
 }
