@@ -605,6 +605,39 @@ overflow-x: hidden;
 
 }
 
+.brandscontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	height: auto;
+	overflow-x: hidden;
+}
+
+.boxbrand1{
+	width: 426.6px;
+	height: auto;
+	margin-left: 4rem;
+	margin-right: -5rem;
+}
+.boxbrand2{
+	width: 426.6px;
+	height: auto;
+	margin-left: 0rem;
+	margin-right: 2rem;
+}
+.boxbrand3{
+	width: 426.6px;
+	height: auto;
+	margin-left: 0rem;
+	margin-right: 0rem;
+}
+
+.brands{
+	margin-left: 2rem;
+}
 
 .box3 , .box4{
 	height: auto;
