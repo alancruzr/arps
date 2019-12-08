@@ -621,18 +621,21 @@ overflow-x: hidden;
 	height: auto;
 	margin-left: 4rem;
 	margin-right: -5rem;
+	z-index: 100;
 }
 .boxbrand2{
 	width: 426.6px;
 	height: auto;
 	margin-left: 0rem;
 	margin-right: 2rem;
+	z-index: 100;
 }
 .boxbrand3{
 	width: 426.6px;
 	height: auto;
 	margin-left: 0rem;
 	margin-right: 0rem;
+	z-index: 100;
 }
 
 .brands{
