@@ -408,6 +408,7 @@ color: white;
 margin-top: 2.9375rem;
 margin-bottom: 5.875rem;
 border-radius: .2rem;
+z-index: 100;
 
 
 }
