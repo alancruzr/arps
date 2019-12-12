@@ -140,9 +140,8 @@ Podrás realizar un cambio de imagen mediante dos asesorías online personalizas
             <div><img class="sliderhere" src="assets/images/Ilse.jpg" alt=""></div>
             <div><img class="sliderhere" src="assets/images/Ale.jpg" alt=""></div>
             <div><img class="sliderhere" src="assets/images/Itzel.jpg" alt=""></div>
-            <div><img class="sliderhere" src="assets/images/Mariana.jpg" alt=""></div>
-            <div><img class="sliderhere" src="assets/images/Rossy.jpg" alt=""></div>
-
+            <div><img class="sliderhere" src="assets/images/Mariana.png" alt=""></div>
+            <div><img class="sliderhere" src="assets/images/rossy.jpg" alt=""></div>
         </div>
     </section>
 
@@ -280,48 +279,7 @@ function responsivenav() {
       });
     </script>
 
-    <script>
-      $(function() {
-        var demo1 = $("#demo2").slippry({
-          // transition: 'fade',
-          // useCSS: true,
-          // speed: 1000,
-          // pause: 3000,
-          // auto: true,
-          // preload: 'visible',
-          // autoHover: false
-        });
 
-        $('.stop').click(function () {
-          demo1.stopAuto();
-        });
-
-        $('.start').click(function () {
-          demo1.startAuto();
-        });
-
-        $('.prev').click(function () {
-          demo1.goToPrevSlide();
-          return false;
-        });
-        $('.next').click(function () {
-          demo1.goToNextSlide();
-          return false;
-        });
-        $('.reset').click(function () {
-          demo1.destroySlider();
-          return false;
-        });
-        $('.reload').click(function () {
-          demo1.reloadSlider();
-          return false;
-        });
-        $('.init').click(function () {
-          demo1 = $("#demo2").slippry();
-          return false;
-        });
-      });
-    </script>
     <!--vertical hashtag-->
     <script>
     window.onscroll = function() {stickyhashtag()};

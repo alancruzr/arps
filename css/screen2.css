@@ -874,6 +874,8 @@ font-weight: 400;
 
 .testimonial{
 	margin-top: 30rem;
+	z-index: 100;
+
 
 }
 
