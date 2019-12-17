@@ -70,13 +70,9 @@ li{
 }
 
 /* Nav */
-
-a.hbp{
+.hbp{
 	display: none;
-
 }
-
-
 .homebutton{
 	width:13.0625rem;
 	margin-left:0;
@@ -247,7 +243,7 @@ font-family: 'Montserrat';
 	float: right;
 	position: relative;
 	display: block;
-	color: black;
+	color: white;
 	min-width: 8.8125rem;
 
 }
@@ -275,7 +271,7 @@ font-family: 'Montserrat';
   display: block;
   color: black;
   text-align: center;
-	margin-top: 36rem;
+	margin-top: 45rem;
   text-decoration: none;
   font-size: 17px;
 	z-index: 1;
@@ -294,7 +290,7 @@ font-family: 'Montserrat';
 }
 }
 #navbar2 a:hover {
-  background-color: black;
+  background-color: #ddd;
   color: black;
 }
 #active4{
@@ -331,7 +327,7 @@ font-family: 'Montserrat';
 }
 .click{
 	position: relative;
-	color: black;
+	color: white;
 	font-size: 2rem;
 	min-width: 8.8125rem;
 }
@@ -339,18 +335,19 @@ font-family: 'Montserrat';
 	position: absolute;
 	margin-left: -6rem;
 	margin-top: .4rem;
-	color:  black;
+	color: black;
 }
 
-a#active1.active2{
-	position: fixed;
-	margin-top: 33rem;
-	margin-left: -6rem;
-}
 
+ul#active4.active2{
+
+	position: relative;
+	margin-left: 50em;
+	margin-right: -4rem;
+}
 
 a.linkstosocial{
-	color: black;
+	color: white;
 
 
 }
@@ -836,23 +833,17 @@ z-index: 100;
 
 /* Media queries */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
-
 	html, body{
 	margin: 0;
-	overflow-x: none;
+	overflow-x: hidden;
+	padding: 0;
+	height: auto;
 	}
 
-.active2{
-	display: none;
-}
 
 	a.hbp{
 		display: block;
 
-	}
-
-	a.link5{
-	display: none;
 	}
 
 	.homebuttonresponsive{
@@ -863,43 +854,151 @@ z-index: 100;
 		z-index: 1;
 	}
 
-	.herocontrol{
-	margin-right: 0;
-	padding-right: 0;
-	width: 100%;
-	height: 100%;
+a.link5{
+display: none;
+}
 
-	}
+.container3{
+	display: flex;
+	flex-direction: column;
+}
+
+.container4{
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+
+}
+
+.box5{
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+
+h1.cambio{
+	margin: 0;
+	margin-top: 5rem;
+	padding: -1rem;
+}
+
+h2.cambio{
+	margin: 0;
+	padding: 0;
+}
+
+h2.cambio2{
+	margin: 0;
+	padding: 0;
+}
+.wrapper1{
+	margin: 0;
+	padding: 0;
+}
+
+.filler{
+	padding: 2rem 2rem 2rem 2rem;
+}
+
+.filler2{
+	padding: 1px 2rem 2rem 2rem;
+}
+
+.franjablanca{
+	margin:0;
+	padding: 2rem 2rem 2rem 2rem;
+	margin-top: 4rem;
+}
+
+h2.h2franja{
+margin: 10rem;
+padding: 0;
+text-transform: uppercase;
+/* Text style for "CAMBIO DE" */
+color: #000000;
+font-family: "Montserrat";
+font-size: 1.438rem;
+font-weight: bold;
+
+}
+
+h2.h2franja2.fadein{
+	margin-top: 0;
+}
+
+h3.h3franja{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+h4.h4franja.fadein{
+	margin: 0;
+	padding: 0;
+color: #707070;
+font-family: "Roboto";
+font-size: 0.813rem;
+font-weight: 300;
+}
+
+h4.h4franja2.fadein{
+	margin: 0;
+	padding: 0;
+	color: #707070;
+	font-family: "Roboto";
+	font-size: 0.813rem;
+	font-weight: 700;
+
+
+}
+
+.boxy {
+	color: white;
+	margin-top: 3.5rem;
+color: #808080;
+font-family: "Montserrat";
+font-size: 0.563rem;
+font-weight: 400;
+}
+.boxz{
+	color: white;
+	margin-top: 3.5rem;
+font-family: "Montserrat";
+font-size: 0.875rem;
+font-weight: 400;
+}
+.boxw{
+	color: white;
+	margin-top: 3.5rem;
+}
+
+a#active1.active2{
+	position: fixed;
+	margin-top: 33rem;
+	margin-left: -6rem;
+}
+
+div#navbar2{
+	display: none;
+}
 
 
 
-	a.active2{
+a.active2{
+	display: none;
 	margin-left: -5rem;
 	margin-right: 1rem;
-	}
-
-
-	.homebutton{
-		position: static;
-		background-color: white;
-	display: block;
-	width: 25rem;
-		margin-left: 7rem;
-		margin-right: auto;
-		padding-bottom: 4rem;
-
-	}
-
-
+}
 
 	.topnav a:not(:first-child), .dropdown .dropbtn {
-		display: none;
-	}
-	.topnav a.icon {
-		display: block;
-		color: black;
+    display: none;
+  }
+  .topnav a.icon {
+    display: block;
 		background-color: transparent;
-	}
+  }
 	.topnav.responsive {position: relative;}
 	.topnav.responsive a.icon {
 		position: absolute;
@@ -918,62 +1017,86 @@ z-index: 100;
 		width: 100%;
 		text-align: left;
 	}
+a.icon{
+	position: absolute;
+	font-size: 3rem;
+	margin-left: -.5rem;
+	padding-top: 4rem;
+}
 
-	a.icon{
-		position: absolute;
-		font-size: 3rem;
-		margin-left: -.5rem;
-		padding-top: 4rem;
+
+p.highlighti{
+	margin: 0;
+ padding-right: 2rem;
+ padding-left: 2rem;
+ border-right: none;
+
+
+}
+
+p.highlightp{
+	margin: 0;
+ padding-right: 2rem;
+ padding-left: 2rem;
+
+}
+
+.h5bold{
+
 	}
+
+.subtitulo{
+}
+div.imagendetalleres{
+	margin-bottom: 0;
+
+}
+
+section.tallerescontainer{
+	margin-bottom: 8.33rem;
+}
 
 
 
 .twoimages{
 display: flex;
 flex-direction: column;
+justify-content: center;
 align-items: center;
-margin-top: 5.375rem;
-padding-top: 4.25rem;
-padding-bottom: 0;
-background-color: rgba(255, 211, 190, 0.5);
-
 }
-
 .box3{
-padding: 0;
-margin: 0;
-padding-bottom: 2rem;
+	margin: 0;
+	padding: 0;
+
 }
 
 .box4{
-padding: 0;
-margin: 0;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 4rem;
+	margin-bottom: 0;
 
 }
+
+
 
 .twotexts{
 	display: none;
+	margin: 0;
+padding:0;
 }
 
+.text1{
+	margin: 0;
+padding:0;
 
-
-
-
-
-
-
-
-.mailchimpdiv{
-	width: 100%;
-	margin-right: 0;
-	padding-right: 0;
 }
 
+.text2{
+	margin: 0;
+padding:0;
 
-
-
-
-
+}
 
 
 
@@ -1140,19 +1263,14 @@ font-weight: 400;
 
 }
 
-.navbar2{
-	display: none;
-}
-
-ul.active2#active4{
-	display: none;
-}
 
 
 *{
 max-width: 100%;
 }
 
+
+}
 
 
 /* Media queries for general responsive on laptop  */
@@ -1163,6 +1281,7 @@ max-width: 100%;
 	margin-top: -4.2rem;
 	margin-left: 18rem;
 }
+
 
 h1.cambio {
 	margin-top: 4.5rem;
@@ -1182,9 +1301,6 @@ display: block;
 	margin: 2rem 10rem 5rem 10rem;
 }
 
-html, body{
-	overflow-x: none;
-}
 
 
 }
