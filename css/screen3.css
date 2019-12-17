@@ -777,17 +777,18 @@ font-weight: 400;
 
 .text1{
 	position: absolute;
-  width: 9.125rem;
+  width: 20.125rem;
 	align-self:auto;
-	margin-left: -24.3rem;
+	margin-left: -19.3rem;
 	padding-top: 1rem;
 }
 
 .text2{
-	padding-top: 1rem;
 	position: absolute;
-	width: 9.125rem;
-	margin-left: 7.7rem;
+  width: 20.125rem;
+	align-self:auto;
+	margin-left: 13rem;
+	padding-top: 1rem;
 }
 
 .textseparator{
