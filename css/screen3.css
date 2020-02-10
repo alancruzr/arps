@@ -106,9 +106,11 @@ li{
 .topnav {
 	position: fixed;
 font-family: 'Montserrat';
-	padding-top: 4.71875rem;
+	padding-top: 1rem;
 	background-color: white;
 	width: 100%;
+	height: 70px;
+
 
 
 }
