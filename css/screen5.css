@@ -459,7 +459,7 @@ color: #000000;
 font-family: "Montserrat";
 font-size: 0.938rem;
 font-weight: bold;
-text-align: justify;
+text-align: center;
 
 }
 
@@ -481,7 +481,7 @@ text-align: justify;
 	margin-top: -10rem;
 	margin-bottom: auto;
 	margin-left: auto;
-	text-align: justify;
+	text-align: center;
 
 }
 
