@@ -114,9 +114,10 @@ a.hbp{
 .topnav {
 	position: fixed;
 font-family: 'Montserrat';
-	padding-top: 4.71875rem;
+	padding-top: 1rem;
 	background-color: white;
 	width: 100%;
+	height: 70px;
 
 
 }
@@ -560,6 +561,7 @@ color: white;
 margin-top: 2.9375rem;
 margin-bottom: 5.875rem;
 border-radius: .5rem;
+border-color: transparent;
 
 
 }
