@@ -463,12 +463,13 @@ text-align: center;
 
 }
 
-span.complementotexto{
+div.complementotexto{
 	color: #707070;
-font-family: "Roboto Light";
-font-size: 0.563rem;
+font-family: "Montserrat";
+font-size: .8rem;
 font-weight: 300;
 text-align: justify;
+line-height: 1rem;
 }
 
 #cont2{
