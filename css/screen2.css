@@ -83,7 +83,7 @@ a.hbp{
 	width: 18.0625rem;
 	margin-left:0;
 	margin-top: -1rem;
-	margin-right: 3rem;
+	margin-right: 11.5rem;
 	margin-bottom: 1.5rem;
 }
 
@@ -92,6 +92,7 @@ a.hbp{
 #homelink{
 	text-decoration: none;
 	border-bottom: none;
+
 }
 
 .link1 {
@@ -112,7 +113,7 @@ a.hbp{
 
 /* Add a black background color to the top navigation */
 .topnav {
-	position: fixed;
+	position: relative;
 font-family: 'Montserrat';
 	padding-top: 1rem;
 	background-color: white;
@@ -562,7 +563,7 @@ margin-top: 2.9375rem;
 margin-bottom: 5.875rem;
 border-radius: .5rem;
 border-color: transparent;
-
+z-index: -1;
 
 }
 
@@ -876,10 +877,8 @@ font-weight: 400;
 
 .testimonial{
 	margin-top: 30rem;
-	z-index: 100;
-
-
 }
+
 
 ul.twoimages{
 margin-top: 0;
@@ -891,13 +890,32 @@ margin-left:auto;
 margin-right: auto;
 }
 
+.slider{
+}
+
 .testimonial{
 width: 50%;
 margin-left: auto;
 margin-right: auto;
-z-index: 100;
 
 }
+
+div.bx-wrapper{
+	position: relative;
+	border-color: transparent;
+	border: 0;
+	z-index: 1;
+
+}
+
+
+
+div#myTopnav.topnav{
+
+}
+
+
+
 
 /* Media queries */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
