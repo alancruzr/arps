@@ -57,6 +57,8 @@ nav{
 html, body {
             height: 100%;
             margin: 0;
+						line-height: normal;
+
         }
 html{
 	margin: 0 0 0 0;
@@ -500,11 +502,12 @@ p.biop2{
 	margin-top: 1.125rem;
 	margin-left: 13.875rem;
 	margin-right: 0;
-	padding-right: 5.375rem;
+	padding-right: 10.5rem;
 color: #707070;
 font-family: "Roboto";
 font-size: 16px;
 font-weight: 300;
+line-height: normal;
 
 }
 
@@ -822,6 +825,7 @@ font-weight: 400;
 }
 
 
+
 /* Media queries for general responsive on laptop  */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 
@@ -928,6 +932,7 @@ margin-right: 10rem;
 
 
 p.biop2{
+
 padding: .1em .1rem .1rem .1rem;
 }
 .franjarosa{
