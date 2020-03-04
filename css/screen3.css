@@ -361,9 +361,11 @@ a.linkstosocial{
 
 
 section.tallerescontainer{
+	display: block;
+	position: static;
 	background-color: rgba(117, 117, 117, 0.08);
-	height: 473px;
-	margin-bottom: 15rem;
+	min-height: 465px;
+	margin-bottom: 8rem;
 
 }
 
@@ -392,7 +394,6 @@ font-family: "Montserrat";
 font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
-margin-top: -6rem;
 }
 
 .container2{

@@ -367,10 +367,15 @@ a.linkstosocial{
 
 /* Section1 */
 
+
 section.tallerescontainer{
+	display: block;
+	position: static;
 	background-color: rgba(117, 117, 117, 0.08);
-	height: 465px;
-	margin-bottom: 15rem;
+	min-height:5rem;
+	margin-bottom: 3rem;
+	margin-top: 0;
+
 
 }
 
@@ -384,13 +389,13 @@ section.tallerescontainer{
 	height: 321px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 18rem;
-	margin-bottom: 3rem;
 }
 
 
 /* Segunda seccion donde hay BIO */
 h5.h5bold{
+	display: block;
+	position: static;
 	/* Style for "CONÓCEME" */
 text-transform: uppercase;
 /* Text style for "CONÓCEME" */
@@ -399,8 +404,8 @@ font-family: "Montserrat";
 font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
-margin-top: -6rem;
 }
+
 .subtitulo{
 	text-align: center;
 	color: #262626;
@@ -412,9 +417,19 @@ margin-top: -6rem;
 
 
 .container3{
+
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+
+}
+
+div.staticforce{
+	display: block;
+	position: static;
+	text-align: center;
+  q
+
 
 }
 
@@ -526,6 +541,7 @@ font-weight: 400;
 	background-position: center;
 	background-size: contain;
 	margin-bottom: 3\autorem;
+
 }
 
 
@@ -1128,9 +1144,6 @@ p.highlightp{
 
 }
 
-.h5bold{
-
-	}
 
 .subtitulo{
 }
@@ -1138,11 +1151,6 @@ div.imagendetalleres{
 	margin-bottom: 0;
 
 }
-
-section.tallerescontainer{
-	margin-bottom: 8.33rem;
-}
-
 
 
 .twoimages{
