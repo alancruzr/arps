@@ -527,8 +527,8 @@ margin: 0 0 0 0;
 display: flex;
 flex-direction: row;
 justify-content: center;
-margin-top: 5.375rem;
-padding-top: 4.25rem;
+margin-top: 0;
+padding-top: 1rem;
 padding-bottom: 0;
 background-color: rgba(255, 211, 190, 0.5);
 
@@ -592,7 +592,7 @@ height: 2.063rem;
 background-color: #262626;
 color: white;
 margin-top: 2.9375rem;
-margin-bottom: 5.8125rem;
+margin-bottom: 0;
 
 
 }
@@ -603,8 +603,8 @@ color: #262626;
 font-family: "Montserrat";
 font-size: 1.5rem;
 font-weight: bold;
-margin-top: 6.6875rem;
-margin-bottom: 5.5625rem;
+margin-top: 3.6875rem;
+margin-bottom: 3rem;
 }
 
 /* Mailchimp style */
@@ -819,7 +819,7 @@ font-weight: bold;
 
 
 .testimonial{
-	margin-top: 5rem;
+	margin-top: 3rem;
 
 }
 
