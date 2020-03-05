@@ -716,19 +716,18 @@ z-index: 100;
 	padding-bottom: 4.625rem;
 	background-color: rgba(255, 211, 190, 0.5);
 	padding-top: 1.5rem;
+	padding-left: 1.5rem;
 
 }
 
 .text1{
 	position: absolute;
-  width: 9.125rem;
 	align-self:auto;
 	margin-left: -24.8rem;
 }
 
 .text2{
 	position: absolute;
-	width: 9.125rem;
 	margin-left: 7.5rem;
 }
 
@@ -740,11 +739,17 @@ z-index: 100;
 .twotextstitle{
 color: #707070;
 font-family: 'Roboto';
-font-size: 0.875rem;
+font-size: 1rem;
 font-weight: bold;
 }
 
+.nonbold{
+	color: #707070;
+	font-family: 'Roboto';
+	font-size: 1rem;
+	font-weight: 300;
 
+}
 
 
 

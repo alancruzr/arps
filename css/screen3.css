@@ -542,6 +542,8 @@ background-color: rgba(255, 211, 190, 0.5);
 
 }
 
+
+
 .box3{
 	padding-right: 2.90625rem;
 }
@@ -789,7 +791,7 @@ font-weight: 400;
 	justify-content: center;
 	margin-top: 0;
 	padding-top: 0;
-	padding-bottom: 4.625rem;
+	padding-bottom: 7rem;
 	background-color: rgba(255, 211, 190, 0.5);
 	padding-top: 0;
 
@@ -821,8 +823,16 @@ font-weight: 400;
 .twotextstitle{
 color: #707070;
 font-family: 'Roboto';
-font-size: 0.875rem;
+font-size: 1rem;
 font-weight: bold;
+}
+
+.nonbold{
+	color: #707070;
+	font-family: 'Roboto';
+	font-size: 1rem;
+	font-weight: 300;
+
 }
 
 .highlighti{
