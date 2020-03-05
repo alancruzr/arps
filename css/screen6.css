@@ -401,9 +401,10 @@ background-color: #262626;
 color: white;
 margin-top: 2.9375rem;
 margin-bottom: 5.875rem;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
+border-radius: .5rem;
+border-color: transparent;
+z-index: 100;
+
 
 }
 
@@ -419,9 +420,9 @@ text-align: center;
 	width: inherit;
 	height: 32.5rem;
 	background-color: #tr;
-	margin-top: -20rem;
+	margin-top: -28rem;
 	color: black;
-margin-left: 8rem;
+margin-left: 7.2rem;
 margin-right: auto;
 
 }

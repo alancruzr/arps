@@ -489,8 +489,12 @@ width: 7.875rem;
 height: 2.063rem;
 background-color: #262626;
 color: white;
-margin-top: 5.9375rem;
+margin-top: 2.9375rem;
 margin-bottom: 5.875rem;
+border-radius: .5rem;
+border-color: transparent;
+z-index: 100;
+
 
 
 }
