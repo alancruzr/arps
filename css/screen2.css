@@ -425,12 +425,15 @@ margin-top: -6rem;
   margin-left: 23rem;
 	margin-right: 23rem;
 
-	font-family: "Montserrat";
+	font-family: "Roboto";
 	margin-bottom: 5.5625rem;
 	margin-top: -2rem;
 	line-height: 1.4rem;
 }
 
+.hightip{
+	font-weight: bold;
+}
 
 .pathicon{
 width: 1.125rem;
@@ -478,10 +481,11 @@ margin-top: -4.5rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	margin-top: -2rem;
 }
 .box5 {
 	background-color: #efefef;
-	width: 100%;
+	width: 110%;
 height: 36.25rem;
 }
 .box6 {
@@ -498,7 +502,7 @@ h1.cambio{
 	text-align: center;
 	margin-right: 7.6875rem;
 	margin-left: 20rem;
-margin-top: 8.375rem;
+margin-top: 4rem;
 color: #000000;
 font-family: "Montserrat";
 font-size: 1.438rem;
@@ -541,7 +545,7 @@ p.filler{
 	text-align: justify;
 color: #707070;
 font-family: "Roboto";
-font-size: 0.813rem;
+font-size: 1rem;
 font-weight: 300;
 
 }
@@ -618,7 +622,7 @@ font-family: "Montserrat";
 font-size: 1.438rem;
 font-weight: bold;
 text-align: center;
-margin-top: 3.1875rem;
+margin-top:3.3rem;
 
 }
 
@@ -648,13 +652,35 @@ padding-right: 20.3125rem;
 .h4franja2{
 	color: #707070;
 	font-family: "Roboto";
-	font-size: 0.813rem;
-	font-weight: 700;
+	font-size: 1rem;
+	font-weight: 300;
 	text-align: justify;
 	padding-left: 20.3125rem;
 	padding-right: 20.3125rem;
 	padding-bottom:  10rem;
 	margin-top: 3rem;
+
+}
+
+.plainp{
+	color: #707070;
+	font-family: "Roboto";
+	font-size: 1rem;
+	font-weight: 700;
+	text-align: justify;
+	padding-right: 20.3125rem;
+	padding-bottom:  10rem;
+	margin-top: 3rem;
+
+}
+
+.plaincit{
+	color: #707070;
+	font-family: "Roboto";
+	font-size: 1rem;
+	font-weight: 700;
+	text-align: justify;
+	padding-bottom:  10rem;
 
 }
 
@@ -882,7 +908,7 @@ font-weight: 400;
 }
 
 .testimonial{
-	margin-top: 30rem;
+	margin-top: 35rem;
 }
 
 
