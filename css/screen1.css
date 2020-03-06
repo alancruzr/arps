@@ -101,8 +101,7 @@ float:
 /* Add a black background color to the top navigation */
 .topnav {
 font-family: 'Montserrat';
-	padding-top: 3.71875rem;
-	padding-bottom: 3.71875rem;
+	padding-top: 1.07rem;
 	background-color:transparent;
 
 }
