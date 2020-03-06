@@ -170,8 +170,14 @@ font-family: 'Montserrat';
 }
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #262626;
+  color: white;
+}
+.fancyline{
+	border-bottom:1px solid white;
+	color: white;
+	font-size: inherit;
+	width: auto;
 }
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
