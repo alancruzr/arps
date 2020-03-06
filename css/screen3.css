@@ -462,11 +462,16 @@ margin-bottom:4.0625rem;
 }
 
 .empresarialp{
-	margin: 4.0625rem 24.8125rem 5.8125rem 25.0625rem;
-	text-align: justify;
+	margin: 4.0625rem 13rem 5.8125rem 13rem;
+	text-align: center;
 	font-family: "Roboto";
 	font-weight: 300;
 
+}
+
+.ponenciatitle{
+	font-size: 24px;
+	text-align: center;
 }
 
 .strongtip{
