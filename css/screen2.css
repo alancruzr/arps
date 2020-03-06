@@ -958,7 +958,15 @@ div#myTopnav.topnav{
 
 
 
+.demo_wrapper{
+	margin-top: 35rem;
+	margin-bottom: 5rem;
+}
 
+#testimoniostitle{
+	margin-bottom: 3rem;
+
+}
 /* Media queries */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
