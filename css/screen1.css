@@ -614,7 +614,7 @@ color: #262626;
 font-family: "Montserrat";
 font-size: 1.5rem;
 margin-top: 1.6875rem;
-margin-bottom: 7.6875rem;
+margin-bottom: 3rem;
 }
 
 
@@ -630,41 +630,14 @@ overflow-x: hidden;
 
 }
 
-.brandscontainer{
+ul.brandscontainer{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	height: auto;
-	overflow-x: hidden;
+	justify-content:center;
 }
 
 .boxbrand1{
-	width: 426.6px;
-	height: auto;
-	margin-left: 4rem;
-	margin-right: -5rem;
-	z-index: 100;
-}
-.boxbrand2{
-	width: 426.6px;
-	height: auto;
-	margin-left: 0rem;
-	margin-right: 2rem;
-	z-index: 100;
-}
-.boxbrand3{
-	width: 426.6px;
-	height: auto;
-	margin-left: 0rem;
-	margin-right: 0rem;
-	z-index: 100;
-}
-
-.brands{
-	margin-left: 2rem;
+	margin-right: 3rem;
 }
 
 .box3 , .box4{
