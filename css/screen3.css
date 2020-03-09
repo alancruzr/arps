@@ -199,10 +199,7 @@ font-family: 'Montserrat';
   display: block;
 }
 
-.stickyoutsidenavigation{
-	margin-top: 0;
-	padding-top: 0;
-}
+
 /* 90 degree hashtag and social icons side to side*/
 #navbar a {
   float: left;
@@ -375,12 +372,11 @@ a.linkstosocial{
 section.tallerescontainer{
 	background-color: rgba(117, 117, 117, 0.08);
 	height: 321px;
-	margin-bottom: 10rem;
-	margin-top: 4rem;
+	margin-bottom: 3rem;
+	padding-top: 0;
 
 }
 .imagendetalleres{
-
 	background: url("https://i.imgur.com/FPmxCZq.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -389,8 +385,8 @@ section.tallerescontainer{
 	height: 321px;
 	margin-left: auto;
 	margin-right: auto;
-
 	margin-bottom: 3rem;
+	margin-top: 7rem;
 }
 
 
@@ -406,6 +402,18 @@ font-weight: bold;
 text-align: center;
 margin-top: -6rem;
 }
+
+
+
+.titulo{
+color: #000000;
+font-family: "Montserrat";
+font-size: 1.563rem;
+font-weight: bold;
+
+}
+
+
 
 .container2{
 	margin-top: 3.6875rem;
