@@ -73,7 +73,7 @@ li{
 	z-index: -1;
 	width: 100%;
 	position: absolute;
-	margin-top: 37.5rem;
+	margin-top: 26rem;
 	margin-right: 0;
 	margin-left: 0;
 }
@@ -210,10 +210,7 @@ font-family: 'Montserrat';
   display: block;
 }
 
-.stickyoutsidenavigation{
-	margin-top: 0;
-	padding-top: 0;
-}
+
 /* 90 degree hashtag and social icons side to side*/
 #navbar a {
   float: left;
