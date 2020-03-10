@@ -20,6 +20,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -45,15 +46,12 @@ table {
 	border-spacing: 0;
 }
 
-nav{
-  margin-left: 10rem;
-}
-
 html, body {
             height: 100%;
             margin: 0;
             padding: 0;
 						line-height: normal;
+
 
         }
 
@@ -80,6 +78,7 @@ a.hbp{
 	display: none;
 
 }
+
 
 .homebutton{
 	width: 18.0625rem;
@@ -207,7 +206,7 @@ font-family: 'Montserrat';
   display: block;
   color: black;
   text-align: center;
-	margin-top: 19rem;
+	margin-top: 8rem;
   text-decoration: none;
   font-size: 17px;
 	z-index: 1;
@@ -356,30 +355,20 @@ font-family: 'Montserrat';
 
 
 ul#active4.active2{
-
 	position: relative;
 	margin-left: 50em;
 	margin-right: -4rem;
 }
-
 a.linkstosocial{
 	color: black;
-
-
 }
-
-
 /* Section1 */
-
 section.tallerescontainer{
 	background-color: rgba(117, 117, 117, 0.08);
 	height: 321px;
-	margin-bottom: 5rem;
 	margin-top: 4rem;
-
 }
 .imagendetalleres{
-
 	background: url("https://i.imgur.com/uDrDIFx.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -388,68 +377,38 @@ section.tallerescontainer{
 	height: 321px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 0;
 }
-
-
-/* Segunda seccion donde hay BIO */
-h5.h5bold{
-	/* Style for "CONÓCEME" */
-text-transform: uppercase;
-/* Text style for "CONÓCEME" */
-color: #262626;
-font-family: "Montserrat";
-font-size: 1.5rem;
-font-weight: bold;
-text-align: center;
-margin-top: -6rem;
-margin-right: auto;
-
-}
-.subtitulo{
-	text-align: center;
-	color: #262626;
-	font-family: "Montserrat";
-	font-size: 1.5rem;
-	margin-top: 0.5rem;
-	margin-bottom:5.9375rem;
-}
-
-
 .container3{
 	display: flex;
-	position: relative;
-	flex-direction: row;
-	margin-left: 20rem;
+	position: static;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: -4rem;
 
-}
-
-
-.centerbigbox{
-	margin-left: 25rem;
-
-}
-.highlighti {
-	text-align: center;
-  margin-left: 23rem;
-	margin-right: 23rem;
-
-	font-family: "Roboto";
-	margin-bottom: 5.5625rem;
-	margin-top: -2rem;
-	line-height: 1.4rem;
 }
 
 .hightip{
+	font-family: 'Roboto';
+	line-height: normal;
+	font-size: 1rem;
 	font-weight: bold;
+	margin: 0rem 20rem -35rem 20rem;
+	text-align: center;
+	font-weight: normal;
+	width: auto;
+	height: inherit;
 }
 
 .pathicon{
 width: 1.125rem;
 height: 1.375rem;
 margin-bottom: 2rem;
-
-
+text-align: center;
+margin-right: inherit;
+align-items: center;
 }
 
 .highlightp{
@@ -459,25 +418,28 @@ margin-bottom: 2rem;
 
 }
 
-
+.wrapperpro{
+	height: 100%;
+	margin-top: -14rem;
+}
 
 .titulo{
 color: #000000;
 font-family: "Montserrat";
 font-size: 1.563rem;
 font-weight: bold;
+text-align: center;
 
 }
-
-
 
 
 .titulo2{
 color: #000000;
 font-family: "Montserrat";
 font-size: 1.563rem;
-font-weight: bold;
+font-weight: normal;
 margin-bottom: 2rem;
+text-align: center;
 
 }
 
@@ -494,7 +456,7 @@ margin-top: -4.5rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: -2rem;
+	margin-top: -20rem;
 }
 .box5 {
 	background-color: #efefef;
@@ -542,7 +504,7 @@ font-weight: 400;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	margin-bottom: 3\autorem;
+	margin-bottom: 3rem;
 
 }
 
@@ -579,7 +541,7 @@ height: 2.063rem;
 background-color: #262626;
 color: white;
 margin-top: 2.9375rem;
-margin-bottom: 5.875rem;
+margin-bottom: 0rem;
 border-radius: .5rem;
 border-color: transparent;
 z-index: -1;
@@ -966,7 +928,7 @@ div#myTopnav.topnav{
 
 
 .demo_wrapper{
-	margin-top: 35rem;
+	margin-top: 13rem;
 	margin-bottom: 5rem;
 }
 
@@ -1001,10 +963,6 @@ a.link5{
 display: none;
 }
 
-.container3{
-	display: flex;
-	flex-direction: column;
-}
 
 .container4{
 
