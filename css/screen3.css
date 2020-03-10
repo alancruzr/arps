@@ -70,7 +70,6 @@ li{
 .fadein {
     opacity:0;
 }
-
 /* Nav */
 image.homebuttonresponsive{
 	display: none;
@@ -120,7 +119,8 @@ font-family: 'Montserrat';
 	padding-top: 1.71875rem;
 	background-color: white;
 	width: 100%;
-	height: 70px;
+
+
 
 
 }
@@ -185,7 +185,7 @@ font-family: 'Montserrat';
 }
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #262626;
+  background-color: #262626;;
   color: white;
 }
 .fancyline{
@@ -367,16 +367,18 @@ a.linkstosocial{
 
 }
 
+
 /* Section1 */
 
 section.tallerescontainer{
 	background-color: rgba(117, 117, 117, 0.08);
 	height: 321px;
-	margin-bottom: 3rem;
-	padding-top: 0;
+	margin-bottom: 5rem;
+	margin-top: 4rem;container
 
 }
 .imagendetalleres{
+
 	background: url("https://i.imgur.com/FPmxCZq.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -385,8 +387,6 @@ section.tallerescontainer{
 	height: 321px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 3rem;
-	margin-top: 7rem;
 }
 
 
@@ -401,79 +401,115 @@ font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
 margin-top: -6rem;
-}
-
-
-
-.titulo{
-color: #000000;
-font-family: "Montserrat";
-font-size: 1.563rem;
-font-weight: bold;
-
-}
-
-
-
-.container2{
-	margin-top: 3.6875rem;
-	margin-bottom: 4.25rem;
-	width: 66.938rem;
-	height: 20.063rem;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-.talleresar{
-	/* Style for "<Bitmap>" */
-width: 66.938rem;
-height: 20.063rem;
-margin-left: auto;
 margin-right: auto;
+
 }
-
-
-
-
-/* Segunda seccion donde hay BIO */
-h5.h5bold{
-	/* Style for "CONÓCEME" */
-text-transform: uppercase;
-/* Text style for "CONÓCEME" */
-color: #262626;
-font-family: "Montserrat";
-font-size: 1.5rem;
-font-weight: bold;
-text-align: center;
-margin-top: -6rem;
-}
-
-
-
 .subtitulo{
 	text-align: center;
 	color: #262626;
 	font-family: "Montserrat";
 	font-size: 1.5rem;
 	margin-top: 0.5rem;
+	margin-bottom:5.9375rem;
+}
+
+
+.container3{
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	margin-left: 20rem;
 
 }
-.subtitulo2{
+
+
+.centerbigbox{
+	margin-left: 25rem;
+
+}
+.highlighti {
 	text-align: center;
-	color: #262626;
+  margin-left: 23rem;
+	margin-right: 23rem;
+
+	font-family: "Roboto";
+	margin-bottom: 5.5625rem;
+	margin-top: -2rem;
+	line-height: 1.4rem;
+}
+
+.hightip{
+	font-weight: bold;
+}
+
+.pathicon{
+width: 1.125rem;
+height: 1.375rem;
+margin-bottom: 2rem;
+
+
+}
+
+.highlightp{
+	text-align: center;
+	padding: 2rem 16.75rem 6.9375rem 6.6875rem;
 	font-family: "Montserrat";
-	font-size: 1rem;
-  margin-top: .5rem;
-	padding-top: 0;
-margin-bottom:4.0625rem;
+
+}
+
+
+
+p.titulo{
+color: #000000;
+font-family: "Montserrat";
+font-size: 1.563rem;
+font-weight: bold;
+margin-top: 0;
+
+}
+
+
+
+
+.titulo2{
+color: #000000;
+font-family: "Montserrat";
+font-size: 1.563rem;
+font-weight: bold;
+margin-bottom: 2rem;
+
+}
+
+#justifiedtaller{
+text-align: justify;
+margin-top: -4.5rem;
+}
+
+.emphasis{
+	font-weight: 700;
 }
 
 .empresarialp{
-	margin: 4.0625rem 13rem 5.8125rem 13rem;
 	text-align: center;
+	position: static;
 	font-family: "Roboto";
 	font-weight: 300;
+	margin-left: 20rem;
+
+}
+
+.containerblock{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin-left: 10rem;
+	margin-right: 10rem;
+	padding-left: 15rem;
+	padding-right: 15rem;
+	margin-top: -17rem;
+	margin-bottom: 3rem;
+	padding-top:0;
+	height: auto;
 
 }
 
@@ -487,6 +523,14 @@ margin-bottom:4.0625rem;
 	font-family: "Roboto";
 	font-weight: 700;
 
+}
+
+.normalformat{
+	text-align: center;
+	font-family: "Roboto";
+	margin-bottom: 5.5625rem;
+	margin-top: -2rem;
+	line-height: normal;
 }
 
 #empresarialbutton{
@@ -509,11 +553,6 @@ p.highlighti {
 	font-family: "Montserrat";
 	margin-bottom: 5.5625rem;
 
-}
-
-.highlightp{
-	padding: 2rem 16.75rem 6.9375rem 6.6875rem;
-	font-family: "Montserrat";
 }
 
 .container4{
@@ -1105,7 +1144,7 @@ div.imagendetalleres{
 }
 
 section.tallerescontainer{
-	margin-bottom: 8.33rem;
+	margin-bottom: 0;
 }
 
 
