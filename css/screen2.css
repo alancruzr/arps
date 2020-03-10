@@ -1377,9 +1377,10 @@ max-width: 100%;
 @media only screen and (min-width: 736px) and (max-width: 1270px) {
 
 #mediumhomebutton{
-	position:fixed;
-	margin-top: -4.2rem;
-	margin-left: 18rem;
+	position: absolute;
+	margin-left: -14rem;
+
+
 }
 
 h1.cambio {
@@ -1419,8 +1420,32 @@ html, body{
   and (-webkit-min-device-pixel-ratio: 3) {
 
 img.homebuttonresponsive{
+	display: none;
 	margin-left: 2rem;
 	margin-right: auto;
 }
+
+	}
+
+	@media only screen
+	and (min-width: 1273px)
+	and (max-width:1353px){
+
+		#mediumhomebutton{
+			position: absolute;
+			margin-left: -20rem;
+		}
+
+	}
+
+	@media only screen
+	and (min-width: 725px)
+	and (max-width:881px){
+
+		#mediumhomebutton{
+			display: none;
+			position: absolute;
+			margin-left: -20rem;
+		}
 
 	}
