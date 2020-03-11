@@ -972,3 +972,36 @@ img.homebuttonresponsive{
 }
 
 	}
+
+
+	/* Media queries for general responsive on laptop  */
+	@media only screen and (min-width: 736px) and (max-width: 1270px) {
+
+		#mediumhomebutton{
+			position: absolute;
+			margin-left: -14rem;
+		}
+
+
+			@media only screen
+			and (min-width: 1273px)
+			and (max-width:1353px){
+
+				#mediumhomebutton{
+					position: absolute;
+					margin-left: -20rem;
+				}
+
+			}
+
+			@media only screen
+			and (min-width: 725px)
+			and (max-width:881px){
+
+				#mediumhomebutton{
+					display: none;
+					position: absolute;
+					margin-left: -20rem;
+				}
+
+			}
