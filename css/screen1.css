@@ -374,7 +374,7 @@ span.cleaner{
 }
 
 .laropa{
-	margin-top: 23rem;
+	margin-top: 15rem;
 	padding-top: 0;
 	position: absolute;
 margin-left: 50.25rem;
@@ -399,7 +399,7 @@ letter-spacing: 3px;
 
 p.laropa2{
 	text-align: justify;
-	margin-top: 35rem;
+	margin-top: 25rem;
 	padding-top: 2.2rem;
 	padding: -4rem 8rem 2rem 4rem;
 	margin-right: 6rem;
@@ -414,7 +414,9 @@ text-shadow: none;
 
 }
 
-
+.titlewrap{
+	margin-left: -1rem;
+}
 .agendarcita{
 	position:sticky;
 width: 7.875rem;
