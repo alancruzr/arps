@@ -207,7 +207,7 @@ font-family: 'Montserrat';
   display: block;
   color: black;
   text-align: center;
-	margin-top: 20rem;
+	margin-top: 9.5rem;
   text-decoration: none;
   font-size: 17px;
 	z-index: 1;
@@ -230,7 +230,7 @@ font-family: 'Montserrat';
   color: black;
 }
 #active1{
-	margin-left: -4rem;
+	margin-left: -5.5rem;
 }
 #navbar a.active2 {
 	position: relative;
@@ -287,7 +287,7 @@ font-family: 'Montserrat';
   display: block;
   color: black;
   text-align: center;
-	margin-top: 45rem;
+	margin-top: 29rem;
   text-decoration: none;
   font-size: 17px;
 	z-index: 1;
