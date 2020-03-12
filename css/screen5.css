@@ -82,6 +82,7 @@ li{
 	height: 1rem;
 }
 
+
 /* Nav */
 image.homebuttonresponsive{
 	display: none;
@@ -91,6 +92,7 @@ a.hbp{
 	display: none;
 
 }
+
 
 .homebutton{
 	width: 18.0625rem;
@@ -131,7 +133,10 @@ font-family: 'Montserrat';
 	padding-top: 1.71875rem;
 	background-color: white;
 	width: 100%;
-	height: 70px;
+	margin-bottom: 4.2rem;
+
+
+
 
 
 }
@@ -196,7 +201,7 @@ font-family: 'Montserrat';
 }
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #262626;
+  background-color: #262626;;
   color: white;
 }
 .fancyline{
@@ -217,7 +222,7 @@ font-family: 'Montserrat';
   display: block;
   color: black;
   text-align: center;
-	margin-top: 20rem;
+	margin-top: 13.8rem;
   text-decoration: none;
   font-size: 17px;
 	z-index: 1;
@@ -240,7 +245,7 @@ font-family: 'Montserrat';
   color: black;
 }
 #active1{
-	margin-left: -4rem;
+	margin-left: -5.5rem;
 }
 #navbar a.active2 {
 	position: relative;
@@ -262,20 +267,20 @@ font-family: 'Montserrat';
 }
 /* 90 degree social icons*/
 .socialcolor{
-	color: black;
+	color: white;
 }
 
 #active2 {
 	float: right;
 	position: relative;
 	display: block;
-	color: black;
+	color: white;
 	min-width: 8.8125rem;
 
 }
 .click{
 	position: relative;
-	color: black;
+	color: white;
 	font-size: 2rem;
 	min-width: 8.8125rem;
 }
@@ -283,7 +288,7 @@ font-family: 'Montserrat';
 	position: absolute;
 	margin-left: -6rem;
 	margin-top: .4rem;
-	color: black;
+	color: white;
 }
 
 
@@ -297,7 +302,7 @@ font-family: 'Montserrat';
   display: block;
   color: black;
   text-align: center;
-	margin-top: 36rem;
+	margin-top: 30.5rem;
   text-decoration: none;
   font-size: 17px;
 	z-index: 1;
@@ -316,7 +321,7 @@ font-family: 'Montserrat';
 }
 }
 #navbar2 a:hover {
-  background-color: black;
+  background-color: #ddd;
   color: black;
 }
 #active4{
@@ -361,30 +366,18 @@ font-family: 'Montserrat';
 	position: absolute;
 	margin-left: -6rem;
 	margin-top: .4rem;
-	color:  black;
-}
-
-a#active1.active2{
-	position: fixed;
-	margin-top: 33rem;
-	margin-left: -6rem;
+	color: black;
 }
 
 
+ul#active4.active2{
+	position: relative;
+	margin-left: 50em;
+	margin-right: -4rem;
+}
 a.linkstosocial{
 	color: black;
-
-
 }
-
-
-
-.franjanegra{
-	background-color: black;
-height: 7.438rem;
-
-}
-
 
 
 
