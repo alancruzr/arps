@@ -395,17 +395,18 @@ section.tallerescontainer{
 	line-height: normal;
 	font-size: 1rem;
 	font-weight: bold;
-	margin: 0rem 20rem -35rem 20rem;
+	margin: 0rem 20rem 0rem 20rem;
 	text-align: center;
 	font-weight: normal;
 	width: auto;
 	height: inherit;
+	margin-top: -2rem;
 }
 
 .pathicon{
 width: 1.125rem;
 height: 1.375rem;
-margin-bottom: 2rem;
+margin-bottom: 1rem;
 text-align: center;
 margin-right: inherit;
 align-items: center;
@@ -432,6 +433,9 @@ text-align: center;
 
 }
 
+#high{
+	margin-top: -1rem;
+}
 
 .titulo2{
 color: #000000;
@@ -441,6 +445,14 @@ font-weight: normal;
 margin-bottom: 2rem;
 text-align: center;
 
+}
+
+
+#headersubtitle{
+	color: #262626;
+font-family: "Montserrat";
+font-size: 1rem;
+font-weight: normal;
 }
 
 #justifiedtaller{
@@ -456,7 +468,8 @@ margin-top: -4.5rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: -20rem;
+	margin-left: -5rem;
+	margin-top: -23rem;
 }
 .box5 {
 	background-color: #efefef;
@@ -477,7 +490,7 @@ h1.cambio{
 	text-align: center;
 	margin-right: 7.6875rem;
 	margin-left: 20rem;
-margin-top: 4rem;
+margin-top: 2rem;
 color: #000000;
 font-family: "Montserrat";
 font-size: 1.438rem;
