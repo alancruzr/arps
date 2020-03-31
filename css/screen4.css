@@ -783,6 +783,7 @@ font-weight: 400;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	margin-top: .2rem;
 }
 
 .videspotlight{
