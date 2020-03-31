@@ -776,11 +776,45 @@ font-weight: 400;
 .ponenciasmobilecontent3{
 	display: none;
 }
+
+
+.videodiv{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.videspotlight{
+
+
+}
+
+
+
 /* Media queries */
 @media only screen and (min-width: 414px) and (max-width: 736px) {
 	html, body{
 	margin: 0;
 	}
+
+	.videodiv{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-top: 8rem;
+		margin-bottom: 0;
+	}
+
+	.videspotlight{
+
+
+	}
+
+
+
+
 
 .active2{
 	display: none;
